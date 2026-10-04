@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Interlude: Would You Remember? {.unnumbered #sec-would-you-remember}
+
+<!-- Scope: Memory and the psychological arrow of time. If Alan reversed a region of the universe that contained you, what would you experience? Records, causation and why we remember the past and not the future. -->
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::

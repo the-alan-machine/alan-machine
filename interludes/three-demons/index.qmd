@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Interlude: Three Demons {.unnumbered #sec-three-demons}
+
+<!-- Scope: Maxwell's demon sorts, Laplace's demon predicts and Loschmidt's demon reverses. What each thought experiment teaches about knowledge, control and the second law, and why physicists keep inventing demons. -->
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::

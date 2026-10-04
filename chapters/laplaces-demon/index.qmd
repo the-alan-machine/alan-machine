@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Laplace's Demon {#sec-laplaces-demon}
+
+<!-- Scope: Could Alan know the complete state of a system, or of the universe? Chaos and sensitivity to initial conditions, quantum uncertainty, the cost of measurement and the limits a predictor meets when it is part of what it predicts. Why predicting is not reversing. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

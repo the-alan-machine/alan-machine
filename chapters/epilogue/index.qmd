@@ -6,7 +6,7 @@ papers: []
 
 # Epilogue: What Alan Cannot Do {.unnumbered #sec-epilogue}
 
-<!-- Scope: What the book has shown to be impossible, what remains open, and why the question is still worth asking. -->
+<!-- Scope: What the book has shown to be impossible, what remains open, and why the question is still worth asking. Russell's despair at the heat death against Dyson's eternal intelligence, Nietzsche's eternal return against Poincaré recurrence, and Asimov's "The Last Question", the story of a computer asked whether entropy can be reversed. -->
 
 ::: {.callout-note appearance="minimal"}
 This chapter has not been written yet.

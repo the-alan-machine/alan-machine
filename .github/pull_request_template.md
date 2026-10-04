@@ -4,12 +4,12 @@
 
 ## Where
 
-Chapter or paper slugs:
+Slugs of the chapters, interludes, dossiers or papers, or the data files:
 
 ## Claims affected
 
 <!-- List the claims this pull request adds or changes, and classify each one as established,
-extrapolation or speculation. Write "none" for typo and formatting fixes. -->
+extrapolation, speculation or philosophy. Write "none" for typo and formatting fixes. -->
 
 ## References added
 
@@ -20,8 +20,9 @@ Closes #
 ## Checklist
 
 - [ ] The title follows `type(scope): summary` (see CONTRIBUTING.md).
-- [ ] The book builds: `quarto render --to html`.
+- [ ] `python3 tools/check.py` passes and the book builds: `quarto render --to html`.
 - [ ] Every new reference was checked against its source.
 - [ ] Every new claim is classified, and every established claim has a citation.
-- [ ] New terms are in the glossary and new symbols are in the notation appendix.
+- [ ] New terms are in `data/concepts.toml` and new symbols are in `data/notation.toml`.
+- [ ] Every new number in a dossier has a unit, a date and a source in `data/technologies/`.
 - [ ] Every commit is signed off (`git commit -s`).

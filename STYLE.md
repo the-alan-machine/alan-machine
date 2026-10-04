@@ -6,8 +6,9 @@
 
 - Write for a curious reader with no physics background.
 - Use conversational English. "We" and "you" are welcome. Prefer short sentences.
-- Define every technical term the first time it appears, and add it to
-  [the glossary](appendices/glossary.qmd).
+- Define every technical term the first time it appears, and link that first use to its entry in
+  the Concepts appendix: `[entropy](../../appendices/concepts.qmd#sec-concept-entropy)`. If the
+  term has no entry yet, add it to [`data/concepts.toml`](data/concepts.toml).
 - Keep equations out of the running text. Stephen Hawking's editor warned him that every equation
   would halve the book's readership; treat that as a budget. An equation that must appear gets a
   sentence that says the same thing in words. Anything more goes in a "Going deeper" box or in a
@@ -23,23 +24,54 @@
 - A one-paragraph abstract.
 - The paper must make sense without the book.
 
+### Interludes: philosophy
+
+- An interlude takes up one question that physics informs but cannot settle. It is short: 1,500 to
+  3,000 words.
+- Present at least two positions, each with its best argument, before saying which one the evidence
+  favors, if any.
+- Cite the philosophers: primary works, or reviewed reference works such as the Stanford
+  Encyclopedia of Philosophy.
+- An interlude does not introduce physics that later chapters depend on.
+
+### Dossiers: living
+
+- A Building Alan dossier describes the state of a technology, so it is written to be updated.
+- Every number has a unit, the date it refers to and a source. Put it in
+  `data/technologies/<id>.toml`, and write it in the text as "about 1 fJ per operation in 2025
+  [@source]".
+- Measure the technology against the same yardsticks every time: the Landauer bound at the
+  operating temperature, the Margolus-Levitin bound, the Bekenstein bound, and the energy at the
+  wall plug, with cooling and power delivery included.
+- A vendor's figure is reported as the vendor's ("the manufacturer reports ...") until it is
+  peer-reviewed or independently measured.
+- When you review a dossier, update `last_reviewed` in its front matter, even if nothing changed.
+
 ## Classifying claims
 
-The same rule applies to both registers.
+The same rule applies to every register.
 
 | Kind | How it appears |
 |---|---|
 | Established | Running text, with a citation |
 | Extrapolation | A warning callout titled "Extrapolation", stating its assumptions |
 | Speculation | An important callout titled "Speculation" |
+| Philosophy | A caution callout titled "Philosophy", with at least two positions |
+
+Every classified callout carries its class as well as its title, so that tools and AI models can
+tell the kinds apart:
 
 ```markdown
-::: {.callout-warning title="Extrapolation"}
+::: {.callout-warning .extrapolation title="Extrapolation"}
 If the machine can be kept at 1 K, then ...
 :::
 
-::: {.callout-important title="Speculation"}
+::: {.callout-important .speculation title="Speculation"}
 Nothing we know rules out ...
+:::
+
+::: {.callout-caution .philosophy title="Philosophy"}
+Some philosophers hold that time really passes ...; others answer that ...
 :::
 ```
 
@@ -51,6 +83,17 @@ collapsed box:
 ...
 :::
 ```
+
+## Self-contained sections
+
+The book is read by people who jump to one section, and by AI models that read sections out of
+context. Write every section so that it makes sense alone.
+
+- Name the subject instead of pointing back: "Landauer's bound" rather than "the bound above".
+- Avoid "as we saw" and "as mentioned earlier". Link instead: "Landauer's principle
+  (@sec-landauer) says ...".
+- Link the first use of each concept in every chapter, not only in the first chapter that uses it.
+- One idea per section. A heading says what the section establishes, not just its topic.
 
 ## Alan
 
@@ -70,15 +113,19 @@ collapsed box:
 
 - LaTeX math: `$...$` inline and `$$...$$` for display.
 - Label the display equations you refer to: `$$ E = k_B T \ln 2 $$ {#eq-landauer-bound}`.
-- Every symbol is listed in [the notation appendix](appendices/notation.qmd) with its meaning and
-  unit. Add it there before you use it. A symbol keeps the same meaning across the whole book.
-- Constants come from CODATA and are listed in [the constants appendix](appendices/constants.qmd).
+- Every symbol is listed in [`data/notation.toml`](data/notation.toml) with its meaning and unit,
+  which generates the Notation appendix. Add it there before you use it. A symbol keeps the same
+  meaning across the whole book.
+- Constants come from the 2019 SI or CODATA and are listed in
+  [`data/constants.toml`](data/constants.toml), which generates the Constants appendix.
 
 ## Cross-references
 
 - Use labels, never numbers: `@sec-landauer`, `@eq-landauer-bound`, `@fig-spin-echo`,
   `@tbl-speed-limits`. Chapters move; labels stay.
-- A label is a prefix (`sec`, `eq`, `fig`, `tbl`) plus the chapter slug or a short name.
+- A label is a prefix (`sec`, `eq`, `fig`, `tbl`) plus the chapter slug or a short name. The title
+  of every chapter, interlude and dossier carries the label `sec-<slug>`.
+- Concepts are labeled `sec-concept-<id>`.
 
 ## Citations
 
@@ -103,3 +150,10 @@ collapsed box:
 
 - Slugs are lowercase words joined by hyphens, with no numbers. The order of the chapters lives only
   in `_quarto.yml`.
+- Slugs are unique across chapters, interludes, dossiers and papers.
+
+## Generated files
+
+Do not edit `appendices/concepts.qmd`, `appendices/notation.qmd`, `appendices/constants.qmd` or the
+marked table in `building-alan/index.qmd`. They are generated from `data/` by
+`python3 tools/generate.py`, which Quarto also runs before every render.

@@ -6,7 +6,7 @@ papers: []
 
 # Meet Alan {#sec-meet-alan}
 
-<!-- Scope: The thought experiment, the rules of the game and the three kinds of statement. Why a computer is the right device to ask about entropy. -->
+<!-- Scope: The thought experiment, the rules of the game and the four kinds of statement. Why a computer is the right device to ask about entropy. -->
 
 ::: {.callout-note appearance="minimal"}
 This chapter has not been written yet.

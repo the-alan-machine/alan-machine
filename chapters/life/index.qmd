@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Life: The Original Local Reversal {#sec-life}
+
+<!-- Scope: Living things keep their own entropy low by exporting more to their surroundings. Schrödinger's question in What Is Life?, the energy cost of copying information in cells, and dissipation-driven adaptation. Life as the existence proof that local reversal happens. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

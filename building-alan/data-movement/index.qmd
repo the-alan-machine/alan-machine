@@ -1,0 +1,15 @@
+---
+status: proposed
+contributors: []
+technology: null
+last_reviewed: null
+papers: []
+---
+
+# The Cost of Moving Data {.unnumbered #sec-data-movement}
+
+<!-- Scope: Why moving a bit now costs more energy than computing with it: memory access, on-chip and off-chip wires, and the memory wall. What it means for a machine the size of Alan. -->
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::

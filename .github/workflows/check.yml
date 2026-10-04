@@ -8,7 +8,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check sources and generated pages
+        run: python3 tools/check.py
       - uses: quarto-dev/quarto-actions/setup@v2
       - uses: quarto-dev/quarto-actions/render@v2
         with:
           to: html
+      - name: Build the editions for AI models
+        run: python3 tools/export_llms.py
+
+  # Informative: the PDF edition is only built on publish, so this job catches LaTeX errors before
+  # the merge. It is not a required check.
+  pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+      - uses: quarto-dev/quarto-actions/render@v2
+        with:
+          to: pdf

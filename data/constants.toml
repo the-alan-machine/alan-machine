@@ -1,0 +1,51 @@
+# Physical constants the book relies on. tools/generate.py turns this file into the Constants
+# appendix; the alan Python library will read the same values.
+#
+# Fields: id, name, symbol (LaTeX), value (number), unit (LaTeX), exact (true for the constants
+# fixed by the 2019 SI), uncertainty (standard uncertainty, same unit; omit when exact), source.
+
+[[constant]]
+id = "speed-of-light"
+name = "Speed of light in vacuum"
+symbol = '$c$'
+value = 299792458
+unit = '$\mathrm{m\,s^{-1}}$'
+exact = true
+source = "SI (2019), exact by definition"
+
+[[constant]]
+id = "planck-constant"
+name = "Planck constant"
+symbol = '$h$'
+value = 6.62607015e-34
+unit = '$\mathrm{J\,s}$'
+exact = true
+source = "SI (2019), exact by definition"
+
+[[constant]]
+id = "reduced-planck-constant"
+name = "Reduced Planck constant"
+symbol = '$\hbar$'
+value = 1.054571817e-34
+unit = '$\mathrm{J\,s}$'
+exact = true
+source = "h / 2 pi, exact; value truncated to 10 significant digits"
+
+[[constant]]
+id = "boltzmann-constant"
+name = "Boltzmann constant"
+symbol = '$k_B$'
+value = 1.380649e-23
+unit = '$\mathrm{J\,K^{-1}}$'
+exact = true
+source = "SI (2019), exact by definition"
+
+[[constant]]
+id = "gravitational-constant"
+name = "Newtonian constant of gravitation"
+symbol = '$G$'
+value = 6.67430e-11
+unit = '$\mathrm{m^3\,kg^{-1}\,s^{-2}}$'
+exact = false
+uncertainty = 1.5e-15
+source = "CODATA 2018"

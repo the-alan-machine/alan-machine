@@ -1,0 +1,15 @@
+---
+status: proposed
+contributors: []
+technology: null
+last_reviewed: null
+papers: []
+---
+
+# Superconducting Logic {.unnumbered #sec-superconducting-logic}
+
+<!-- Scope: Single flux quantum and adiabatic quantum flux parametron logic: energy per operation near the Landauer bound at 4 K, and the cost of cooling once it is counted at the wall plug. -->
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::

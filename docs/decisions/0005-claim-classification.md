@@ -1,7 +1,7 @@
 # 0005. Three kinds of claim
 
 - Date: 2026-10-04
-- Status: accepted
+- Status: accepted, amended by [0007](0007-philosophy-interludes-and-new-chapters.md)
 
 ## Context
 

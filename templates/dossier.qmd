@@ -1,0 +1,48 @@
+---
+status: proposed        # proposed | drafting | scientific-review | done
+contributors: []        # GitHub handles of everyone who wrote or substantially revised it
+technology: null        # id of data/technologies/<id>.toml, once the numbers exist
+last_reviewed: null     # YYYY-MM-DD; a review is due 12 months later
+papers: []
+---
+
+# Technology Name {.unnumbered #sec-slug}
+
+<!-- Scope: what this dossier covers, in one or two sentences. -->
+
+## What it is
+
+The technology in plain language, and why it matters for Alan.
+
+## How it computes
+
+The physical mechanism: what carries a bit, what switches it, what erases it.
+
+## Where it stands today
+
+The current numbers, each with its date and source, for example "about 1 fJ per operation in 2025
+[@source]". The same values go in `data/technologies/<id>.toml`. A vendor's figure is reported as
+the vendor's until it is peer-reviewed or independently measured.
+
+## Distance to Alan's limits
+
+Compare against the same yardsticks every time:
+
+- the Landauer bound at the operating temperature, $k_B T \ln 2$ per erased bit;
+- the Margolus-Levitin bound on operations per second for the energy involved;
+- the Bekenstein bound on bits for the mass and size involved;
+- the energy at the wall plug, with cooling and power delivery included.
+
+::: {.callout-warning .extrapolation title="Extrapolation"}
+Projections belong here, with their assumptions.
+:::
+
+## What blocks it
+
+## What would change the picture
+
+Results, prototypes or measurements to watch for. The next review starts here.
+
+## What it means for processors and AI
+
+## Further reading

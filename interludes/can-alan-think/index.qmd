@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Interlude: Can Alan Think? {.unnumbered #sec-can-alan-think}
+
+<!-- Scope: Turing's imitation game, Searle's Chinese room and the debate over machine understanding. Would a machine able to reverse entropy understand what it does, and does the answer change anything physical? -->
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::

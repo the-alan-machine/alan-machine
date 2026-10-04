@@ -13,18 +13,24 @@ What do we ask Alan in this chapter? One or two paragraphs, in plain language.
 ## Sections that develop the answer
 
 Plain, conversational text. Established physics goes in the running text, with citations
-[@landauer1961irreversibility].
+[@landauer1961irreversibility]. Link the first use of each term to its concept, for example
+[entropy](../../appendices/concepts.qmd#sec-concept-entropy), and refer to other chapters by label
+(@sec-landauer). Each section must make sense when read alone.
 
 ::: {.callout-note title="Going deeper" collapse="true"}
 Optional math for curious readers. The chapter must make sense without it.
 :::
 
-::: {.callout-warning title="Extrapolation"}
+::: {.callout-warning .extrapolation title="Extrapolation"}
 What follows from established physics, and the assumptions it depends on.
 :::
 
-::: {.callout-important title="Speculation"}
+::: {.callout-important .speculation title="Speculation"}
 What is conceivable but not supported by current evidence.
+:::
+
+::: {.callout-caution .philosophy title="Philosophy"}
+A question physics informs but cannot settle, with at least two positions and their best arguments.
 :::
 
 ::: {.callout-tip title="The science behind this chapter"}

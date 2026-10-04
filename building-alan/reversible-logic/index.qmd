@@ -1,0 +1,15 @@
+---
+status: proposed
+contributors: []
+technology: null
+last_reviewed: null
+papers: []
+---
+
+# Adiabatic and Reversible Logic {.unnumbered #sec-reversible-logic}
+
+<!-- Scope: Circuits that recover the energy of each operation instead of dissipating it: adiabatic charging, reversible gates and the prototypes built so far. The trade between speed and dissipation. -->
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::

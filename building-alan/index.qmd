@@ -1,0 +1,42 @@
+# About Building Alan {.unnumbered #sec-building-alan}
+
+The chapters ask what physics allows. This part asks a different question: how close does today's
+technology come, and what would close the gap? The answer changes every year, so these pages are
+living documents. Each one has a review date, and every number in it carries the date it refers to
+and its source.
+
+Each dossier looks at one technology or one bottleneck and measures it against the same yardsticks:
+
+- **The Landauer bound**: the least heat that erasing one bit can release, $k_B T \ln 2$ at the
+  temperature the device runs at [@landauer1961irreversibility; @berut2012experimental].
+- **The Margolus-Levitin bound**: the most operations per second that a given amount of energy
+  allows [@margolus1998maximum; @lloyd2000ultimate].
+- **The Bekenstein bound**: the most information that a given mass and size can hold
+  [@bekenstein1981universal].
+- **Energy at the wall plug**: what the whole system draws from the grid, cooling and power delivery
+  included. A device that runs near the Landauer bound at 4 K can still cost more, counted at the
+  wall plug, than one at room temperature.
+
+These pages are written for engineers and researchers who design processors, memory, AI hardware
+and data centers, and for any reader who wants to know where real machines stand. The numbers
+behind them are published as data (see [the data folder](https://github.com/the-alan-machine/alan-machine/tree/main/data)),
+so they can be reused and checked.
+
+## Dossiers
+
+<!-- BEGIN generated: dossiers -->
+
+| Dossier | Status | Last reviewed | Review due |
+|---|---|---|---|
+| [CMOS: The Baseline](cmos-baseline/index.qmd) | proposed | never | not reviewed yet |
+| [The Cost of Moving Data](data-movement/index.qmd) | proposed | never | not reviewed yet |
+| [Getting the Heat Out](heat-removal/index.qmd) | proposed | never | not reviewed yet |
+| [Adiabatic and Reversible Logic](reversible-logic/index.qmd) | proposed | never | not reviewed yet |
+| [Superconducting Logic](superconducting-logic/index.qmd) | proposed | never | not reviewed yet |
+| [Quantum Hardware](quantum-hardware/index.qmd) | proposed | never | not reviewed yet |
+| [Thermodynamic and Probabilistic Computing](thermodynamic-computing/index.qmd) | proposed | never | not reviewed yet |
+| [Neuromorphic Computing](neuromorphic-computing/index.qmd) | proposed | never | not reviewed yet |
+| [Optical Computing](optical-computing/index.qmd) | proposed | never | not reviewed yet |
+| [The Energy of a Token](energy-per-token/index.qmd) | proposed | never | not reviewed yet |
+
+<!-- END generated: dossiers -->

@@ -1,0 +1,44 @@
+# The metrics a Building Alan technology may report in data/technologies/<id>.toml.
+# A new metric is added here in the same pull request that first uses it.
+#
+# Fields: name, unit (plain text, SI), meaning.
+
+[[metric]]
+name = "energy_per_operation"
+unit = "J"
+meaning = "Energy dissipated per logic operation, measured at the device"
+
+[[metric]]
+name = "wall_plug_energy_per_operation"
+unit = "J"
+meaning = "Energy per logic operation drawn from the grid, including cooling and power delivery"
+
+[[metric]]
+name = "operations_per_second"
+unit = "s^-1"
+meaning = "Throughput of one device or chip, as defined by the source"
+
+[[metric]]
+name = "bit_density"
+unit = "bit m^-3"
+meaning = "Stored bits per unit volume"
+
+[[metric]]
+name = "error_rate"
+unit = "1"
+meaning = "Errors per operation"
+
+[[metric]]
+name = "reversible_fraction"
+unit = "1"
+meaning = "Share of operations that erase no information"
+
+[[metric]]
+name = "energy_per_token"
+unit = "J"
+meaning = "Energy drawn per generated token in language model inference, as defined by the source"
+
+[[metric]]
+name = "technology_readiness_level"
+unit = "1"
+meaning = "NASA technology readiness level, from 1 (principle observed) to 9 (proven in operation)"

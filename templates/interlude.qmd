@@ -1,0 +1,31 @@
+---
+status: proposed        # proposed | drafting | scientific-review | done
+contributors: []        # GitHub handles of everyone who wrote or substantially revised it
+papers: []
+---
+
+# Interlude: The Question? {.unnumbered #sec-slug}
+
+<!-- Scope: the question, and the part of the book that raises it. 1,500 to 3,000 words. -->
+
+Open with the question as the previous part leaves it, in plain language.
+
+## The positions
+
+Present at least two positions, each with its best argument and its sources, for example a primary
+work or an entry in the Stanford Encyclopedia of Philosophy.
+
+::: {.callout-caution .philosophy title="Philosophy"}
+State the disagreement precisely: what each side claims and what would count against it.
+:::
+
+## What physics says, and what it cannot say
+
+Which facts constrain the question, and where they stop. Established physics keeps its citations;
+nothing here is new physics that later chapters depend on.
+
+## What Alan changes
+
+Does the thought experiment sharpen the question, dissolve it or leave it where it was?
+
+## Further reading
