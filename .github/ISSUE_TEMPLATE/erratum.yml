@@ -1,0 +1,29 @@
+name: Erratum
+description: A typo, a broken link, or an error in an equation or a number.
+labels: ["erratum"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Chapter or paper, and section. A link to the page is best.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text
+      description: Quote the text or equation as it is now.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: For an error in an equation or a number, the reference that shows the correct value.

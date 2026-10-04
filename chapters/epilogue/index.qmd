@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Epilogue: What Alan Cannot Do {.unnumbered #sec-epilogue}
+
+<!-- Scope: What the book has shown to be impossible, what remains open, and why the question is still worth asking. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

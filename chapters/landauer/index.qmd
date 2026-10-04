@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Landauer's Principle {#sec-landauer}
+
+<!-- Scope: The minimum cost of erasing one bit and its experimental confirmation. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# How Much Can It Hold {#sec-memory-limits}
+
+<!-- Scope: The Bekenstein bound and the holographic bound. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

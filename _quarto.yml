@@ -1,0 +1,67 @@
+project:
+  type: book
+  output-dir: _book
+  render:
+    - index.qmd
+    - chapters/*/index.qmd
+    - papers/index.qmd
+    - papers/*/index.qmd
+    - appendices/*.qmd
+    - references.qmd
+
+lang: en-US
+
+book:
+  title: "The Alan Machine"
+  author: "João Alisson and contributors"
+  site-url: https://the-alan-machine.github.io/alan-machine/
+  repo-url: https://github.com/the-alan-machine/alan-machine
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - part: "The Machine and the Question"
+      chapters:
+        - chapters/meet-alan/index.qmd
+        - chapters/what-entropy-is/index.qmd
+        - chapters/arrow-of-time/index.qmd
+    - part: "Information Is Physical"
+      chapters:
+        - chapters/maxwells-demon/index.qmd
+        - chapters/landauer/index.qmd
+        - chapters/reversible-computing/index.qmd
+    - part: "The Limits of the Machine"
+      chapters:
+        - chapters/speed-limits/index.qmd
+        - chapters/memory-limits/index.qmd
+        - chapters/black-holes/index.qmd
+    - part: "Reversing Entropy"
+      chapters:
+        - chapters/local-reversal/index.qmd
+        - chapters/fluctuations-and-recurrence/index.qmd
+        - chapters/global-reversal/index.qmd
+    - part: "The Impact on Time"
+      chapters:
+        - chapters/time-backward/index.qmd
+        - chapters/closed-timelike-curves/index.qmd
+        - chapters/end-of-the-universe/index.qmd
+    - chapters/epilogue/index.qmd
+    - part: "Papers"
+      chapters:
+        - papers/index.qmd
+    - references.qmd
+  appendices:
+    - appendices/glossary.qmd
+    - appendices/notation.qmd
+    - appendices/constants.qmd
+    - appendices/statistical-mechanics.qmd
+
+bibliography: references.bib
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt

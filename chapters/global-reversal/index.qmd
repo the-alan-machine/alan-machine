@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Global Reversal {#sec-global-reversal}
+
+<!-- Scope: What reversing the entropy of the whole universe would require. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

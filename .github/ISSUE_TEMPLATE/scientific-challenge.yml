@@ -1,0 +1,43 @@
+name: Scientific challenge
+description: A claim is wrong, unsupported, or classified as the wrong kind.
+labels: ["scientific-review"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Chapter or paper, and section. A link to the page is best.
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim
+      description: Quote it as it is now.
+    validations:
+      required: true
+  - type: dropdown
+    id: current-classification
+    attributes:
+      label: How the claim is classified now
+      options:
+        - Established
+        - Extrapolation
+        - Speculation
+        - Not classified
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Is the claim false, unsupported, or classified as the wrong kind?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Peer-reviewed papers or standard textbooks, with DOIs when available.
+    validations:
+      required: true

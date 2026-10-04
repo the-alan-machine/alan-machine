@@ -1,0 +1,54 @@
+name: Content proposal
+description: Propose a new chapter, section or paper before writing it.
+labels: ["proposal"]
+body:
+  - type: dropdown
+    id: register
+    attributes:
+      label: What you propose
+      options:
+        - A new chapter (popular)
+        - A new section in an existing chapter (popular)
+        - A new paper (scientific)
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs in the book
+      description: Which question about Alan, entropy or time does it answer?
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Outline
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Key references
+      description: With DOIs when available.
+    validations:
+      required: true
+  - type: input
+    id: related
+    attributes:
+      label: Related chapters or papers
+      description: Slugs, for example landauer or arrow-of-time.
+  - type: dropdown
+    id: author
+    attributes:
+      label: Who will write it
+      options:
+        - I will write it
+        - I am looking for an author
+    validations:
+      required: true

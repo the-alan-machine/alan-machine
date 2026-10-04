@@ -1,0 +1,33 @@
+name: Reference suggestion
+description: A paper or book that should be cited or listed as further reading.
+labels: ["references"]
+body:
+  - type: input
+    id: reference
+    attributes:
+      label: Reference
+      description: Full citation, with the DOI when available.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - Peer-reviewed paper
+        - Textbook
+        - Preprint
+        - Popular article (further reading only)
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where it belongs
+      description: Chapter or paper slugs.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+    validations:
+      required: true

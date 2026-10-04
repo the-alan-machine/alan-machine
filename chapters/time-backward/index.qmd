@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Would Time Run Backward {#sec-time-backward}
+
+<!-- Scope: The thermodynamic, psychological and cosmological arrows, and Gold's universe. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

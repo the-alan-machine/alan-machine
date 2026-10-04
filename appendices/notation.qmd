@@ -1,0 +1,7 @@
+# Notation and Units {#sec-notation}
+
+<!-- Scope: Every symbol used in the book, with its meaning and SI unit. A new symbol enters here before it is used. -->
+
+::: {.callout-note appearance="minimal"}
+This appendix has not been written yet.
+:::

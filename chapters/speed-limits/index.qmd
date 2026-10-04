@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# How Fast Can It Compute {#sec-speed-limits}
+
+<!-- Scope: Bremermann's limit, the Margolus-Levitin theorem and Lloyd's ultimate laptop. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

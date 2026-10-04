@@ -7,8 +7,11 @@ Thumbs.db
 .idea/
 *.swp
 
-# Build output
-build/
-dist/
+# Quarto (the book is published by CI, never committed; _freeze/ IS committed)
+/.quarto/
 _book/
-*.pdf
+
+# Python
+__pycache__/
+.venv/
+*.pyc

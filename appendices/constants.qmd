@@ -1,0 +1,7 @@
+# Physical Constants {#sec-constants}
+
+<!-- Scope: The constants the book relies on, with values and sources (CODATA). -->
+
+::: {.callout-note appearance="minimal"}
+This appendix has not been written yet.
+:::

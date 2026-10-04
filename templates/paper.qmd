@@ -1,0 +1,26 @@
+---
+title: "Paper Title"
+author:
+  - name: Full Name
+    orcid: 0000-0000-0000-0000
+    affiliations:
+      - Institution
+abstract: |
+  One paragraph: the question, the method, the result and what it means for the book.
+keywords: []
+status: draft           # draft | in-review | stable
+chapters: []            # slugs of the chapters this paper supports
+---
+
+## Introduction
+
+## Background
+
+## Analysis
+
+## Discussion
+
+Use the same Extrapolation and Speculation callouts as the chapters, so a reader can tell which
+results are established.
+
+## Conclusion

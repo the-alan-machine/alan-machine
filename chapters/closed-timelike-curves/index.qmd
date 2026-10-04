@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Closed Timelike Curves {#sec-closed-timelike-curves}
+
+<!-- Scope: Deutsch, Novikov and Aaronson-Watrous: computation where time loops back on itself. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

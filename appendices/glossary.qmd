@@ -1,0 +1,7 @@
+# Glossary {#sec-glossary}
+
+<!-- Scope: Every technical term used in the chapters, defined in plain language. A term enters here the first time a chapter uses it. -->
+
+::: {.callout-note appearance="minimal"}
+This appendix has not been written yet.
+:::

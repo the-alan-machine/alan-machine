@@ -1,0 +1,7 @@
+# A Short Primer on Statistical Mechanics {#sec-statistical-mechanics}
+
+<!-- Scope: Microstates, macrostates, probability and the ideas the chapters assume. -->
+
+::: {.callout-note appearance="minimal"}
+This appendix has not been written yet.
+:::

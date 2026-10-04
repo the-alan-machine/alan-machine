@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# What Entropy Is {#sec-what-entropy-is}
+
+<!-- Scope: Clausius, Boltzmann, Gibbs and Shannon. Where the definitions agree and where they differ. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

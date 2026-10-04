@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Black Holes and Information {#sec-black-holes}
+
+<!-- Scope: Hawking radiation, unitarity and the information paradox. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Maxwell's Demon and the Szilard Engine {#sec-maxwells-demon}
+
+<!-- Scope: The demon, the Szilard engine and why measurement and memory carry a thermodynamic cost. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

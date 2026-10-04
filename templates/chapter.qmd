@@ -1,0 +1,40 @@
+---
+status: proposed        # proposed | drafting | scientific-review | done
+contributors: []        # GitHub handles of everyone who wrote or substantially revised it
+papers: []              # slugs of the companion papers in papers/
+---
+
+# Chapter Title {#sec-chapter-slug}
+
+## The question
+
+What do we ask Alan in this chapter? One or two paragraphs, in plain language.
+
+## Sections that develop the answer
+
+Plain, conversational text. Established physics goes in the running text, with citations
+[@landauer1961irreversibility].
+
+::: {.callout-note title="Going deeper" collapse="true"}
+Optional math for curious readers. The chapter must make sense without it.
+:::
+
+::: {.callout-warning title="Extrapolation"}
+What follows from established physics, and the assumptions it depends on.
+:::
+
+::: {.callout-important title="Speculation"}
+What is conceivable but not supported by current evidence.
+:::
+
+::: {.callout-tip title="The science behind this chapter"}
+The full argument is in [Paper Title](../../papers/paper-slug/index.qmd).
+:::
+
+## What the machine would need
+
+An order-of-magnitude budget for the question: energy, bits, time and mass.
+
+## Open questions
+
+## Further reading

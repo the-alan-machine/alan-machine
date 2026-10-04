@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# The End of the Universe {#sec-end-of-the-universe}
+
+<!-- Scope: Heat death, Dyson's eternal intelligence, the Krauss-Starkman critique and Tipler's Omega Point. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

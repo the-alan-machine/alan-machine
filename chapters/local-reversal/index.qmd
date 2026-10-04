@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Local Reversal {#sec-local-reversal}
+
+<!-- Scope: Refrigerators, spin echo, Loschmidt echo and time reversal on a quantum computer. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
