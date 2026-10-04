@@ -1,0 +1,252 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Alan Machine",
+    "section": "",
+    "text": "Preface",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-read-this-book",
+    "href": "index.html#how-to-read-this-book",
+    "title": "The Alan Machine",
+    "section": "How to read this book",
+    "text": "How to read this book\nThis book is about a machine that does not exist. We call it Alan, and we use it to ask a question physics takes very seriously: can entropy be reversed, and if it could, what would happen to time?\nYou do not need a physics degree to read it. The chapters are written for anyone who is curious. When the math helps, it shows up in boxes marked Going deeper, which you can open or skip. The story works either way.\nSome chapters have a companion paper, written for specialists, with the full argument. You will find the papers in the last part of the book, and each chapter tells you when one exists.\nAlong the way, we keep three kinds of statement apart. Unmarked claims are established physics, with references you can check. Boxes marked Extrapolation follow from established physics, but only if their stated assumptions hold. Boxes marked Speculation hold ideas that are conceivable but that no evidence supports yet. A thought experiment is only useful if you always know which of the three you are reading.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "chapters/meet-alan/index.html",
+    "href": "chapters/meet-alan/index.html",
+    "title": "1  Meet Alan",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Machine and the Question",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Meet Alan</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/what-entropy-is/index.html",
+    "href": "chapters/what-entropy-is/index.html",
+    "title": "2  What Entropy Is",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Machine and the Question",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>What Entropy Is</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/arrow-of-time/index.html",
+    "href": "chapters/arrow-of-time/index.html",
+    "title": "3  The Arrow of Time",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Machine and the Question",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>The Arrow of Time</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/maxwells-demon/index.html",
+    "href": "chapters/maxwells-demon/index.html",
+    "title": "4  Maxwell’s Demon and the Szilard Engine",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Information Is Physical",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Maxwell's Demon and the Szilard Engine</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/landauer/index.html",
+    "href": "chapters/landauer/index.html",
+    "title": "5  Landauer’s Principle",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Information Is Physical",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Landauer's Principle</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/reversible-computing/index.html",
+    "href": "chapters/reversible-computing/index.html",
+    "title": "6  Reversible Computing",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Information Is Physical",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Reversible Computing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/speed-limits/index.html",
+    "href": "chapters/speed-limits/index.html",
+    "title": "7  How Fast Can It Compute",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Limits of the Machine",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>How Fast Can It Compute</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/memory-limits/index.html",
+    "href": "chapters/memory-limits/index.html",
+    "title": "8  How Much Can It Hold",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Limits of the Machine",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>How Much Can It Hold</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/black-holes/index.html",
+    "href": "chapters/black-holes/index.html",
+    "title": "9  Black Holes and Information",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Limits of the Machine",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Black Holes and Information</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/local-reversal/index.html",
+    "href": "chapters/local-reversal/index.html",
+    "title": "10  Local Reversal",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Reversing Entropy",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Local Reversal</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/fluctuations-and-recurrence/index.html",
+    "href": "chapters/fluctuations-and-recurrence/index.html",
+    "title": "11  Fluctuations and Recurrence",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Reversing Entropy",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Fluctuations and Recurrence</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/global-reversal/index.html",
+    "href": "chapters/global-reversal/index.html",
+    "title": "12  Global Reversal",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Reversing Entropy",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Global Reversal</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/time-backward/index.html",
+    "href": "chapters/time-backward/index.html",
+    "title": "13  Would Time Run Backward",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Impact on Time",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Would Time Run Backward</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/closed-timelike-curves/index.html",
+    "href": "chapters/closed-timelike-curves/index.html",
+    "title": "14  Closed Timelike Curves",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Impact on Time",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Closed Timelike Curves</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/end-of-the-universe/index.html",
+    "href": "chapters/end-of-the-universe/index.html",
+    "title": "15  The End of the Universe",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Impact on Time",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>The End of the Universe</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/epilogue/index.html",
+    "href": "chapters/epilogue/index.html",
+    "title": "Epilogue: What Alan Cannot Do",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Epilogue: What Alan Cannot Do"
+    ]
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "About the Papers",
+    "section": "",
+    "text": "The chapters tell the story. The papers make the argument.\nSome chapters have a companion paper with the full scientific treatment of their subject: the derivations, the assumptions and the references a specialist would expect. Each paper stands on its own, with its own authors, abstract and references, and can be cited independently of the book. A chapter can lean on several papers, and a paper can support several chapters.\nNo papers have been written yet.",
+    "crumbs": [
+      "Papers",
+      "About the Papers"
+    ]
+  },
+  {
+    "objectID": "appendices/glossary.html",
+    "href": "appendices/glossary.html",
+    "title": "Appendix A — Glossary",
+    "section": "",
+    "text": "This appendix has not been written yet.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Glossary</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/notation.html",
+    "href": "appendices/notation.html",
+    "title": "Appendix B — Notation and Units",
+    "section": "",
+    "text": "This appendix has not been written yet.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Notation and Units</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/constants.html",
+    "href": "appendices/constants.html",
+    "title": "Appendix C — Physical Constants",
+    "section": "",
+    "text": "This appendix has not been written yet.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Physical Constants</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/statistical-mechanics.html",
+    "href": "appendices/statistical-mechanics.html",
+    "title": "Appendix D — A Short Primer on Statistical Mechanics",
+    "section": "",
+    "text": "This appendix has not been written yet.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>A Short Primer on Statistical Mechanics</span>"
+    ]
+  }
+]
