@@ -94,6 +94,7 @@ License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite the page
 - [Metrics](https://the-alan-machine.github.io/the-alan-machine/data/metrics.toml): the metrics Building Alan living reviews report
 - [References](https://the-alan-machine.github.io/the-alan-machine/references.bib): the bibliography, in BibTeX
 - [Whole book](https://the-alan-machine.github.io/the-alan-machine/llms-full.txt): every page above in one Markdown file
+- [Claims](https://the-alan-machine.github.io/the-alan-machine/claims.json): every marked claim (reported, extrapolation, speculation, philosophy) as JSON, with its kind, page, section URL, text and citation keys; unmarked text is established and not listed
 
 ## Optional
 

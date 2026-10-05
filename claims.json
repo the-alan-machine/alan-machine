@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "version": "78f78ff",
+  "version_date": "2026-10-05",
+  "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+  "site": "https://the-alan-machine.github.io/the-alan-machine/",
+  "established_rule": "Only what leaves established physics is marked, so the reading flow is preserved and the boundary stays visible.",
+  "counts": {
+    "reported": 0,
+    "extrapolation": 0,
+    "speculation": 0,
+    "philosophy": 0
+  },
+  "claims": []
+}
