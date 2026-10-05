@@ -13,5 +13,5 @@ papers: []
 <!-- Scope: Every operation that dissipates ends as heat that must leave the machine: cooling limits per unit area, the thermodynamic cost of refrigeration and the efficiency of whole data centers. -->
 
 ::: {.callout-note appearance="minimal"}
-This dossier has not been written yet.
+This living review has not been written yet.
 :::

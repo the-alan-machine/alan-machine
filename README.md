@@ -48,11 +48,11 @@ series, **Building Alan**, follows the main text.
 ## Building Alan
 
 The chapters ask what physics allows; Building Alan asks how close today's technology comes. Each
-dossier takes one technology or bottleneck (CMOS, moving data, removing heat, reversible and
+living review takes one technology or bottleneck (CMOS, moving data, removing heat, reversible and
 superconducting logic, quantum hardware, thermodynamic, neuromorphic and optical computing, the
 energy of a language model token) and measures it against the same physical limits, with every
-number dated and sourced. The dossiers are reviewed every year, so they stay useful to people who
-design processors, AI hardware and data centers.
+number dated and sourced. The living reviews are reviewed every year, so they stay useful to people
+who design processors, AI hardware and data centers.
 
 Its sister project, [Escape Velocity](https://scape-velocity.github.io/escape-velocity/), applies
 the same method beyond computing: an atlas of what each technology still needs to reach maturity,
@@ -60,9 +60,11 @@ from fusion to medicine, with the dependencies between them.
 
 ## Approach
 
-Every statement in the book is one of four kinds, and the reader can always tell which:
+Every statement in the book is one of five kinds, and the reader can always tell which:
 
-- **Established**: accepted physics, backed by references.
+- **Established**: accepted physics, backed by peer-reviewed references.
+- **Reported**: a newer result from a source that does not establish it yet, such as a preprint or a
+  manufacturer's figure, named as such.
 - **Extrapolation**: follows from established physics under assumptions that are stated explicitly.
 - **Speculation**: conceivable, but not supported by current evidence.
 - **Philosophy**: a question physics informs but cannot settle, with at least two positions.

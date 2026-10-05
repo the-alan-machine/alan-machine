@@ -34,18 +34,19 @@
   Encyclopedia of Philosophy.
 - An interlude does not introduce physics that later chapters depend on.
 
-### Dossiers: living
+### Living reviews: dated
 
-- A Building Alan dossier describes the state of a technology, so it is written to be updated.
+- A Building Alan living review describes the state of a technology, so it is written to be updated.
 - Every number has a unit, the date it refers to and a source. Put it in
   `data/technologies/<id>.toml`, and write it in the text as "about 1 fJ per operation in 2025
   [@source]".
 - Measure the technology against the same yardsticks every time: the Landauer bound at the
   operating temperature, the Margolus-Levitin bound, the Bekenstein bound, and the energy at the
   wall plug, with cooling and power delivery included.
-- A vendor's figure is reported as the vendor's ("the manufacturer reports ...") until it is
-  peer-reviewed or independently measured.
-- When you review a dossier, update `last_reviewed` in its front matter, even if nothing changed.
+- A vendor's figure or a preprint's is Reported ("the manufacturer reports ...") until it is
+  peer-reviewed or independently measured. See [Classifying claims](#classifying-claims).
+- When you review a living review, update `last_reviewed` in its front matter, even if nothing
+  changed.
 
 ## Classifying claims
 
@@ -53,7 +54,8 @@ The same rule applies to every register.
 
 | Kind | How it appears |
 |---|---|
-| Established | Running text, with a citation |
+| Established | Running text, with a citation to a peer-reviewed paper or a standard textbook |
+| Reported | Running text that names the source ("a 2025 preprint reports"), in a span of class `reported`, with a citation |
 | Extrapolation | A warning callout titled "Extrapolation", stating its assumptions |
 | Speculation | An important callout titled "Speculation" |
 | Philosophy | A caution callout titled "Philosophy", with at least two positions |
@@ -74,6 +76,16 @@ Nothing we know rules out ...
 Some philosophers hold that time really passes ...; others answer that ...
 :::
 ```
+
+A reported claim rests on a source that does not establish it yet: a preprint, a figure from a
+company or the press, or a talk. It stays in running text, because the numbers of a living review
+are often this new, and it says so in words. The span lets tools and AI models tell it apart:
+
+```markdown
+[A 2025 preprint reports about 1 fJ per operation at 4 K [@source].]{.reported}
+```
+
+It becomes established once the work is peer-reviewed or independently measured.
 
 Narrative, analogies and questions are not claims and need no label. Optional math goes in a
 collapsed box:
@@ -124,7 +136,7 @@ context. Write every section so that it makes sense alone.
 - Use labels, never numbers: `@sec-landauer`, `@eq-landauer-bound`, `@fig-spin-echo`,
   `@tbl-speed-limits`. Chapters move; labels stay.
 - A label is a prefix (`sec`, `eq`, `fig`, `tbl`) plus the chapter slug or a short name. The title
-  of every chapter, interlude and dossier carries the label `sec-<slug>`.
+  of every chapter, interlude and living review carries the label `sec-<slug>`.
 - Concepts are labeled `sec-concept-<id>`.
 
 ## Citations
@@ -134,8 +146,8 @@ context. Write every section so that it makes sense alone.
 - Keys follow `authorYEARfirstword`, with the year that appears in the entry.
 - Entries come from the DOI metadata (see [CONTRIBUTING](CONTRIBUTING.md#writing-with-ai-assistance)),
   never from memory.
-- Prefer peer-reviewed papers and standard textbooks. Preprints are allowed when they are labeled
-  as preprints. Popular articles belong only in "Further reading".
+- Prefer peer-reviewed papers and standard textbooks. Preprints are allowed; a claim that rests on
+  one is Reported. Popular articles belong only in "Further reading".
 
 ## Figures
 
@@ -150,7 +162,7 @@ context. Write every section so that it makes sense alone.
 
 - Slugs are lowercase words joined by hyphens, with no numbers. The order of the chapters lives only
   in `_quarto.yml`.
-- Slugs are unique across chapters, interludes, dossiers and papers.
+- Slugs are unique across chapters, interludes, living reviews and papers.
 
 ## Generated files
 

@@ -30,21 +30,22 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import book  # noqa: E402
-from generate import DOSSIER_BEGIN, DOSSIER_END  # noqa: E402
+from generate import LIVING_REVIEW_BEGIN, LIVING_REVIEW_END  # noqa: E402
 
-# The folder of a chapter, interlude, dossier or paper: everything in it belongs to its page.
+# The folder of a chapter, interlude, living review or paper: everything in it belongs to its page.
 PAGE_DIR = re.compile(r"^((?:chapters|interludes|building-alan|papers)/[A-Za-z0-9._-]+)/")
 TECH_DATA = re.compile(r"^data/technologies/([A-Za-z0-9._-]+)\.toml$")
 BIB = "references.bib"
 BIB_ENTRY = re.compile(r"^@(\w+)\s*\{\s*([^,\s]+)\s*,", re.M)
-DOSSIER_TABLE = re.compile(re.escape(DOSSIER_BEGIN) + r".*?" + re.escape(DOSSIER_END), re.S)
+LIVING_REVIEW_TABLE = re.compile(re.escape(LIVING_REVIEW_BEGIN) + r".*?" + re.escape(LIVING_REVIEW_END), re.S)
 MARKER = "<!-- moderation -->"
 MAX_DESCRIPTION = 140  # GitHub's limit for a commit status description
 MAX_LISTED = 6
 MAX_REQUESTED = 15
 DECISIVE = ("APPROVED", "CHANGES_REQUESTED", "DISMISSED")
 # Issue form fields that name a place in the book.
-LOCATION_FIELDS = ("Location", "Dossier", "Where it belongs", "Related chapters or papers")
+# "Dossier" is the label of issues opened before the Building Alan dossiers became living reviews.
+LOCATION_FIELDS = ("Location", "Living review", "Dossier", "Where it belongs", "Related chapters or papers")
 
 
 def read_jsonl(path: Path) -> list[dict]:
@@ -183,7 +184,7 @@ class PullRequest:
             group.covers.append(what)
 
     def check_review(self, path: str, head: dict, people: list[str]):
-        """A dossier whose last_reviewed changes names who reviewed it, and they approve."""
+        """A living review whose last_reviewed changes names who reviewed it, and they approve."""
         base = self.pages[path].meta
         if not head.get("last_reviewed") or head.get("last_reviewed") == base.get("last_reviewed"):
             return
@@ -192,7 +193,7 @@ class PullRequest:
         if not isinstance(who, str) or not book.GITHUB_HANDLE.match(who):
             self.failures.append(f"{path}: last_reviewed changed, so reviewed_by names the GitHub handle of the reviewer")
         elif who.lower() not in {person.lower() for person in allowed}:
-            self.failures.append(f"{path}: @{who} does not curate this dossier or moderate Building Alan")
+            self.failures.append(f"{path}: @{who} does not curate this living review or moderate Building Alan")
         elif who.lower() != self.author.lower() and who.lower() not in self.approved_on_head:
             self.waiting.append((f"`{path}` is reviewed by @{who}, who approves the last commit", who))
 
@@ -220,7 +221,7 @@ class PullRequest:
             if match := TECH_DATA.match(name):
                 people: list[str] = []
                 for path, page in self.pages.items():
-                    if page.kind == "dossier" and page.meta.get("technology") == match.group(1):
+                    if page.kind == "living-review" and page.meta.get("technology") == match.group(1):
                         people += self.reviewers_of(path)
                 self.add(handles(people), name)
                 continue
@@ -231,8 +232,8 @@ class PullRequest:
                 continue
             if path == "building-alan/index.qmd" and status != "removed":
                 head = self.head_text(path)
-                if head is not None and DOSSIER_TABLE.sub("", head) == DOSSIER_TABLE.sub("", self.base_text(path)):
-                    continue  # only the dossier table, which tools/generate.py writes
+                if head is not None and LIVING_REVIEW_TABLE.sub("", head) == LIVING_REVIEW_TABLE.sub("", self.base_text(path)):
+                    continue  # only the living review table, which tools/generate.py writes
             people = self.reviewers_of(path)
             self.add(people, name)
             if name == path and status != "removed" and (text := self.head_text(path)) is not None:
@@ -241,7 +242,7 @@ class PullRequest:
                 after = handles(head.get("curators"))
                 if sorted(p.lower() for p in before) != sorted(p.lower() for p in after):
                     self.add([], f"{name} (curators)")
-                if self.pages[path].kind == "dossier":
+                if self.pages[path].kind == "living-review":
                     self.check_review(path, head, people)
 
         for group in self.groups.values():
@@ -266,7 +267,7 @@ class PullRequest:
             description = description[: MAX_DESCRIPTION - 3].rstrip() + "..."
 
         # Ask everyone who can unblock a pending group and has not reviewed yet, and ask again the
-        # person who reviewed a dossier, whose approval has to be on the last commit.
+        # person who reviewed a living review, whose approval has to be on the last commit.
         request = []
         candidates = [(p, False) for group in pending for p in group.people] + [(who, True) for _, who in self.waiting]
         for person, again in candidates:
@@ -296,7 +297,7 @@ class PullRequest:
                 status = f"approved by {mention(group.approved_by)}" if group.approved_by else "waiting"
             lines.append(f"| {listed(group.covers)} | {who} | {status} |")
         if self.failures or self.waiting:
-            lines += ["", "Dossier reviews:", ""]
+            lines += ["", "Yearly reviews of living reviews:", ""]
             lines += [f"- {failure}" for failure in self.failures]
             lines += [f"- {what}." for what, _ in self.waiting]
         lines += [
@@ -323,7 +324,7 @@ def issue_places(body: str) -> dict:
     labels: dict[str, str] = {}
     people: list[str] = []
     for page in book.pages():
-        if page.kind not in ("chapter", "interlude", "dossier", "paper"):
+        if page.kind not in ("chapter", "interlude", "living-review", "paper"):
             continue
         folder = page.path.rsplit("/", 1)[0].lower()
         title = page.title.lower()

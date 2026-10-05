@@ -10,7 +10,7 @@ papers: []
 
 # Technology Name {.unnumbered #sec-slug}
 
-<!-- Scope: what this dossier covers, in one or two sentences. -->
+<!-- Scope: what this living review covers, in one or two sentences. -->
 
 ## What it is
 
@@ -23,8 +23,10 @@ The physical mechanism: what carries a bit, what switches it, what erases it.
 ## Where it stands today
 
 The current numbers, each with its date and source, for example "about 1 fJ per operation in 2025
-[@source]". The same values go in `data/technologies/<id>.toml`. A vendor's figure is reported as
-the vendor's until it is peer-reviewed or independently measured.
+[@source]". The same values go in `data/technologies/<id>.toml`. A vendor's figure or a preprint's
+is Reported until it is peer-reviewed or independently measured:
+
+[The manufacturer reports about 1 fJ per operation [@source].]{.reported}
 
 ## Distance to Alan's limits
 

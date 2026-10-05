@@ -4,7 +4,7 @@
 
 id = "technology-id"
 name = "Technology Name"
-dossier = "technology-id"        # slug of building-alan/<slug>/index.qmd
+living_review = "technology-id"        # slug of building-alan/<slug>/index.qmd
 
 [[metric]]
 name = "energy_per_operation"

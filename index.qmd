@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-<!-- Scope: The dedication, and how to read the book: chapters and papers, interludes, Building Alan and the four kinds of claim. -->
+<!-- Scope: The dedication, and how to read the book: chapters and papers, interludes, Building Alan and the kinds of claim. -->
 
 ::: {.dedication}
 | For Alan Turing, who imagined the machine,
@@ -26,11 +26,12 @@ answer, such as whether time really flows or whether a machine can think. After 
 *Building Alan* looks at real technology, from today's chips to quantum computers, and asks how far
 each one is from the limits the chapters describe. Those pages are updated every year.
 
-Along the way, we keep four kinds of statement apart. Unmarked claims are **established** physics,
-with references you can check. Boxes marked **Extrapolation** follow from established physics, but
-only if their stated assumptions hold. Boxes marked **Speculation** hold ideas that are conceivable
-but that no evidence supports yet. Boxes marked **Philosophy** hold questions that physics cannot
-settle, with the best arguments on each side. A thought experiment is only useful if you always know
-which of the four you are reading.
+Along the way, we keep five kinds of statement apart. Unmarked claims are **established** physics,
+with references you can check. A claim that rests on a newer source, such as a preprint or a
+manufacturer's figure, says so in words: it is **reported**, not yet established. Boxes marked
+**Extrapolation** follow from established physics, but only if their stated assumptions hold. Boxes
+marked **Speculation** hold ideas that are conceivable but that no evidence supports yet. Boxes
+marked **Philosophy** hold questions that physics cannot settle, with the best arguments on each
+side. A thought experiment is only useful if you always know which of the five you are reading.
 
 Every technical term links to its plain-language definition in the Concepts appendix at the end.

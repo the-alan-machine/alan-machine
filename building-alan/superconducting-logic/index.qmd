@@ -13,5 +13,5 @@ papers: []
 <!-- Scope: Single flux quantum and adiabatic quantum flux parametron logic: energy per operation near the Landauer bound at 4 K, and the cost of cooling once it is counted at the wall plug. -->
 
 ::: {.callout-note appearance="minimal"}
-This dossier has not been written yet.
+This living review has not been written yet.
 :::

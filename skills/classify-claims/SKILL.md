@@ -1,6 +1,6 @@
 ---
 name: classify-claims
-description: Find every claim in a page of The Alan Machine and classify it as established, extrapolation, speculation or philosophy, flagging missing citations and unmarked claims. Use when drafting or reviewing text, when a scientific challenge questions a classification, or before marking a page ready for scientific review.
+description: Find every claim in a page of The Alan Machine and classify it as established, reported, extrapolation, speculation or philosophy, flagging missing citations and unmarked claims. Use when drafting or reviewing text, when a scientific challenge questions a classification, or before marking a page ready for scientific review.
 ---
 
 # Classify the claims on a page
@@ -17,10 +17,13 @@ For each sentence that asserts something about the world, ask in order:
    positions.
 2. **Is it accepted physics, with a peer-reviewed paper or standard textbook that states it?**
    Established. It stays in running text and needs a citation.
-3. **Does it follow from established physics, but only if some assumption holds** (a temperature,
+3. **Does it rest on a source that does not establish it yet** (a preprint, a figure from a company
+   or the press, a talk)? Reported. It stays in running text that names the source ("a 2025
+   preprint reports"), inside a `[...]{.reported}` span, with the citation.
+4. **Does it follow from established physics, but only if some assumption holds** (a temperature,
    a scale, an idealization, a trend continuing)? Extrapolation. It belongs in a
    `{.callout-warning .extrapolation title="Extrapolation"}` that states the assumptions.
-4. **Is it conceivable, with no evidence for it?** Speculation. It belongs in a
+5. **Is it conceivable, with no evidence for it?** Speculation. It belongs in a
    `{.callout-important .speculation title="Speculation"}`.
 
 Not claims, and not labeled: narrative, questions, definitions, and analogies that are presented
@@ -31,7 +34,8 @@ as analogies.
 - Hedges in running text ("might", "could", "perhaps", "in principle"): usually an unmarked
   extrapolation or speculation.
 - "Scientists believe", "it is thought": find the source or reclassify.
-- A number without a citation, or in a dossier without a date.
+- A preprint or a vendor's figure cited in plain running text: an unmarked reported claim.
+- A number without a citation, or in a living review without a date.
 - An analogy used as an argument.
 - An extrapolation without its assumptions.
 - Philosophy presented as physics ("time does not really flow"), or physics dismissed as philosophy.

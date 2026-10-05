@@ -13,5 +13,5 @@ papers: []
 <!-- Scope: Circuits that recover the energy of each operation instead of dissipating it: adiabatic charging, reversible gates and the prototypes built so far. The trade between speed and dissipation. -->
 
 ::: {.callout-note appearance="minimal"}
-This dossier has not been written yet.
+This living review has not been written yet.
 :::

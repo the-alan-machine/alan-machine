@@ -25,10 +25,11 @@ gh pr checks <number>
 **Content**
 
 - Run `classify-claims` on the changed prose. Every claim is classified, established claims cite a
-  source, extrapolations state their assumptions, philosophy gives at least two positions.
+  source, reported claims name their source and sit in a `{.reported}` span, extrapolations state
+  their assumptions, philosophy gives at least two positions.
 - Run `verify-references` on new or changed keys. No reference from memory.
 - Register: chapters keep equations out of the running text; interludes add no physics later
-  chapters depend on; dossier numbers have unit, date and source in `data/technologies/`.
+  chapters depend on; living review numbers have unit, date and source in `data/technologies/`.
 - Sections are self-contained; cross-references use labels.
 
 **Structure**

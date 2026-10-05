@@ -13,5 +13,5 @@ papers: []
 <!-- Scope: Computing and interconnects with light: energy per operation, the cost of converting between electrons and photons, and where optics helps most. -->
 
 ::: {.callout-note appearance="minimal"}
-This dossier has not been written yet.
+This living review has not been written yet.
 :::

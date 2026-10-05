@@ -13,5 +13,5 @@ papers: []
 <!-- Scope: Why moving a bit now costs more energy than computing with it: memory access, on-chip and off-chip wires, and the memory wall. What it means for a machine the size of Alan. -->
 
 ::: {.callout-note appearance="minimal"}
-This dossier has not been written yet.
+This living review has not been written yet.
 :::

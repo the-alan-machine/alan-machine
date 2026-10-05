@@ -1,11 +1,11 @@
-name: Dossier update
-description: New or corrected numbers for a Building Alan dossier.
+name: Living review update
+description: New or corrected numbers for a Building Alan living review.
 labels: ["building-alan"]
 body:
   - type: input
-    id: dossier
+    id: living-review
     attributes:
-      label: Dossier
+      label: Living review
       description: Slug or link, for example cmos-baseline.
     validations:
       required: true
