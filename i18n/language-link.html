@@ -1,0 +1,15 @@
+<script>
+// The links to the other editions in the sidebar, marked by the translate icon, open the page the
+// reader is on in that edition (decision 0014). Every edition has the same paths under its root.
+document.addEventListener("DOMContentLoaded", () => {
+  const offset = document.querySelector('meta[name="quarto:offset"]');
+  if (!offset) return;
+  const root = new URL(offset.content, window.location.href);
+  const page = window.location.pathname.slice(root.pathname.length);
+  if (!page) return;
+  for (const icon of document.querySelectorAll(".bi-translate")) {
+    const link = icon.closest("a");
+    if (link) link.href = new URL(page, link.href).href;
+  }
+});
+</script>

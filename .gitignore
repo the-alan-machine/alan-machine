@@ -10,8 +10,11 @@ Thumbs.db
 # Quarto (the book is published by CI, never committed; _freeze/ IS committed)
 /.quarto/
 _book/
+_i18n/
 
 # Python
 __pycache__/
 .venv/
 *.pyc
+
+**/*.quarto_ipynb
