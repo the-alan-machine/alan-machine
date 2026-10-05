@@ -5,8 +5,10 @@
 > general public, with companion scientific papers and a living series on how close today's
 > technology comes to Alan's physical limits.
 
-Every claim in the book is one of four kinds. Unmarked running text is established physics,
-with citations. Callouts titled Extrapolation, Speculation and Philosophy (classes
+Every claim in the book is one of five kinds. Unmarked running text is established physics,
+with citations. Spans of class `.reported` hold results from sources that do not establish
+them yet, such as preprints and manufacturers' figures, and name the source in words.
+Callouts titled Extrapolation, Speculation and Philosophy (classes
 `.extrapolation`, `.speculation`, `.philosophy`) hold claims that follow only under stated
 assumptions, that no evidence supports yet, or that physics cannot settle. Keep the kind when
 you quote the book. Citations appear as `[@key]`; the keys are entries in
@@ -16,11 +18,11 @@ License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite the page
 
 ## Preface
 
-- [Preface](https://the-alan-machine.github.io/the-alan-machine/index.html.md): The dedication, and how to read the book: chapters and papers, interludes, Building Alan and the four kinds of claim. (front matter)
+- [Preface](https://the-alan-machine.github.io/the-alan-machine/index.html.md): The dedication, and how to read the book: chapters and papers, interludes, Building Alan and the kinds of claim. (front matter)
 
 ## The Machine and the Question
 
-- [Meet Alan](https://the-alan-machine.github.io/the-alan-machine/chapters/meet-alan/index.html.md): The thought experiment, the rules of the game and the four kinds of statement. Why a computer is the right device to ask about entropy. (chapter, popular register; not written yet)
+- [Meet Alan](https://the-alan-machine.github.io/the-alan-machine/chapters/meet-alan/index.html.md): The thought experiment, the rules of the game and the kinds of statement. Why a computer is the right device to ask about entropy. (chapter, popular register; not written yet)
 - [What Entropy Is](https://the-alan-machine.github.io/the-alan-machine/chapters/what-entropy-is/index.html.md): Clausius, Boltzmann, Gibbs and Shannon. Where the definitions agree and where they differ. (chapter, popular register; not written yet)
 - [The Arrow of Time](https://the-alan-machine.github.io/the-alan-machine/chapters/arrow-of-time/index.html.md): Time-symmetric laws, Loschmidt's paradox and the Past Hypothesis. (chapter, popular register; not written yet)
 - [Interlude: Does Time Flow?](https://the-alan-machine.github.io/the-alan-machine/interludes/does-time-flow/index.html.md): McTaggart's A-series and B-series, presentism and eternalism, the block universe and the feeling of passage. Why it matters to decide what time is before asking Alan to reverse it. (interlude, philosophy; not written yet)
@@ -65,16 +67,16 @@ License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite the page
 ## Building Alan
 
 - [About Building Alan](https://the-alan-machine.github.io/the-alan-machine/building-alan/index.html.md): Section introduction
-- [CMOS: The Baseline](https://the-alan-machine.github.io/the-alan-machine/building-alan/cmos-baseline/index.html.md): Today's silicon logic as the reference point: energy per switching event, how far it sits above the Landauer bound at room temperature, and the trends that brought it there (Dennard scaling and its end). (Building Alan dossier, living document; not written yet)
-- [The Cost of Moving Data](https://the-alan-machine.github.io/the-alan-machine/building-alan/data-movement/index.html.md): Why moving a bit now costs more energy than computing with it: memory access, on-chip and off-chip wires, and the memory wall. What it means for a machine the size of Alan. (Building Alan dossier, living document; not written yet)
-- [Getting the Heat Out](https://the-alan-machine.github.io/the-alan-machine/building-alan/heat-removal/index.html.md): Every operation that dissipates ends as heat that must leave the machine: cooling limits per unit area, the thermodynamic cost of refrigeration and the efficiency of whole data centers. (Building Alan dossier, living document; not written yet)
-- [Adiabatic and Reversible Logic](https://the-alan-machine.github.io/the-alan-machine/building-alan/reversible-logic/index.html.md): Circuits that recover the energy of each operation instead of dissipating it: adiabatic charging, reversible gates and the prototypes built so far. The trade between speed and dissipation. (Building Alan dossier, living document; not written yet)
-- [Superconducting Logic](https://the-alan-machine.github.io/the-alan-machine/building-alan/superconducting-logic/index.html.md): Single flux quantum and adiabatic quantum flux parametron logic: energy per operation near the Landauer bound at 4 K, and the cost of cooling once it is counted at the wall plug. (Building Alan dossier, living document; not written yet)
-- [Quantum Hardware](https://the-alan-machine.github.io/the-alan-machine/building-alan/quantum-hardware/index.html.md): Superconducting qubits, trapped ions, neutral atoms and photons: coherence times, gate errors, error correction overhead and the cryogenic and control energy per logical operation. (Building Alan dossier, living document; not written yet)
-- [Thermodynamic and Probabilistic Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/thermodynamic-computing/index.html.md): Machines that use thermal noise instead of fighting it: probabilistic bits, stochastic and thermodynamic computing, and the tasks where they beat deterministic logic. (Building Alan dossier, living document; not written yet)
-- [Neuromorphic Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/neuromorphic-computing/index.html.md): Spiking and analog in-memory hardware modeled on the brain, the brain's own energy budget as a reference, and the energy per synaptic event. (Building Alan dossier, living document; not written yet)
-- [Optical Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/optical-computing/index.html.md): Computing and interconnects with light: energy per operation, the cost of converting between electrons and photons, and where optics helps most. (Building Alan dossier, living document; not written yet)
-- [The Energy of a Token](https://the-alan-machine.github.io/the-alan-machine/building-alan/energy-per-token/index.html.md): The energy language models spend to train and to generate each token, how it is measured, how far it is from the physical limits of the operations involved, and what the trend says about AI hardware. (Building Alan dossier, living document; not written yet)
+- [CMOS: The Baseline](https://the-alan-machine.github.io/the-alan-machine/building-alan/cmos-baseline/index.html.md): Today's silicon logic as the reference point: energy per switching event, how far it sits above the Landauer bound at room temperature, and the trends that brought it there (Dennard scaling and its end). (Building Alan living review, reviewed every year; not written yet)
+- [The Cost of Moving Data](https://the-alan-machine.github.io/the-alan-machine/building-alan/data-movement/index.html.md): Why moving a bit now costs more energy than computing with it: memory access, on-chip and off-chip wires, and the memory wall. What it means for a machine the size of Alan. (Building Alan living review, reviewed every year; not written yet)
+- [Getting the Heat Out](https://the-alan-machine.github.io/the-alan-machine/building-alan/heat-removal/index.html.md): Every operation that dissipates ends as heat that must leave the machine: cooling limits per unit area, the thermodynamic cost of refrigeration and the efficiency of whole data centers. (Building Alan living review, reviewed every year; not written yet)
+- [Adiabatic and Reversible Logic](https://the-alan-machine.github.io/the-alan-machine/building-alan/reversible-logic/index.html.md): Circuits that recover the energy of each operation instead of dissipating it: adiabatic charging, reversible gates and the prototypes built so far. The trade between speed and dissipation. (Building Alan living review, reviewed every year; not written yet)
+- [Superconducting Logic](https://the-alan-machine.github.io/the-alan-machine/building-alan/superconducting-logic/index.html.md): Single flux quantum and adiabatic quantum flux parametron logic: energy per operation near the Landauer bound at 4 K, and the cost of cooling once it is counted at the wall plug. (Building Alan living review, reviewed every year; not written yet)
+- [Quantum Hardware](https://the-alan-machine.github.io/the-alan-machine/building-alan/quantum-hardware/index.html.md): Superconducting qubits, trapped ions, neutral atoms and photons: coherence times, gate errors, error correction overhead and the cryogenic and control energy per logical operation. (Building Alan living review, reviewed every year; not written yet)
+- [Thermodynamic and Probabilistic Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/thermodynamic-computing/index.html.md): Machines that use thermal noise instead of fighting it: probabilistic bits, stochastic and thermodynamic computing, and the tasks where they beat deterministic logic. (Building Alan living review, reviewed every year; not written yet)
+- [Neuromorphic Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/neuromorphic-computing/index.html.md): Spiking and analog in-memory hardware modeled on the brain, the brain's own energy budget as a reference, and the energy per synaptic event. (Building Alan living review, reviewed every year; not written yet)
+- [Optical Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/optical-computing/index.html.md): Computing and interconnects with light: energy per operation, the cost of converting between electrons and photons, and where optics helps most. (Building Alan living review, reviewed every year; not written yet)
+- [The Energy of a Token](https://the-alan-machine.github.io/the-alan-machine/building-alan/energy-per-token/index.html.md): The energy language models spend to train and to generate each token, how it is measured, how far it is from the physical limits of the operations involved, and what the trend says about AI hardware. (Building Alan living review, reviewed every year; not written yet)
 
 ## Papers
 
@@ -85,7 +87,7 @@ License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite the page
 - [Concepts](https://the-alan-machine.github.io/the-alan-machine/data/concepts.toml): every technical term, defined in plain language
 - [Notation](https://the-alan-machine.github.io/the-alan-machine/data/notation.toml): every symbol and its unit
 - [Constants](https://the-alan-machine.github.io/the-alan-machine/data/constants.toml): physical constants with sources
-- [Metrics](https://the-alan-machine.github.io/the-alan-machine/data/metrics.toml): the metrics Building Alan dossiers report
+- [Metrics](https://the-alan-machine.github.io/the-alan-machine/data/metrics.toml): the metrics Building Alan living reviews report
 - [References](https://the-alan-machine.github.io/the-alan-machine/references.bib): the bibliography, in BibTeX
 - [Whole book](https://the-alan-machine.github.io/the-alan-machine/llms-full.txt): every page above in one Markdown file
 

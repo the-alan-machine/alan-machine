@@ -14,7 +14,7 @@
     "href": "index.html#how-to-read-this-book",
     "title": "The Alan Machine",
     "section": "How to read this book",
-    "text": "How to read this book\nThis book is about a machine that does not exist. We call it Alan, and we use it to ask a question physics takes very seriously: can entropy be reversed, and if it could, what would happen to time?\nYou do not need a physics degree to read it. The chapters are written for anyone who is curious. When the math helps, it shows up in boxes marked Going deeper, which you can open or skip. The story works either way.\nSome chapters have a companion paper, written for specialists, with the full argument. You will find the papers near the end of the book, and each chapter tells you when one exists.\nEach part ends with an interlude: a short pause for a question that physics can inform but not answer, such as whether time really flows or whether a machine can think. After the main text, Building Alan looks at real technology, from today’s chips to quantum computers, and asks how far each one is from the limits the chapters describe. Those pages are updated every year.\nAlong the way, we keep four kinds of statement apart. Unmarked claims are established physics, with references you can check. Boxes marked Extrapolation follow from established physics, but only if their stated assumptions hold. Boxes marked Speculation hold ideas that are conceivable but that no evidence supports yet. Boxes marked Philosophy hold questions that physics cannot settle, with the best arguments on each side. A thought experiment is only useful if you always know which of the four you are reading.\nEvery technical term links to its plain-language definition in the Concepts appendix at the end.",
+    "text": "How to read this book\nThis book is about a machine that does not exist. We call it Alan, and we use it to ask a question physics takes very seriously: can entropy be reversed, and if it could, what would happen to time?\nYou do not need a physics degree to read it. The chapters are written for anyone who is curious. When the math helps, it shows up in boxes marked Going deeper, which you can open or skip. The story works either way.\nSome chapters have a companion paper, written for specialists, with the full argument. You will find the papers near the end of the book, and each chapter tells you when one exists.\nEach part ends with an interlude: a short pause for a question that physics can inform but not answer, such as whether time really flows or whether a machine can think. After the main text, Building Alan looks at real technology, from today’s chips to quantum computers, and asks how far each one is from the limits the chapters describe. Those pages are updated every year.\nAlong the way, we keep five kinds of statement apart. Unmarked claims are established physics, with references you can check. A claim that rests on a newer source, such as a preprint or a manufacturer’s figure, says so in words: it is reported, not yet established. Boxes marked Extrapolation follow from established physics, but only if their stated assumptions hold. Boxes marked Speculation hold ideas that are conceivable but that no evidence supports yet. Boxes marked Philosophy hold questions that physics cannot settle, with the best arguments on each side. A thought experiment is only useful if you always know which of the five you are reading.\nEvery technical term links to its plain-language definition in the Concepts appendix at the end.",
     "crumbs": [
       "Preface"
     ]
@@ -309,18 +309,18 @@
     "href": "building-alan/index.html",
     "title": "About Building Alan",
     "section": "",
-    "text": "Dossiers\nThe chapters ask what physics allows. This part asks a different question: how close does today’s technology come, and what would close the gap? The answer changes every year, so these pages are living documents. Each one has a review date, and every number in it carries the date it refers to and its source.\nEach dossier looks at one technology or one bottleneck and measures it against the same yardsticks:\nThese pages are written for engineers and researchers who design processors, memory, AI hardware and data centers, and for any reader who wants to know where real machines stand. The numbers behind them are published as data (see the data folder), so they can be reused and checked.\nThe same method, applied beyond computing, is Escape Velocity: an open atlas of what each technology still needs to reach maturity, from fusion to medicine, and of which technologies wait on which. Its entries on quantum computers, data movement, heat removal and the energy of AI inference link back to these dossiers.",
+    "text": "Living reviews\nThe chapters ask what physics allows. This part asks a different question: how close does today’s technology come, and what would close the gap? The answer changes every year, so these pages are living documents. Each one has a review date, and every number in it carries the date it refers to and its source.\nEach living review looks at one technology or one bottleneck and measures it against the same yardsticks:\nThese pages are written for engineers and researchers who design processors, memory, AI hardware and data centers, and for any reader who wants to know where real machines stand. The numbers behind them are published as data (see the data folder), so they can be reused and checked.\nThe same method, applied beyond computing, is Escape Velocity: an open atlas of what each technology still needs to reach maturity, from fusion to medicine, and of which technologies wait on which. Its entries on quantum computers, data movement, heat removal and the energy of AI inference link back to these living reviews.",
     "crumbs": [
       "Building Alan",
       "About Building Alan"
     ]
   },
   {
-    "objectID": "building-alan/index.html#dossiers",
-    "href": "building-alan/index.html#dossiers",
+    "objectID": "building-alan/index.html#living-reviews",
+    "href": "building-alan/index.html#living-reviews",
     "title": "About Building Alan",
     "section": "",
-    "text": "Dossier\nStatus\nLast reviewed\nReview due\nCurators\n\n\n\n\nCMOS: The Baseline\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThe Cost of Moving Data\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nGetting the Heat Out\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nAdiabatic and Reversible Logic\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nSuperconducting Logic\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nQuantum Hardware\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThermodynamic and Probabilistic Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nNeuromorphic Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nOptical Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThe Energy of a Token\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\n\n\n\n\n\n\nBekenstein, Jacob D. 1981. “Universal Upper Bound on the Entropy-to-Energy Ratio for Bounded Systems.” Physical Review D 23 (2): 287–98. https://doi.org/10.1103/physrevd.23.287.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, and Eric Lutz. 2012. “Experimental Verification of Landauer’s Principle Linking Information and Thermodynamics.” Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process.” IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate Physical Limits to Computation.” Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMargolus, Norman, and Lev B. Levitin. 1998. “The Maximum Speed of Dynamical Evolution.” Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.",
+    "text": "Living review\nStatus\nLast reviewed\nReview due\nCurators\n\n\n\n\nCMOS: The Baseline\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThe Cost of Moving Data\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nGetting the Heat Out\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nAdiabatic and Reversible Logic\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nSuperconducting Logic\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nQuantum Hardware\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThermodynamic and Probabilistic Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nNeuromorphic Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nOptical Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThe Energy of a Token\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\n\n\n\n\n\n\nBekenstein, Jacob D. 1981. “Universal Upper Bound on the Entropy-to-Energy Ratio for Bounded Systems.” Physical Review D 23 (2): 287–98. https://doi.org/10.1103/physrevd.23.287.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, and Eric Lutz. 2012. “Experimental Verification of Landauer’s Principle Linking Information and Thermodynamics.” Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process.” IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate Physical Limits to Computation.” Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMargolus, Norman, and Lev B. Levitin. 1998. “The Maximum Speed of Dynamical Evolution.” Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.",
     "crumbs": [
       "Building Alan",
       "About Building Alan"
@@ -331,7 +331,7 @@
     "href": "building-alan/cmos-baseline/index.html",
     "title": "CMOS: The Baseline",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "CMOS: The Baseline"
@@ -342,7 +342,7 @@
     "href": "building-alan/data-movement/index.html",
     "title": "The Cost of Moving Data",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "The Cost of Moving Data"
@@ -353,7 +353,7 @@
     "href": "building-alan/heat-removal/index.html",
     "title": "Getting the Heat Out",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "Getting the Heat Out"
@@ -364,7 +364,7 @@
     "href": "building-alan/reversible-logic/index.html",
     "title": "Adiabatic and Reversible Logic",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "Adiabatic and Reversible Logic"
@@ -375,7 +375,7 @@
     "href": "building-alan/superconducting-logic/index.html",
     "title": "Superconducting Logic",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "Superconducting Logic"
@@ -386,7 +386,7 @@
     "href": "building-alan/quantum-hardware/index.html",
     "title": "Quantum Hardware",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "Quantum Hardware"
@@ -397,7 +397,7 @@
     "href": "building-alan/thermodynamic-computing/index.html",
     "title": "Thermodynamic and Probabilistic Computing",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "Thermodynamic and Probabilistic Computing"
@@ -408,7 +408,7 @@
     "href": "building-alan/neuromorphic-computing/index.html",
     "title": "Neuromorphic Computing",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "Neuromorphic Computing"
@@ -419,7 +419,7 @@
     "href": "building-alan/optical-computing/index.html",
     "title": "Optical Computing",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "Optical Computing"
@@ -430,7 +430,7 @@
     "href": "building-alan/energy-per-token/index.html",
     "title": "The Energy of a Token",
     "section": "",
-    "text": "This dossier has not been written yet.",
+    "text": "This living review has not been written yet.",
     "crumbs": [
       "Building Alan",
       "The Energy of a Token"
@@ -583,7 +583,7 @@
     "href": "appendices/people.html",
     "title": "Appendix E — Moderators and Curators",
     "section": "",
-    "text": "Maintainers\nThe people who look after the book. Maintainers look after the whole repository. Moderators look after a part: they review the changes to its pages and triage its issues. Curators look after single pages and review their dossiers. People are named by their GitHub handle. How the roles work, and how to take one, is in GOVERNANCE.md.\nJoaoAlisson",
+    "text": "Maintainers\nThe people who look after the book. Maintainers look after the whole repository. Moderators look after a part: they review the changes to its pages and triage its issues. Curators look after single pages and review their living reviews. People are named by their GitHub handle. How the roles work, and how to take one, is in GOVERNANCE.md.\nJoaoAlisson",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderators and Curators</span>"

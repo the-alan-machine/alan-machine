@@ -14,7 +14,8 @@ technology come, and what would close the gap? The answer changes every year, so
 living documents. Each one has a review date, and every number in it carries the date it refers to
 and its source.
 
-Each dossier looks at one technology or one bottleneck and measures it against the same yardsticks:
+Each living review looks at one technology or one bottleneck and measures it against the same
+yardsticks:
 
 - **The Landauer bound**: the least heat that erasing one bit can release, $k_B T \ln 2$ at the
   temperature the device runs at [@landauer1961irreversibility; @berut2012experimental].
@@ -35,12 +36,12 @@ The same method, applied beyond computing, is
 [Escape Velocity](https://scape-velocity.github.io/escape-velocity/): an open atlas of what each
 technology still needs to reach maturity, from fusion to medicine, and of which technologies wait
 on which. Its entries on quantum computers, data movement, heat removal and the energy of AI
-inference link back to these dossiers.
+inference link back to these living reviews.
 
-## Dossiers
+## Living reviews
 
 
-| Dossier | Status | Last reviewed | Review due | Curators |
+| Living review | Status | Last reviewed | Review due | Curators |
 |---|---|---|---|---|
 | [CMOS: The Baseline](https://the-alan-machine.github.io/the-alan-machine/building-alan/cmos-baseline/index.html) | proposed | never | not reviewed yet | none yet |
 | [The Cost of Moving Data](https://the-alan-machine.github.io/the-alan-machine/building-alan/data-movement/index.html) | proposed | never | not reviewed yet | none yet |
