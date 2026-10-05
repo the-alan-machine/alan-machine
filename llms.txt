@@ -82,6 +82,10 @@ License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite the page
 
 - [About the Papers](https://the-alan-machine.github.io/the-alan-machine/papers/index.html.md): Section introduction
 
+## Contributing
+
+- [Contributing](https://the-alan-machine.github.io/the-alan-machine/contributing.html.md): How a reader helps with the book, with or without git. The complete rules are in CONTRIBUTING.md; this page links to them instead of repeating them. (front matter)
+
 ## Data
 
 - [Concepts](https://the-alan-machine.github.io/the-alan-machine/data/concepts.toml): every technical term, defined in plain language

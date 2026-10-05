@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.10.18">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>5&nbsp; O princípio de Landauer – The Alan Machine</title>
+<title>Contributing – The Alan Machine</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,29 +29,29 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../chapters/reversible-computing/index.html" rel="next">
-<link href="../../chapters/maxwells-demon/index.html" rel="prev">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-fd0503e23dce65854c81c5baaade3bdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-76b4bf7705b28d26ef448553f6196c7c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-fd0503e23dce65854c81c5baaade3bdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./appendices/concepts.html" rel="next">
+<link href="./references.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-fd0503e23dce65854c81c5baaade3bdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-76b4bf7705b28d26ef448553f6196c7c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-fd0503e23dce65854c81c5baaade3bdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -66,17 +66,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Nenhum resultado",
-    "search-matching-documents-text": "documentos correspondentes",
-    "search-copy-link-title": "Copiar link para a busca",
-    "search-hide-matches-text": "Esconder correspondências adicionais",
-    "search-more-match-text": "mais correspondência neste documento",
-    "search-more-matches-text": "mais correspondências neste documento",
-    "search-clear-button-title": "Limpar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -260,13 +260,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/maxwells-demon/index.html">A informação é física</a></li><li class="breadcrumb-item"><a href="../../chapters/landauer/index.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">O princípio de Landauer</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./contributing.html">Contributing</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -278,59 +278,59 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../../">The Alan Machine</a> 
+      <a href="./">The Alan Machine</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://scape-velocity.github.io/escape-velocity/" title="Escape Velocity, o atlas das tecnologias" class="quarto-navigation-tool px-1" aria-label="Escape Velocity, o atlas das tecnologias"><i class="bi bi-diagram-3"></i></a>
-    <a href="https://the-alan-machine.github.io/the-alan-machine/" title="Read in English" class="quarto-navigation-tool px-1" aria-label="Read in English"><i class="bi bi-translate"></i></a>
-    <a href="https://github.com/the-alan-machine/the-alan-machine" title="Código fonte" class="quarto-navigation-tool px-1" aria-label="Código fonte"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo escuro"><i class="bi"></i></a>
+    <a href="https://scape-velocity.github.io/escape-velocity/" title="Escape Velocity, the technology atlas" class="quarto-navigation-tool px-1" aria-label="Escape Velocity, the technology atlas"><i class="bi bi-diagram-3"></i></a>
+    <a href="https://the-alan-machine.github.io/the-alan-machine/pt/" title="Ler em português" class="quarto-navigation-tool px-1" aria-label="Ler em português"><i class="bi bi-translate"></i></a>
+    <a href="https://github.com/the-alan-machine/the-alan-machine" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Procurar"></div>
+        <div id="quarto-search" class="" title="Search"></div>
         </div>
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Prefácio</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">A máquina e a pergunta</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+ <span class="menu-text">The Machine and the Question</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/meet-alan/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Conheça Alan</span></span></a>
+  <a href="./chapters/meet-alan/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Meet Alan</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/what-entropy-is/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">O que é a entropia</span></span></a>
+  <a href="./chapters/what-entropy-is/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">What Entropy Is</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/arrow-of-time/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">A flecha do tempo</span></span></a>
+  <a href="./chapters/arrow-of-time/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The Arrow of Time</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../interludes/does-time-flow/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Interlúdio: o tempo flui?</span></a>
+  <a href="./interludes/does-time-flow/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Interlude: Does Time Flow?</span></a>
   </div>
 </li>
       </ul>
@@ -338,40 +338,40 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">A informação é física</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+ <span class="menu-text">Information Is Physical</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/maxwells-demon/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">O demônio de Maxwell e a máquina de Szilard</span></span></a>
+  <a href="./chapters/maxwells-demon/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Maxwell’s Demon and the Szilard Engine</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/landauer/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">O princípio de Landauer</span></span></a>
+  <a href="./chapters/landauer/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Landauer’s Principle</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/reversible-computing/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Computação reversível</span></span></a>
+  <a href="./chapters/reversible-computing/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Reversible Computing</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/mind-and-the-second-law/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Uma mente pode vencer a segunda lei?</span></span></a>
+  <a href="./chapters/mind-and-the-second-law/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Can a Mind Beat the Second Law?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../interludes/three-demons/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Interlúdio: três demônios</span></a>
+  <a href="./interludes/three-demons/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Interlude: Three Demons</span></a>
   </div>
 </li>
       </ul>
@@ -379,46 +379,46 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
- <span class="menu-text">Os limites da máquina</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+ <span class="menu-text">The Limits of the Machine</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/speed-limits/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Com que rapidez ele pode computar</span></span></a>
+  <a href="./chapters/speed-limits/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">How Fast Can It Compute</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/memory-limits/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Quanto ele pode guardar</span></span></a>
+  <a href="./chapters/memory-limits/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">How Much Can It Hold</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/quantum-alan/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Alan é um computador quântico?</span></span></a>
+  <a href="./chapters/quantum-alan/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Is Alan a Quantum Computer?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/laplaces-demon/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">O demônio de Laplace</span></span></a>
+  <a href="./chapters/laplaces-demon/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Laplace’s Demon</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/black-holes/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Buracos negros e informação</span></span></a>
+  <a href="./chapters/black-holes/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Black Holes and Information</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../interludes/inside-an-alan/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Interlúdio: estamos dentro de um Alan?</span></a>
+  <a href="./interludes/inside-an-alan/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Interlude: Are We Inside an Alan?</span></a>
   </div>
 </li>
       </ul>
@@ -426,40 +426,40 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Revertendo a entropia</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+ <span class="menu-text">Reversing Entropy</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/local-reversal/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Reversão local</span></span></a>
+  <a href="./chapters/local-reversal/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Local Reversal</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/life/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">A vida: a reversão local original</span></span></a>
+  <a href="./chapters/life/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Life: The Original Local Reversal</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/fluctuations-and-recurrence/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Flutuações e recorrência</span></span></a>
+  <a href="./chapters/fluctuations-and-recurrence/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Fluctuations and Recurrence</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/global-reversal/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Reversão global</span></span></a>
+  <a href="./chapters/global-reversal/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Global Reversal</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../interludes/would-you-remember/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Interlúdio: você se lembraria?</span></a>
+  <a href="./interludes/would-you-remember/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Interlude: Would You Remember?</span></a>
   </div>
 </li>
       </ul>
@@ -467,123 +467,123 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">O impacto sobre o tempo</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+ <span class="menu-text">The Impact on Time</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/what-time-is/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">O que é o tempo</span></span></a>
+  <a href="./chapters/what-time-is/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">What Time Is</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/time-backward/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">O tempo correria para trás</span></span></a>
+  <a href="./chapters/time-backward/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Would Time Run Backward</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/closed-timelike-curves/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Curvas tipo tempo fechadas</span></span></a>
+  <a href="./chapters/closed-timelike-curves/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Closed Timelike Curves</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/end-of-the-universe/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">O fim do universo</span></span></a>
+  <a href="./chapters/end-of-the-universe/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">The End of the Universe</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../interludes/can-alan-think/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Interlúdio: Alan pode pensar?</span></a>
+  <a href="./interludes/can-alan-think/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Interlude: Can Alan Think?</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../chapters/epilogue/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Epílogo: o que Alan não pode fazer</span></a>
+  <a href="./chapters/epilogue/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Epilogue: What Alan Cannot Do</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">Construindo Alan</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+ <span class="menu-text">Building Alan</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sobre Construindo Alan</span></a>
+  <a href="./building-alan/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About Building Alan</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/cmos-baseline/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">CMOS: a referência</span></a>
+  <a href="./building-alan/cmos-baseline/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CMOS: The Baseline</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/data-movement/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">O custo de mover dados</span></a>
+  <a href="./building-alan/data-movement/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Cost of Moving Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/heat-removal/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tirando o calor</span></a>
+  <a href="./building-alan/heat-removal/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Getting the Heat Out</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/reversible-logic/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lógica adiabática e reversível</span></a>
+  <a href="./building-alan/reversible-logic/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Adiabatic and Reversible Logic</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/superconducting-logic/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lógica supercondutora</span></a>
+  <a href="./building-alan/superconducting-logic/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Superconducting Logic</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/quantum-hardware/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Hardware quântico</span></a>
+  <a href="./building-alan/quantum-hardware/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Quantum Hardware</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/thermodynamic-computing/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Computação termodinâmica e probabilística</span></a>
+  <a href="./building-alan/thermodynamic-computing/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Thermodynamic and Probabilistic Computing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/neuromorphic-computing/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Computação neuromórfica</span></a>
+  <a href="./building-alan/neuromorphic-computing/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Neuromorphic Computing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/optical-computing/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Computação óptica</span></a>
+  <a href="./building-alan/optical-computing/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Optical Computing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../building-alan/energy-per-token/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A energia de um token</span></a>
+  <a href="./building-alan/energy-per-token/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Energy of a Token</span></a>
   </div>
 </li>
       </ul>
@@ -591,15 +591,15 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
- <span class="menu-text">Artigos</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+ <span class="menu-text">Papers</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../papers/index.html" class="sidebar-item-text sidebar-link">
+  <a href="./papers/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About the Papers</span></a>
   </div>
 </li>
@@ -607,53 +607,53 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Referências</span></a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../contributing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Como contribuir</span></a>
+  <a href="./contributing.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Contributing</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
- <span class="menu-text">Apêndices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Alternar seção">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../appendices/concepts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Conceitos</span></span></a>
+  <a href="./appendices/concepts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Concepts</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../appendices/notation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Notação</span></span></a>
+  <a href="./appendices/notation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Notation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../appendices/constants.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Constantes</span></span></a>
+  <a href="./appendices/constants.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Constants</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../appendices/statistical-mechanics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Uma breve introdução à mecânica estatística</span></span></a>
+  <a href="./appendices/statistical-mechanics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">A Short Primer on Statistical Mechanics</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../appendices/people.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Moderadores e curadores</span></span></a>
+  <a href="./appendices/people.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Moderators and Curators</span></span></a>
   </div>
 </li>
       </ul>
@@ -663,16 +663,25 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-you-can-contribute" id="toc-what-you-can-contribute" class="nav-link active" data-scroll-target="#what-you-can-contribute">What you can contribute</a></li>
+  <li><a href="#without-git-a-form-on-github" id="toc-without-git-a-form-on-github" class="nav-link" data-scroll-target="#without-git-a-form-on-github">Without git: a form on GitHub</a></li>
+  <li><a href="#with-a-pull-request" id="toc-with-a-pull-request" class="nav-link" data-scroll-target="#with-a-pull-request">With a pull request</a></li>
+  <li><a href="#who-looks-after-the-book" id="toc-who-looks-after-the-book" class="nav-link" data-scroll-target="#who-looks-after-the-book">Who looks after the book</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/the-alan-machine/the-alan-machine/edit/main/contributing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../chapters/maxwells-demon/index.html">A informação é física</a></li><li class="breadcrumb-item"><a href="../../chapters/landauer/index.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">O princípio de Landauer</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-landauer" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">O princípio de Landauer</span></span></h1>
+<h1 class="title"><span id="sec-contributing" class="quarto-section-identifier">Contributing</span></h1>
 </div>
 
 
@@ -689,29 +698,76 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="translation callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o <a href="https://the-alan-machine.github.io/the-alan-machine/chapters/landauer/index.html">original em inglês</a>.</p>
-</div>
-</div>
-</div>
-<!-- Scope: The minimum cost of erasing one bit and its experimental confirmation. -->
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Este capítulo ainda não foi escrito.</p>
-</div>
-</div>
-</div>
+<!-- Scope: How a reader helps with the book, with or without git. The complete rules are in CONTRIBUTING.md; this page links to them instead of repeating them. -->
+<p>This book is written in the open, and anyone can improve it. You do not need to know git, and you do not need to be a physicist: many of the most useful contributions are a single error found by a careful reader.</p>
+<section id="what-you-can-contribute" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-can-contribute">What you can contribute</h2>
+<ul>
+<li><strong>An error</strong>: a typo, a broken link, or a wrong equation or number.</li>
+<li><strong>A challenge</strong>: a claim you think is wrong, unsupported, or classified as the wrong kind. The book marks every claim as established, reported, an extrapolation, speculation or philosophy, and a wrong label is an error too.</li>
+<li><strong>A reference</strong>: a paper or book that should be cited, or listed as further reading.</li>
+<li><strong>New numbers</strong> for a Building Alan living review, with their unit, date and source.</li>
+<li><strong>New text</strong>: a chapter, a section, an interlude, a living review or a paper, proposed before it is written.</li>
+<li><strong>A translation</strong>, or a correction to one.</li>
+<li><strong>An idea</strong> that is not a proposal yet (“what if Alan could…”).</li>
+</ul>
+</section>
+<section id="without-git-a-form-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="without-git-a-form-on-github">Without git: a form on GitHub</h2>
+<p>You need only a free GitHub account. Each form asks for what a reviewer needs; write in English.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Form</th>
+<th>Use it for</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new?template=erratum.yml">Erratum</a></td>
+<td>A typo, a broken link, or an error in an equation or a number</td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new?template=scientific-challenge.yml">Scientific challenge</a></td>
+<td>A claim that is wrong, unsupported, or classified as the wrong kind</td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new?template=content-proposal.yml">Content proposal</a></td>
+<td>A new chapter, section, interlude, living review or paper</td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new?template=living-review-update.yml">Living review update</a></td>
+<td>New or corrected numbers for a Building Alan living review</td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new?template=reference-suggestion.yml">Reference suggestion</a></td>
+<td>A paper or book that should be cited or listed as further reading</td>
+</tr>
+<tr class="even">
+<td><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new?template=translation.yml">Translation</a></td>
+<td>A wrong or missing translation, or an offer to translate</td>
+</tr>
+</tbody>
+</table>
+<p>Ideas and questions go to <a href="https://github.com/the-alan-machine/the-alan-machine/discussions">Discussions</a>. The people who look after the part of the book you name are told about your issue, and they answer it there.</p>
+</section>
+<section id="with-a-pull-request" class="level2">
+<h2 class="anchored" data-anchor-id="with-a-pull-request">With a pull request</h2>
+<p>To change the text yourself:</p>
+<ol type="1">
+<li>Open “Edit this page” at the foot of a page for a small fix in the browser, or fork the <a href="https://github.com/the-alan-machine/the-alan-machine">repository</a> and work on your own copy.</li>
+<li>Make the change, keeping the book’s <a href="https://github.com/the-alan-machine/the-alan-machine/blob/main/STYLE.md">style guide</a>.</li>
+<li>Open a pull request and fill in its template.</li>
+<li>A person who looks after those pages reviews it, and a maintainer merges it.</li>
+</ol>
+<p>The title of the pull request, the sign-off every commit needs, the checks to run and the step-by-step setup are in <a href="https://github.com/the-alan-machine/the-alan-machine/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>, which has the complete rules. Translators start from <a href="https://github.com/the-alan-machine/the-alan-machine/blob/main/docs/translating.md">docs/translating.md</a>.</p>
+</section>
+<section id="who-looks-after-the-book" class="level2">
+<h2 class="anchored" data-anchor-id="who-looks-after-the-book">Who looks after the book</h2>
+<p>Every part of the book has moderators, and pages can have curators who keep them accurate. They are listed in <a href="appendices/people.html" class="quarto-xref"><span>Appendix E — Moderators and Curators</span></a>, with the maintainers of each translation. How to take one of these roles is in <a href="https://github.com/the-alan-machine/the-alan-machine/blob/main/GOVERNANCE.md">GOVERNANCE.md</a>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script>
@@ -767,12 +823,12 @@ document.addEventListener("DOMContentLoaded", () => {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copiada");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copiada");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
@@ -815,7 +871,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/the-alan-machine\.github\.io\/the-alan-machine\/pt\/");
+        var filterRegex = new RegExp("https:\/\/the-alan-machine\.github\.io\/the-alan-machine\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1144,13 +1200,13 @@ document.addEventListener("DOMContentLoaded", () => {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../chapters/maxwells-demon/index.html" class="pagination-link" aria-label="O demônio de Maxwell e a máquina de Szilard">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">O demônio de Maxwell e a máquina de Szilard</span></span>
+      <a href="./references.html" class="pagination-link" aria-label="References">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">References</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../chapters/reversible-computing/index.html" class="pagination-link" aria-label="Computação reversível">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Computação reversível</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./appendices/concepts.html" class="pagination-link" aria-label="Concepts">
+        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Concepts</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1159,4 +1215,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new" class="toc-action"><i class="bi bi-github"></i>Criar uma issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/the-alan-machine/the-alan-machine/edit/main/contributing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

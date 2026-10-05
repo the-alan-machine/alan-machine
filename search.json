@@ -458,6 +458,56 @@
     ]
   },
   {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contributing",
+    "section": "",
+    "text": "What you can contribute\nThis book is written in the open, and anyone can improve it. You do not need to know git, and you do not need to be a physicist: many of the most useful contributions are a single error found by a careful reader.",
+    "crumbs": [
+      "Contributing"
+    ]
+  },
+  {
+    "objectID": "contributing.html#what-you-can-contribute",
+    "href": "contributing.html#what-you-can-contribute",
+    "title": "Contributing",
+    "section": "",
+    "text": "An error: a typo, a broken link, or a wrong equation or number.\nA challenge: a claim you think is wrong, unsupported, or classified as the wrong kind. The book marks every claim as established, reported, an extrapolation, speculation or philosophy, and a wrong label is an error too.\nA reference: a paper or book that should be cited, or listed as further reading.\nNew numbers for a Building Alan living review, with their unit, date and source.\nNew text: a chapter, a section, an interlude, a living review or a paper, proposed before it is written.\nA translation, or a correction to one.\nAn idea that is not a proposal yet (“what if Alan could…”).",
+    "crumbs": [
+      "Contributing"
+    ]
+  },
+  {
+    "objectID": "contributing.html#without-git-a-form-on-github",
+    "href": "contributing.html#without-git-a-form-on-github",
+    "title": "Contributing",
+    "section": "Without git: a form on GitHub",
+    "text": "Without git: a form on GitHub\nYou need only a free GitHub account. Each form asks for what a reviewer needs; write in English.\n\n\n\nForm\nUse it for\n\n\n\n\nErratum\nA typo, a broken link, or an error in an equation or a number\n\n\nScientific challenge\nA claim that is wrong, unsupported, or classified as the wrong kind\n\n\nContent proposal\nA new chapter, section, interlude, living review or paper\n\n\nLiving review update\nNew or corrected numbers for a Building Alan living review\n\n\nReference suggestion\nA paper or book that should be cited or listed as further reading\n\n\nTranslation\nA wrong or missing translation, or an offer to translate\n\n\n\nIdeas and questions go to Discussions. The people who look after the part of the book you name are told about your issue, and they answer it there.",
+    "crumbs": [
+      "Contributing"
+    ]
+  },
+  {
+    "objectID": "contributing.html#with-a-pull-request",
+    "href": "contributing.html#with-a-pull-request",
+    "title": "Contributing",
+    "section": "With a pull request",
+    "text": "With a pull request\nTo change the text yourself:\n\nOpen “Edit this page” at the foot of a page for a small fix in the browser, or fork the repository and work on your own copy.\nMake the change, keeping the book’s style guide.\nOpen a pull request and fill in its template.\nA person who looks after those pages reviews it, and a maintainer merges it.\n\nThe title of the pull request, the sign-off every commit needs, the checks to run and the step-by-step setup are in CONTRIBUTING.md, which has the complete rules. Translators start from docs/translating.md.",
+    "crumbs": [
+      "Contributing"
+    ]
+  },
+  {
+    "objectID": "contributing.html#who-looks-after-the-book",
+    "href": "contributing.html#who-looks-after-the-book",
+    "title": "Contributing",
+    "section": "Who looks after the book",
+    "text": "Who looks after the book\nEvery part of the book has moderators, and pages can have curators who keep them accurate. They are listed in Appendix E — Moderators and Curators, with the maintainers of each translation. How to take one of these roles is in GOVERNANCE.md.",
+    "crumbs": [
+      "Contributing"
+    ]
+  },
+  {
     "objectID": "appendices/concepts.html",
     "href": "appendices/concepts.html",
     "title": "Appendix A — Concepts",

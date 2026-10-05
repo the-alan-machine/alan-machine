@@ -458,6 +458,56 @@
     ]
   },
   {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Como contribuir",
+    "section": "",
+    "text": "O que você pode contribuir\nEste livro é escrito às claras, e qualquer pessoa pode melhorá-lo. Não é preciso saber git, nem ser físico: muitas das contribuições mais úteis são um único erro encontrado por um leitor atento.",
+    "crumbs": [
+      "Como contribuir"
+    ]
+  },
+  {
+    "objectID": "contributing.html#o-que-você-pode-contribuir",
+    "href": "contributing.html#o-que-você-pode-contribuir",
+    "title": "Como contribuir",
+    "section": "",
+    "text": "Um erro: um erro de digitação, um link quebrado, ou uma equação ou um número errado.\nUma contestação: uma afirmação que você considera errada, sem fundamento ou classificada no tipo errado. O livro marca cada afirmação como consolidada, relatada, extrapolação, especulação ou filosofia, e uma marca errada também é um erro.\nUma referência: um artigo ou livro que deveria ser citado, ou listado como leitura adicional.\nNúmeros novos para uma revisão viva de Construindo Alan, com unidade, data e fonte.\nTexto novo: um capítulo, uma seção, um interlúdio, uma revisão viva ou um artigo, proposto antes de ser escrito.\nUma tradução, ou a correção de uma.\nUma ideia que ainda não é uma proposta (“e se Alan pudesse…”).",
+    "crumbs": [
+      "Como contribuir"
+    ]
+  },
+  {
+    "objectID": "contributing.html#sem-git-um-formulário-no-github",
+    "href": "contributing.html#sem-git-um-formulário-no-github",
+    "title": "Como contribuir",
+    "section": "Sem git: um formulário no GitHub",
+    "text": "Sem git: um formulário no GitHub\nBasta uma conta gratuita no GitHub. Cada formulário pede o que um revisor precisa; escreva em inglês.\n\n\n\nFormulário\nUse para\n\n\n\n\nErratum\nUm erro de digitação, um link quebrado, ou um erro numa equação ou num número\n\n\nScientific challenge\nUma afirmação errada, sem fundamento ou classificada no tipo errado\n\n\nContent proposal\nUm capítulo, uma seção, um interlúdio, uma revisão viva ou um artigo novo\n\n\nLiving review update\nNúmeros novos ou corrigidos para uma revisão viva de Construindo Alan\n\n\nReference suggestion\nUm artigo ou livro que deveria ser citado ou listado como leitura adicional\n\n\nTranslation\nUma tradução errada ou faltando, ou uma oferta para traduzir\n\n\n\nIdeias e perguntas vão para as Discussions. As pessoas que cuidam da parte do livro que você citar são avisadas da sua issue e respondem por lá.",
+    "crumbs": [
+      "Como contribuir"
+    ]
+  },
+  {
+    "objectID": "contributing.html#com-um-pull-request",
+    "href": "contributing.html#com-um-pull-request",
+    "title": "Como contribuir",
+    "section": "Com um pull request",
+    "text": "Com um pull request\nPara mudar o texto você mesmo:\n\nAbra “Edit this page” no rodapé de uma página da edição em inglês para uma correção pequena no navegador, ou faça um fork do repositório e trabalhe na sua cópia.\nFaça a mudança, seguindo o guia de estilo do livro.\nAbra um pull request e preencha o modelo dele.\nUma pessoa que cuida dessas páginas o revisa, e um mantenedor faz o merge.\n\nO título do pull request, a assinatura (sign-off) que todo commit precisa, as verificações a rodar e a preparação passo a passo estão no CONTRIBUTING.md, que tem as regras completas, em inglês. Tradutores começam pelo docs/translating.md.",
+    "crumbs": [
+      "Como contribuir"
+    ]
+  },
+  {
+    "objectID": "contributing.html#quem-cuida-do-livro",
+    "href": "contributing.html#quem-cuida-do-livro",
+    "title": "Como contribuir",
+    "section": "Quem cuida do livro",
+    "text": "Quem cuida do livro\nCada parte do livro tem moderadores, e as páginas podem ter curadores que as mantêm corretas. Eles estão listados em Apêndice E — Moderadores e curadores, com os mantenedores de cada tradução. Como assumir um desses papéis está no GOVERNANCE.md.",
+    "crumbs": [
+      "Como contribuir"
+    ]
+  },
+  {
     "objectID": "appendices/concepts.html",
     "href": "appendices/concepts.html",
     "title": "Apêndice A — Conceitos",
