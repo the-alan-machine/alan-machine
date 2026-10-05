@@ -711,17 +711,17 @@ window.Quarto = {
    
   <ul>
   <li><a href="#sec-concept-bit" id="toc-sec-concept-bit" class="nav-link active" data-scroll-target="#sec-concept-bit">Bit</a></li>
-  <li><a href="#sec-concept-closed-timelike-curve" id="toc-sec-concept-closed-timelike-curve" class="nav-link" data-scroll-target="#sec-concept-closed-timelike-curve">Closed timelike curve</a></li>
   <li><a href="#sec-concept-reversible-computing" id="toc-sec-concept-reversible-computing" class="nav-link" data-scroll-target="#sec-concept-reversible-computing">Computação reversível</a></li>
+  <li><a href="#sec-concept-closed-timelike-curve" id="toc-sec-concept-closed-timelike-curve" class="nav-link" data-scroll-target="#sec-concept-closed-timelike-curve">Curva tipo tempo fechada</a></li>
   <li><a href="#sec-concept-maxwells-demon" id="toc-sec-concept-maxwells-demon" class="nav-link" data-scroll-target="#sec-concept-maxwells-demon">Demônio de Maxwell</a></li>
   <li><a href="#sec-concept-entropy" id="toc-sec-concept-entropy" class="nav-link" data-scroll-target="#sec-concept-entropy">Entropia</a></li>
   <li><a href="#sec-concept-arrow-of-time" id="toc-sec-concept-arrow-of-time" class="nav-link" data-scroll-target="#sec-concept-arrow-of-time">Flecha do tempo</a></li>
   <li><a href="#sec-concept-quantum-speed-limit" id="toc-sec-concept-quantum-speed-limit" class="nav-link" data-scroll-target="#sec-concept-quantum-speed-limit">Limite quântico de velocidade</a></li>
+  <li><a href="#sec-concept-szilard-engine" id="toc-sec-concept-szilard-engine" class="nav-link" data-scroll-target="#sec-concept-szilard-engine">Máquina de Szilard</a></li>
   <li><a href="#sec-concept-turing-machine" id="toc-sec-concept-turing-machine" class="nav-link" data-scroll-target="#sec-concept-turing-machine">Máquina de Turing</a></li>
-  <li><a href="#sec-concept-poincare-recurrence" id="toc-sec-concept-poincare-recurrence" class="nav-link" data-scroll-target="#sec-concept-poincare-recurrence">Poincaré recurrence</a></li>
   <li><a href="#sec-concept-landauer-principle" id="toc-sec-concept-landauer-principle" class="nav-link" data-scroll-target="#sec-concept-landauer-principle">Princípio de Landauer</a></li>
+  <li><a href="#sec-concept-poincare-recurrence" id="toc-sec-concept-poincare-recurrence" class="nav-link" data-scroll-target="#sec-concept-poincare-recurrence">Recorrência de Poincaré</a></li>
   <li><a href="#sec-concept-second-law" id="toc-sec-concept-second-law" class="nav-link" data-scroll-target="#sec-concept-second-law">Segunda lei da termodinâmica</a></li>
-  <li><a href="#sec-concept-szilard-engine" id="toc-sec-concept-szilard-engine" class="nav-link" data-scroll-target="#sec-concept-szilard-engine">Szilard engine</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/the-alan-machine/the-alan-machine/issues/new" class="toc-action"><i class="bi bi-github"></i>Criar uma issue</a></li></ul></div></nav>
     </div>
@@ -754,7 +754,7 @@ window.Quarto = {
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Parte desta página ainda está em inglês. <a href="https://github.com/the-alan-machine/the-alan-machine/blob/main/docs/translating.md">Como ajudar a traduzir</a>.</p>
+<p>Parte desta página foi traduzida por máquina e ainda não foi revisada.</p>
 </div>
 </div>
 </div>
@@ -762,21 +762,21 @@ window.Quarto = {
 <p>Todo termo técnico que o livro usa, em linguagem simples. Cada verbete lista as páginas que o usam.</p>
 <section id="sec-concept-bit" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-bit">Bit</h2>
-<p>The word has two meanings that are kept apart. A bit is a binary digit: one place in a memory or a message that holds 0 or 1, so ten such places hold ten bits. It is also the everyday name of the unit of information, whose own name is the shannon (symbol Sh). Learning which of two equally likely answers is the true one gives one shannon; an answer that could be predicted gives less, and a certain one gives none. So ten binary digits carry at most ten shannons, and exactly ten only when every sequence is equally likely. Claude Shannon set out the measure in 1948: the logarithm to base 2 of the number of equally likely possibilities. Taken with the natural logarithm instead, the same information is measured in nats, and one shannon is <span class="math inline">\(\ln 2\)</span> nat, about 0.693 nat. The shannon is the unit named in the standard IEC 80000-13:2025. Entropy in thermodynamics is <span class="math inline">\(k_B\)</span> times the information in nats, which is why Landauer’s bound for erasing one bit, <span class="math inline">\(k_B T \ln 2\)</span>, carries the factor <span class="math inline">\(\ln 2\)</span>: it converts one shannon into nats.</p>
+<p>A palavra tem dois sentidos, que se mantêm separados. Um bit é um dígito binário: uma posição numa memória ou numa mensagem que guarda 0 ou 1, de modo que dez dessas posições guardam dez bits. É também o nome corrente da unidade de informação, cujo nome próprio é shannon (símbolo Sh). Descobrir qual de duas respostas igualmente prováveis é a verdadeira dá um shannon; uma resposta que podia ser prevista dá menos, e uma certa não dá nenhum. Assim, dez dígitos binários carregam no máximo dez shannons, e exatamente dez só quando todas as sequências são igualmente prováveis. Claude Shannon estabeleceu a medida em 1948: o logaritmo na base 2 do número de possibilidades igualmente prováveis. Tomada com o logaritmo natural, a mesma informação se mede em nats, e um shannon é <span class="math inline">\(\ln 2\)</span> nat, cerca de 0,693 nat. O shannon é a unidade nomeada na norma IEC 80000-13:2025. A entropia na termodinâmica é <span class="math inline">\(k_B\)</span> vezes a informação em nats, e por isso o limite de Landauer para apagar um bit, <span class="math inline">\(k_B T \ln 2\)</span>, traz o fator <span class="math inline">\(\ln 2\)</span>: ele converte um shannon em nats.</p>
 <p><strong>Relacionados:</strong> <a href="#sec-concept-landauer-principle">Princípio de Landauer</a>, <a href="#sec-concept-entropy">Entropia</a></p>
 <p><strong>Referências:</strong> <span class="citation" data-cites="shannon1948mathematical">(<a href="../references.html#ref-shannon1948mathematical" role="doc-biblioref">Shannon 1948</a>)</span></p>
-</section>
-<section id="sec-concept-closed-timelike-curve" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="sec-concept-closed-timelike-curve">Closed timelike curve</h2>
-<p>A path through spacetime that returns to its own past. Such curves are not known to exist, but studying them has taught something about general relativity and quantum information. Following David Deutsch, a closed timelike curve is treated as a region of spacetime where nature must produce a consistent outcome: a fixed point of whatever process runs around the loop. Aaronson and Watrous showed in 2008 that, if such curves existed, quantum computers would be no more powerful than classical ones: both could solve exactly the problems that need a polynomial amount of memory (PSPACE).</p>
-<p><strong>Relacionados:</strong> <a href="#sec-concept-arrow-of-time">Flecha do tempo</a></p>
-<p><strong>Referências:</strong> <span class="citation" data-cites="deutsch1991quantum aaronson2008closed">(<a href="../references.html#ref-deutsch1991quantum" role="doc-biblioref">Deutsch 1991</a>; <a href="../references.html#ref-aaronson2008closed" role="doc-biblioref">Aaronson e Watrous 2008</a>)</span></p>
 </section>
 <section id="sec-concept-reversible-computing" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-reversible-computing">Computação reversível</h2>
 <p>Computar sem apagar informação, de modo que cada passo possa ser executado de trás para frente. Dois sentidos são mantidos separados. Uma computação é logicamente reversível quando cada estado tem um único antecessor possível, de modo que a entrada pode ser recuperada a partir da saída; Charles Bennett mostrou em 1973 que um computador de uso geral pode ser logicamente reversível em todos os passos. Ela é termodinamicamente reversível quando não produz entropia, um limite de que um dispositivo real só se aproxima operando cada vez mais devagar. A reversibilidade lógica elimina o custo mínimo que o princípio de Landauer impõe ao apagamento; sozinha, ela não elimina o resto da dissipação.</p>
 <p><strong>Relacionados:</strong> <a href="#sec-concept-landauer-principle">Princípio de Landauer</a>, <a href="#sec-concept-bit">Bit</a></p>
 <p><strong>Referências:</strong> <span class="citation" data-cites="bennett1973logical">(<a href="../references.html#ref-bennett1973logical" role="doc-biblioref">Bennett 1973</a>)</span></p>
+</section>
+<section id="sec-concept-closed-timelike-curve" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sec-concept-closed-timelike-curve">Curva tipo tempo fechada</h2>
+<p>Um caminho no espaço-tempo que volta ao próprio passado. Não se sabe se essas curvas existem, mas estudá-las ensinou algo sobre a relatividade geral e a informação quântica. Seguindo David Deutsch, uma curva tipo tempo fechada é tratada como uma região do espaço-tempo onde a natureza tem de produzir um resultado consistente: um ponto fixo de qualquer processo que percorra o laço. Aaronson e Watrous mostraram em 2008 que, se essas curvas existissem, computadores quânticos não seriam mais poderosos que os clássicos: ambos resolveriam exatamente os problemas que precisam de uma quantidade polinomial de memória (PSPACE).</p>
+<p><strong>Relacionados:</strong> <a href="#sec-concept-arrow-of-time">Flecha do tempo</a></p>
+<p><strong>Referências:</strong> <span class="citation" data-cites="deutsch1991quantum aaronson2008closed">(<a href="../references.html#ref-deutsch1991quantum" role="doc-biblioref">Deutsch 1991</a>; <a href="../references.html#ref-aaronson2008closed" role="doc-biblioref">Aaronson e Watrous 2008</a>)</span></p>
 </section>
 <section id="sec-concept-maxwells-demon" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-maxwells-demon">Demônio de Maxwell</h2>
@@ -799,17 +799,17 @@ window.Quarto = {
 <p><strong>Relacionados:</strong> <a href="#sec-concept-bit">Bit</a>, <a href="#sec-concept-reversible-computing">Computação reversível</a></p>
 <p><strong>Referências:</strong> <span class="citation" data-cites="mandelstam1991uncertainty margolus1998maximum lloyd2000ultimate">(<a href="../references.html#ref-mandelstam1991uncertainty" role="doc-biblioref">Mandelstam e Tamm 1991</a>; <a href="../references.html#ref-margolus1998maximum" role="doc-biblioref">Margolus e Levitin 1998</a>; <a href="../references.html#ref-lloyd2000ultimate" role="doc-biblioref">Lloyd 2000</a>)</span></p>
 </section>
+<section id="sec-concept-szilard-engine" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sec-concept-szilard-engine">Máquina de Szilard</h2>
+<p>O caso mais simples do demônio de Maxwell, estudado por Leo Szilard em 1929: uma caixa com uma única molécula, em contato térmico com um banho térmico, e uma divisória que pode ser inserida e deslizar ao longo da caixa. Com a divisória inserida, a molécula a empurra; se a divisória se move no sentido em que é empurrada, pode levantar um peso, e o máximo de trabalho que isso extrai é <span class="math inline">\(k_B T \ln 2\)</span>, tirado só do banho térmico. Szilard argumentou que a segunda lei se salva se a aquisição de conhecimento pelo demônio, de que lado a molécula está, vier com um custo de entropia que a compense.</p>
+<p><strong>Relacionados:</strong> <a href="#sec-concept-maxwells-demon">Demônio de Maxwell</a>, <a href="#sec-concept-landauer-principle">Princípio de Landauer</a>, <a href="#sec-concept-second-law">Segunda lei da termodinâmica</a></p>
+<p><strong>Referências:</strong> <span class="citation" data-cites="maroney2009information">(<a href="../references.html#ref-maroney2009information" role="doc-biblioref">Maroney 2009</a>)</span></p>
+</section>
 <section id="sec-concept-turing-machine" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-turing-machine">Máquina de Turing</h2>
 <p>Um modelo abstrato de computação apresentado por Alan Turing em 1936: uma máquina que lê e escreve símbolos numa fita ilimitada, seguindo uma tabela finita de regras. Tudo o que um computador moderno pode computar, uma máquina de Turing também pode, com tempo e fita suficientes.</p>
 <p><strong>Relacionados:</strong> <a href="#sec-concept-bit">Bit</a></p>
 <p><strong>Referências:</strong> <span class="citation" data-cites="turing1937computable">(<a href="../references.html#ref-turing1937computable" role="doc-biblioref">Turing 1937</a>)</span></p>
-</section>
-<section id="sec-concept-poincare-recurrence" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="sec-concept-poincare-recurrence">Poincaré recurrence</h2>
-<p>A theorem of Henri Poincaré: any finite system comes arbitrarily close to its initial state after some very long but finite time. Taken statistically it is not a paradox, but it seems to violate the second law of thermodynamics, since the entropy of a gas would in time return near its starting value. The theorem leaves gravity out; with gravity, colliding particles can form black holes, which can quench the recurrence or change how long it takes.</p>
-<p><strong>Relacionados:</strong> <a href="#sec-concept-second-law">Segunda lei da termodinâmica</a>, <a href="#sec-concept-entropy">Entropia</a>, <a href="#sec-concept-arrow-of-time">Flecha do tempo</a></p>
-<p><strong>Referências:</strong> <span class="citation" data-cites="dong2016gravity">(<a href="../references.html#ref-dong2016gravity" role="doc-biblioref">Dong e Stojkovic 2016</a>)</span></p>
 </section>
 <section id="sec-concept-landauer-principle" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-landauer-principle">Princípio de Landauer</h2>
@@ -817,16 +817,16 @@ window.Quarto = {
 <p><strong>Relacionados:</strong> <a href="#sec-concept-bit">Bit</a>, <a href="#sec-concept-reversible-computing">Computação reversível</a>, <a href="#sec-concept-maxwells-demon">Demônio de Maxwell</a></p>
 <p><strong>Referências:</strong> <span class="citation" data-cites="landauer1961irreversibility berut2012experimental">(<a href="../references.html#ref-landauer1961irreversibility" role="doc-biblioref">Landauer 1961</a>; <a href="../references.html#ref-berut2012experimental" role="doc-biblioref">Bérut et al. 2012</a>)</span></p>
 </section>
+<section id="sec-concept-poincare-recurrence" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sec-concept-poincare-recurrence">Recorrência de Poincaré</h2>
+<p>Um teorema de Henri Poincaré: qualquer sistema finito chega arbitrariamente perto do seu estado inicial depois de um tempo muito longo, mas finito. Tomado estatisticamente, não é um paradoxo, mas parece violar a segunda lei da termodinâmica, já que a entropia de um gás voltaria com o tempo para perto do seu valor inicial. O teorema deixa a gravidade de fora; com gravidade, partículas que colidem podem formar buracos negros, que podem extinguir a recorrência ou mudar quanto tempo ela leva.</p>
+<p><strong>Relacionados:</strong> <a href="#sec-concept-second-law">Segunda lei da termodinâmica</a>, <a href="#sec-concept-entropy">Entropia</a>, <a href="#sec-concept-arrow-of-time">Flecha do tempo</a></p>
+<p><strong>Referências:</strong> <span class="citation" data-cites="dong2016gravity">(<a href="../references.html#ref-dong2016gravity" role="doc-biblioref">Dong e Stojkovic 2016</a>)</span></p>
+</section>
 <section id="sec-concept-second-law" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-second-law">Segunda lei da termodinâmica</h2>
 <p>Num sistema isolado, a entropia não diminui com o tempo. É uma lei estatística: uma diminuição não é proibida, apenas improvável ao extremo em sistemas com muitas partes.</p>
 <p><strong>Relacionados:</strong> <a href="#sec-concept-entropy">Entropia</a>, <a href="#sec-concept-arrow-of-time">Flecha do tempo</a>, <a href="#sec-concept-maxwells-demon">Demônio de Maxwell</a></p>
-</section>
-<section id="sec-concept-szilard-engine" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="sec-concept-szilard-engine">Szilard engine</h2>
-<p>The simplest case of Maxwell’s demon, studied by Leo Szilard in 1929: a box holding a single molecule, in thermal contact with a heat bath, and a partition that can be inserted and can slide along the box. With the partition inserted, the molecule pushes on it; if it moves the way it is pushed, it can lift a weight, and the most work this extracts is <span class="math inline">\(k_B T \ln 2\)</span>, drawn from the heat bath alone. Szilard argued that the second law is saved if the demon’s acquisition of knowledge, which side the molecule is on, comes with a compensating entropy cost.</p>
-<p><strong>Relacionados:</strong> <a href="#sec-concept-maxwells-demon">Demônio de Maxwell</a>, <a href="#sec-concept-landauer-principle">Princípio de Landauer</a>, <a href="#sec-concept-second-law">Segunda lei da termodinâmica</a></p>
-<p><strong>Referências:</strong> <span class="citation" data-cites="maroney2009information">(<a href="../references.html#ref-maroney2009information" role="doc-biblioref">Maroney 2009</a>)</span></p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">

@@ -462,18 +462,7 @@
     "href": "appendices/concepts.html",
     "title": "Apêndice A — Conceitos",
     "section": "",
-    "text": "Bit\nTodo termo técnico que o livro usa, em linguagem simples. Cada verbete lista as páginas que o usam.\nThe word has two meanings that are kept apart. A bit is a binary digit: one place in a memory or a message that holds 0 or 1, so ten such places hold ten bits. It is also the everyday name of the unit of information, whose own name is the shannon (symbol Sh). Learning which of two equally likely answers is the true one gives one shannon; an answer that could be predicted gives less, and a certain one gives none. So ten binary digits carry at most ten shannons, and exactly ten only when every sequence is equally likely. Claude Shannon set out the measure in 1948: the logarithm to base 2 of the number of equally likely possibilities. Taken with the natural logarithm instead, the same information is measured in nats, and one shannon is \\(\\ln 2\\) nat, about 0.693 nat. The shannon is the unit named in the standard IEC 80000-13:2025. Entropy in thermodynamics is \\(k_B\\) times the information in nats, which is why Landauer’s bound for erasing one bit, \\(k_B T \\ln 2\\), carries the factor \\(\\ln 2\\): it converts one shannon into nats.\nRelacionados: Princípio de Landauer, Entropia\nReferências: (Shannon 1948)",
-    "crumbs": [
-      "Apêndices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
-    ]
-  },
-  {
-    "objectID": "appendices/concepts.html#sec-concept-closed-timelike-curve",
-    "href": "appendices/concepts.html#sec-concept-closed-timelike-curve",
-    "title": "Apêndice A — Conceitos",
-    "section": "Closed timelike curve",
-    "text": "Closed timelike curve\nA path through spacetime that returns to its own past. Such curves are not known to exist, but studying them has taught something about general relativity and quantum information. Following David Deutsch, a closed timelike curve is treated as a region of spacetime where nature must produce a consistent outcome: a fixed point of whatever process runs around the loop. Aaronson and Watrous showed in 2008 that, if such curves existed, quantum computers would be no more powerful than classical ones: both could solve exactly the problems that need a polynomial amount of memory (PSPACE).\nRelacionados: Flecha do tempo\nReferências: (Deutsch 1991; Aaronson e Watrous 2008)",
+    "text": "Bit\nTodo termo técnico que o livro usa, em linguagem simples. Cada verbete lista as páginas que o usam.\nA palavra tem dois sentidos, que se mantêm separados. Um bit é um dígito binário: uma posição numa memória ou numa mensagem que guarda 0 ou 1, de modo que dez dessas posições guardam dez bits. É também o nome corrente da unidade de informação, cujo nome próprio é shannon (símbolo Sh). Descobrir qual de duas respostas igualmente prováveis é a verdadeira dá um shannon; uma resposta que podia ser prevista dá menos, e uma certa não dá nenhum. Assim, dez dígitos binários carregam no máximo dez shannons, e exatamente dez só quando todas as sequências são igualmente prováveis. Claude Shannon estabeleceu a medida em 1948: o logaritmo na base 2 do número de possibilidades igualmente prováveis. Tomada com o logaritmo natural, a mesma informação se mede em nats, e um shannon é \\(\\ln 2\\) nat, cerca de 0,693 nat. O shannon é a unidade nomeada na norma IEC 80000-13:2025. A entropia na termodinâmica é \\(k_B\\) vezes a informação em nats, e por isso o limite de Landauer para apagar um bit, \\(k_B T \\ln 2\\), traz o fator \\(\\ln 2\\): ele converte um shannon em nats.\nRelacionados: Princípio de Landauer, Entropia\nReferências: (Shannon 1948)",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
@@ -485,6 +474,17 @@
     "title": "Apêndice A — Conceitos",
     "section": "Computação reversível",
     "text": "Computação reversível\nComputar sem apagar informação, de modo que cada passo possa ser executado de trás para frente. Dois sentidos são mantidos separados. Uma computação é logicamente reversível quando cada estado tem um único antecessor possível, de modo que a entrada pode ser recuperada a partir da saída; Charles Bennett mostrou em 1973 que um computador de uso geral pode ser logicamente reversível em todos os passos. Ela é termodinamicamente reversível quando não produz entropia, um limite de que um dispositivo real só se aproxima operando cada vez mais devagar. A reversibilidade lógica elimina o custo mínimo que o princípio de Landauer impõe ao apagamento; sozinha, ela não elimina o resto da dissipação.\nRelacionados: Princípio de Landauer, Bit\nReferências: (Bennett 1973)",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-closed-timelike-curve",
+    "href": "appendices/concepts.html#sec-concept-closed-timelike-curve",
+    "title": "Apêndice A — Conceitos",
+    "section": "Curva tipo tempo fechada",
+    "text": "Curva tipo tempo fechada\nUm caminho no espaço-tempo que volta ao próprio passado. Não se sabe se essas curvas existem, mas estudá-las ensinou algo sobre a relatividade geral e a informação quântica. Seguindo David Deutsch, uma curva tipo tempo fechada é tratada como uma região do espaço-tempo onde a natureza tem de produzir um resultado consistente: um ponto fixo de qualquer processo que percorra o laço. Aaronson e Watrous mostraram em 2008 que, se essas curvas existissem, computadores quânticos não seriam mais poderosos que os clássicos: ambos resolveriam exatamente os problemas que precisam de uma quantidade polinomial de memória (PSPACE).\nRelacionados: Flecha do tempo\nReferências: (Deutsch 1991; Aaronson e Watrous 2008)",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
@@ -535,22 +535,22 @@
     ]
   },
   {
-    "objectID": "appendices/concepts.html#sec-concept-turing-machine",
-    "href": "appendices/concepts.html#sec-concept-turing-machine",
+    "objectID": "appendices/concepts.html#sec-concept-szilard-engine",
+    "href": "appendices/concepts.html#sec-concept-szilard-engine",
     "title": "Apêndice A — Conceitos",
-    "section": "Máquina de Turing",
-    "text": "Máquina de Turing\nUm modelo abstrato de computação apresentado por Alan Turing em 1936: uma máquina que lê e escreve símbolos numa fita ilimitada, seguindo uma tabela finita de regras. Tudo o que um computador moderno pode computar, uma máquina de Turing também pode, com tempo e fita suficientes.\nRelacionados: Bit\nReferências: (Turing 1937)",
+    "section": "Máquina de Szilard",
+    "text": "Máquina de Szilard\nO caso mais simples do demônio de Maxwell, estudado por Leo Szilard em 1929: uma caixa com uma única molécula, em contato térmico com um banho térmico, e uma divisória que pode ser inserida e deslizar ao longo da caixa. Com a divisória inserida, a molécula a empurra; se a divisória se move no sentido em que é empurrada, pode levantar um peso, e o máximo de trabalho que isso extrai é \\(k_B T \\ln 2\\), tirado só do banho térmico. Szilard argumentou que a segunda lei se salva se a aquisição de conhecimento pelo demônio, de que lado a molécula está, vier com um custo de entropia que a compense.\nRelacionados: Demônio de Maxwell, Princípio de Landauer, Segunda lei da termodinâmica\nReferências: (Maroney 2009)",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
     ]
   },
   {
-    "objectID": "appendices/concepts.html#sec-concept-poincare-recurrence",
-    "href": "appendices/concepts.html#sec-concept-poincare-recurrence",
+    "objectID": "appendices/concepts.html#sec-concept-turing-machine",
+    "href": "appendices/concepts.html#sec-concept-turing-machine",
     "title": "Apêndice A — Conceitos",
-    "section": "Poincaré recurrence",
-    "text": "Poincaré recurrence\nA theorem of Henri Poincaré: any finite system comes arbitrarily close to its initial state after some very long but finite time. Taken statistically it is not a paradox, but it seems to violate the second law of thermodynamics, since the entropy of a gas would in time return near its starting value. The theorem leaves gravity out; with gravity, colliding particles can form black holes, which can quench the recurrence or change how long it takes.\nRelacionados: Segunda lei da termodinâmica, Entropia, Flecha do tempo\nReferências: (Dong e Stojkovic 2016)",
+    "section": "Máquina de Turing",
+    "text": "Máquina de Turing\nUm modelo abstrato de computação apresentado por Alan Turing em 1936: uma máquina que lê e escreve símbolos numa fita ilimitada, seguindo uma tabela finita de regras. Tudo o que um computador moderno pode computar, uma máquina de Turing também pode, com tempo e fita suficientes.\nRelacionados: Bit\nReferências: (Turing 1937)",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
@@ -568,22 +568,22 @@
     ]
   },
   {
-    "objectID": "appendices/concepts.html#sec-concept-second-law",
-    "href": "appendices/concepts.html#sec-concept-second-law",
+    "objectID": "appendices/concepts.html#sec-concept-poincare-recurrence",
+    "href": "appendices/concepts.html#sec-concept-poincare-recurrence",
     "title": "Apêndice A — Conceitos",
-    "section": "Segunda lei da termodinâmica",
-    "text": "Segunda lei da termodinâmica\nNum sistema isolado, a entropia não diminui com o tempo. É uma lei estatística: uma diminuição não é proibida, apenas improvável ao extremo em sistemas com muitas partes.\nRelacionados: Entropia, Flecha do tempo, Demônio de Maxwell",
+    "section": "Recorrência de Poincaré",
+    "text": "Recorrência de Poincaré\nUm teorema de Henri Poincaré: qualquer sistema finito chega arbitrariamente perto do seu estado inicial depois de um tempo muito longo, mas finito. Tomado estatisticamente, não é um paradoxo, mas parece violar a segunda lei da termodinâmica, já que a entropia de um gás voltaria com o tempo para perto do seu valor inicial. O teorema deixa a gravidade de fora; com gravidade, partículas que colidem podem formar buracos negros, que podem extinguir a recorrência ou mudar quanto tempo ela leva.\nRelacionados: Segunda lei da termodinâmica, Entropia, Flecha do tempo\nReferências: (Dong e Stojkovic 2016)",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
     ]
   },
   {
-    "objectID": "appendices/concepts.html#sec-concept-szilard-engine",
-    "href": "appendices/concepts.html#sec-concept-szilard-engine",
+    "objectID": "appendices/concepts.html#sec-concept-second-law",
+    "href": "appendices/concepts.html#sec-concept-second-law",
     "title": "Apêndice A — Conceitos",
-    "section": "Szilard engine",
-    "text": "Szilard engine\nThe simplest case of Maxwell’s demon, studied by Leo Szilard in 1929: a box holding a single molecule, in thermal contact with a heat bath, and a partition that can be inserted and can slide along the box. With the partition inserted, the molecule pushes on it; if it moves the way it is pushed, it can lift a weight, and the most work this extracts is \\(k_B T \\ln 2\\), drawn from the heat bath alone. Szilard argued that the second law is saved if the demon’s acquisition of knowledge, which side the molecule is on, comes with a compensating entropy cost.\nRelacionados: Demônio de Maxwell, Princípio de Landauer, Segunda lei da termodinâmica\nReferências: (Maroney 2009)\n\n\n\n\nAaronson, Scott, e John Watrous. 2008. “Closed timelike curves make quantum and classical computing equivalent”. Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences 465 (2102): 631–47. https://doi.org/10.1098/rspa.2008.0350.\n\n\nBennett, C. H. 1973. “Logical Reversibility of Computation”. IBM Journal of Research and Development 17 (6): 525–32. https://doi.org/10.1147/rd.176.0525.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, e Eric Lutz. 2012. “Experimental verification of Landauer’s principle linking information and thermodynamics”. Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nDeutsch, David. 1991. “Quantum mechanics near closed timelike lines”. Physical Review D 44 (10): 3197–217. https://doi.org/10.1103/physrevd.44.3197.\n\n\nDong, Ruifeng, e Dejan Stojkovic. 2016. “Gravity can significantly modify classical and quantum Poincaré recurrence theorems”. Physical Review D 94 (10). https://doi.org/10.1103/physrevd.94.104058.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process”. IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate physical limits to computation”. Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMandelstam, L., e Ig. Tamm. 1991. “The Uncertainty Relation Between Energy and Time in Non-relativistic Quantum Mechanics”. Em Selected Papers. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-74626-0_8.\n\n\nMargolus, Norman, e Lev B. Levitin. 1998. “The maximum speed of dynamical evolution”. Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.\n\n\nMaroney, Owen. 2009. Information Processing and Thermodynamic Entropy. The Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/information-entropy/.\n\n\nShannon, C. E. 1948. “A Mathematical Theory of Communication”. Bell System Technical Journal 27 (3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.\n\n\nTuring, A. M. 1937. “On Computable Numbers, with an Application to the Entscheidungsproblem”. Proceedings of the London Mathematical Society s2-42 (1): 230–65. https://doi.org/10.1112/plms/s2-42.1.230.",
+    "section": "Segunda lei da termodinâmica",
+    "text": "Segunda lei da termodinâmica\nNum sistema isolado, a entropia não diminui com o tempo. É uma lei estatística: uma diminuição não é proibida, apenas improvável ao extremo em sistemas com muitas partes.\nRelacionados: Entropia, Flecha do tempo, Demônio de Maxwell\n\n\n\n\nAaronson, Scott, e John Watrous. 2008. “Closed timelike curves make quantum and classical computing equivalent”. Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences 465 (2102): 631–47. https://doi.org/10.1098/rspa.2008.0350.\n\n\nBennett, C. H. 1973. “Logical Reversibility of Computation”. IBM Journal of Research and Development 17 (6): 525–32. https://doi.org/10.1147/rd.176.0525.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, e Eric Lutz. 2012. “Experimental verification of Landauer’s principle linking information and thermodynamics”. Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nDeutsch, David. 1991. “Quantum mechanics near closed timelike lines”. Physical Review D 44 (10): 3197–217. https://doi.org/10.1103/physrevd.44.3197.\n\n\nDong, Ruifeng, e Dejan Stojkovic. 2016. “Gravity can significantly modify classical and quantum Poincaré recurrence theorems”. Physical Review D 94 (10). https://doi.org/10.1103/physrevd.94.104058.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process”. IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate physical limits to computation”. Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMandelstam, L., e Ig. Tamm. 1991. “The Uncertainty Relation Between Energy and Time in Non-relativistic Quantum Mechanics”. Em Selected Papers. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-74626-0_8.\n\n\nMargolus, Norman, e Lev B. Levitin. 1998. “The maximum speed of dynamical evolution”. Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.\n\n\nMaroney, Owen. 2009. Information Processing and Thermodynamic Entropy. The Stanford Encyclopedia of Philosophy. https://plato.stanford.edu/entries/information-entropy/.\n\n\nShannon, C. E. 1948. “A Mathematical Theory of Communication”. Bell System Technical Journal 27 (3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.\n\n\nTuring, A. M. 1937. “On Computable Numbers, with an Application to the Entscheidungsproblem”. Proceedings of the London Mathematical Society s2-42 (1): 230–65. https://doi.org/10.1112/plms/s2-42.1.230.",
     "crumbs": [
       "Apêndices",
       "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
