@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About Building Alan – The Alan Machine</title>
+<title>Appendix E — Moderators and Curators – The Alan Machine</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +26,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -55,8 +36,7 @@ div.csl-indent {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../building-alan/cmos-baseline/index.html" rel="next">
-<link href="../chapters/epilogue/index.html" rel="prev">
+<link href="../appendices/statistical-mechanics.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -95,35 +75,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -136,7 +87,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../building-alan/index.html">Building Alan</a></li><li class="breadcrumb-item"><a href="../building-alan/index.html">About Building Alan</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/concepts.html">Appendices</a></li><li class="breadcrumb-item"><a href="../appendices/people.html"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Moderators and Curators</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -393,7 +344,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../building-alan/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../building-alan/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About Building Alan</span></a>
   </div>
 </li>
@@ -517,7 +468,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../appendices/people.html" class="sidebar-item-text sidebar-link">
+  <a href="../appendices/people.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Moderators and Curators</span></span></a>
   </div>
 </li>
@@ -533,16 +484,18 @@ window.Quarto = {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#dossiers" id="toc-dossiers" class="nav-link active" data-scroll-target="#dossiers">Dossiers</a></li>
+  <li><a href="#maintainers" id="toc-maintainers" class="nav-link active" data-scroll-target="#maintainers">Maintainers</a></li>
+  <li><a href="#moderators" id="toc-moderators" class="nav-link" data-scroll-target="#moderators">Moderators</a></li>
+  <li><a href="#curators" id="toc-curators" class="nav-link" data-scroll-target="#curators">Curators</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/the-alan-machine/alan-machine/edit/main/building-alan/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/the-alan-machine/alan-machine/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/the-alan-machine/alan-machine/edit/main/appendices/people.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/the-alan-machine/alan-machine/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../building-alan/index.html">Building Alan</a></li><li class="breadcrumb-item"><a href="../building-alan/index.html">About Building Alan</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/concepts.html">Appendices</a></li><li class="breadcrumb-item"><a href="../appendices/people.html"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Moderators and Curators</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-building-alan" class="quarto-section-identifier">About Building Alan</span></h1>
+<h1 class="title"><span id="sec-people" class="quarto-section-identifier">Appendix E — Moderators and Curators</span></h1>
 </div>
 
 
@@ -559,122 +512,58 @@ window.Quarto = {
 </header>
 
 
-<p>The chapters ask what physics allows. This part asks a different question: how close does today’s technology come, and what would close the gap? The answer changes every year, so these pages are living documents. Each one has a review date, and every number in it carries the date it refers to and its source.</p>
-<p>Each dossier looks at one technology or one bottleneck and measures it against the same yardsticks:</p>
-<ul>
-<li><strong>The Landauer bound</strong>: the least heat that erasing one bit can release, <span class="math inline">\(k_B T \ln 2\)</span> at the temperature the device runs at <span class="citation" data-cites="landauer1961irreversibility berut2012experimental">(<a href="../references.html#ref-landauer1961irreversibility" role="doc-biblioref">Landauer 1961</a>; <a href="../references.html#ref-berut2012experimental" role="doc-biblioref">Bérut et al. 2012</a>)</span>.</li>
-<li><strong>The Margolus-Levitin bound</strong>: the most operations per second that a given amount of energy allows <span class="citation" data-cites="margolus1998maximum lloyd2000ultimate">(<a href="../references.html#ref-margolus1998maximum" role="doc-biblioref">Margolus and Levitin 1998</a>; <a href="../references.html#ref-lloyd2000ultimate" role="doc-biblioref">Lloyd 2000</a>)</span>.</li>
-<li><strong>The Bekenstein bound</strong>: the most information that a given mass and size can hold <span class="citation" data-cites="bekenstein1981universal">(<a href="../references.html#ref-bekenstein1981universal" role="doc-biblioref">Bekenstein 1981</a>)</span>.</li>
-<li><strong>Energy at the wall plug</strong>: what the whole system draws from the grid, cooling and power delivery included. A device that runs near the Landauer bound at 4 K can still cost more, counted at the wall plug, than one at room temperature.</li>
-</ul>
-<p>These pages are written for engineers and researchers who design processors, memory, AI hardware and data centers, and for any reader who wants to know where real machines stand. The numbers behind them are published as data (see <a href="https://github.com/the-alan-machine/alan-machine/tree/main/data">the data folder</a>), so they can be reused and checked.</p>
-<p>The same method, applied beyond computing, is <a href="https://scape-velocity.github.io/escape-velocity/">Escape Velocity</a>: an open atlas of what each technology still needs to reach maturity, from fusion to medicine, and of which technologies wait on which. Its entries on quantum computers, data movement, heat removal and the energy of AI inference link back to these dossiers.</p>
-<section id="dossiers" class="level2">
-<h2 class="anchored" data-anchor-id="dossiers">Dossiers</h2>
-<!-- BEGIN generated: dossiers -->
+<!-- Generated by tools/generate.py from governance.toml and the front matter of each page. Do not edit by hand. -->
+<p>The people who look after the book. Maintainers look after the whole repository. Moderators look after a part: they review the changes to its pages and triage its issues. Curators look after single pages and review their dossiers. People are named by their GitHub handle. How the roles work, and how to take one, is in <a href="https://github.com/the-alan-machine/alan-machine/blob/main/GOVERNANCE.md">GOVERNANCE.md</a>.</p>
+<section id="maintainers" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="maintainers">Maintainers</h2>
+<p><a href="https://github.com/JoaoAlisson">JoaoAlisson</a></p>
+</section>
+<section id="moderators" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="moderators">Moderators</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Dossier</th>
-<th>Status</th>
-<th>Last reviewed</th>
-<th>Review due</th>
-<th>Curators</th>
+<th>Part</th>
+<th>Moderators</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../building-alan/cmos-baseline/index.html">CMOS: The Baseline</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
+<td>The Machine and the Question</td>
 <td>none yet</td>
 </tr>
 <tr class="even">
-<td><a href="../building-alan/data-movement/index.html">The Cost of Moving Data</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
+<td>Information Is Physical</td>
 <td>none yet</td>
 </tr>
 <tr class="odd">
-<td><a href="../building-alan/heat-removal/index.html">Getting the Heat Out</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
+<td>The Limits of the Machine</td>
 <td>none yet</td>
 </tr>
 <tr class="even">
-<td><a href="../building-alan/reversible-logic/index.html">Adiabatic and Reversible Logic</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
+<td>Reversing Entropy</td>
 <td>none yet</td>
 </tr>
 <tr class="odd">
-<td><a href="../building-alan/superconducting-logic/index.html">Superconducting Logic</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
+<td>The Impact on Time</td>
 <td>none yet</td>
 </tr>
 <tr class="even">
-<td><a href="../building-alan/quantum-hardware/index.html">Quantum Hardware</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
+<td>Building Alan</td>
 <td>none yet</td>
 </tr>
 <tr class="odd">
-<td><a href="../building-alan/thermodynamic-computing/index.html">Thermodynamic and Probabilistic Computing</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
-<td>none yet</td>
-</tr>
-<tr class="even">
-<td><a href="../building-alan/neuromorphic-computing/index.html">Neuromorphic Computing</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
-<td>none yet</td>
-</tr>
-<tr class="odd">
-<td><a href="../building-alan/optical-computing/index.html">Optical Computing</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
-<td>none yet</td>
-</tr>
-<tr class="even">
-<td><a href="../building-alan/energy-per-token/index.html">The Energy of a Token</a></td>
-<td>proposed</td>
-<td>never</td>
-<td>not reviewed yet</td>
+<td>Papers</td>
 <td>none yet</td>
 </tr>
 </tbody>
 </table>
-<!-- END generated: dossiers -->
+</section>
+<section id="curators" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="curators">Curators</h2>
+<p>No page has a curator yet.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
-<div id="ref-bekenstein1981universal" class="csl-entry" role="listitem">
-Bekenstein, Jacob D. 1981. <span>“Universal Upper Bound on the Entropy-to-Energy Ratio for Bounded Systems.”</span> <em>Physical Review D</em> 23 (2): 287–98. <a href="https://doi.org/10.1103/physrevd.23.287">https://doi.org/10.1103/physrevd.23.287</a>.
-</div>
-<div id="ref-berut2012experimental" class="csl-entry" role="listitem">
-Bérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, and Eric Lutz. 2012. <span>“Experimental Verification of Landauer’s Principle Linking Information and Thermodynamics.”</span> <em>Nature</em> 483 (7388): 187–89. <a href="https://doi.org/10.1038/nature10872">https://doi.org/10.1038/nature10872</a>.
-</div>
-<div id="ref-landauer1961irreversibility" class="csl-entry" role="listitem">
-Landauer, R. 1961. <span>“Irreversibility and Heat Generation in the Computing Process.”</span> <em>IBM Journal of Research and Development</em> 5 (3): 183–91. <a href="https://doi.org/10.1147/rd.53.0183">https://doi.org/10.1147/rd.53.0183</a>.
-</div>
-<div id="ref-lloyd2000ultimate" class="csl-entry" role="listitem">
-Lloyd, Seth. 2000. <span>“Ultimate Physical Limits to Computation.”</span> <em>Nature</em> 406 (6799): 1047–54. <a href="https://doi.org/10.1038/35023282">https://doi.org/10.1038/35023282</a>.
-</div>
-<div id="ref-margolus1998maximum" class="csl-entry" role="listitem">
-Margolus, Norman, and Lev B. Levitin. 1998. <span>“The Maximum Speed of Dynamical Evolution.”</span> <em>Physica D: Nonlinear Phenomena</em> 120 (1-2): 188–95. <a href="https://doi.org/10.1016/s0167-2789(98)00054-2">https://doi.org/10.1016/s0167-2789(98)00054-2</a>.
-</div>
-</div>
 </section>
 
 </main> <!-- /main -->
@@ -1080,14 +969,11 @@ Margolus, Norman, and Lev B. Levitin. 1998. <span>“The Maximum Speed of Dynami
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../chapters/epilogue/index.html" class="pagination-link" aria-label="Epilogue: What Alan Cannot Do">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Epilogue: What Alan Cannot Do</span>
+      <a href="../appendices/statistical-mechanics.html" class="pagination-link" aria-label="A Short Primer on Statistical Mechanics">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">A Short Primer on Statistical Mechanics</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../building-alan/cmos-baseline/index.html" class="pagination-link" aria-label="CMOS: The Baseline">
-        <span class="nav-page-text">CMOS: The Baseline</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -1095,4 +981,4 @@ Margolus, Norman, and Lev B. Levitin. 1998. <span>“The Maximum Speed of Dynami
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/the-alan-machine/alan-machine/edit/main/building-alan/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/the-alan-machine/alan-machine/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/the-alan-machine/alan-machine/edit/main/appendices/people.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/the-alan-machine/alan-machine/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

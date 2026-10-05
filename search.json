@@ -320,7 +320,7 @@
     "href": "building-alan/index.html#dossiers",
     "title": "About Building Alan",
     "section": "",
-    "text": "Dossier\nStatus\nLast reviewed\nReview due\n\n\n\n\nCMOS: The Baseline\nproposed\nnever\nnot reviewed yet\n\n\nThe Cost of Moving Data\nproposed\nnever\nnot reviewed yet\n\n\nGetting the Heat Out\nproposed\nnever\nnot reviewed yet\n\n\nAdiabatic and Reversible Logic\nproposed\nnever\nnot reviewed yet\n\n\nSuperconducting Logic\nproposed\nnever\nnot reviewed yet\n\n\nQuantum Hardware\nproposed\nnever\nnot reviewed yet\n\n\nThermodynamic and Probabilistic Computing\nproposed\nnever\nnot reviewed yet\n\n\nNeuromorphic Computing\nproposed\nnever\nnot reviewed yet\n\n\nOptical Computing\nproposed\nnever\nnot reviewed yet\n\n\nThe Energy of a Token\nproposed\nnever\nnot reviewed yet\n\n\n\n\n\n\n\n\nBekenstein, Jacob D. 1981. “Universal Upper Bound on the Entropy-to-Energy Ratio for Bounded Systems.” Physical Review D 23 (2): 287–98. https://doi.org/10.1103/physrevd.23.287.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, and Eric Lutz. 2012. “Experimental Verification of Landauer’s Principle Linking Information and Thermodynamics.” Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process.” IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate Physical Limits to Computation.” Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMargolus, Norman, and Lev B. Levitin. 1998. “The Maximum Speed of Dynamical Evolution.” Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.",
+    "text": "Dossier\nStatus\nLast reviewed\nReview due\nCurators\n\n\n\n\nCMOS: The Baseline\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThe Cost of Moving Data\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nGetting the Heat Out\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nAdiabatic and Reversible Logic\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nSuperconducting Logic\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nQuantum Hardware\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThermodynamic and Probabilistic Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nNeuromorphic Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nOptical Computing\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\nThe Energy of a Token\nproposed\nnever\nnot reviewed yet\nnone yet\n\n\n\n\n\n\n\n\nBekenstein, Jacob D. 1981. “Universal Upper Bound on the Entropy-to-Energy Ratio for Bounded Systems.” Physical Review D 23 (2): 287–98. https://doi.org/10.1103/physrevd.23.287.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, and Eric Lutz. 2012. “Experimental Verification of Landauer’s Principle Linking Information and Thermodynamics.” Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process.” IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate Physical Limits to Computation.” Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMargolus, Norman, and Lev B. Levitin. 1998. “The Maximum Speed of Dynamical Evolution.” Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.",
     "crumbs": [
       "Building Alan",
       "About Building Alan"
@@ -576,6 +576,39 @@
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>D</span>  <span class='chapter-title'>A Short Primer on Statistical Mechanics</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/people.html",
+    "href": "appendices/people.html",
+    "title": "Appendix E — Moderators and Curators",
+    "section": "",
+    "text": "Maintainers\nThe people who look after the book. Maintainers look after the whole repository. Moderators look after a part: they review the changes to its pages and triage its issues. Curators look after single pages and review their dossiers. People are named by their GitHub handle. How the roles work, and how to take one, is in GOVERNANCE.md.\nJoaoAlisson",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderators and Curators</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/people.html#moderators",
+    "href": "appendices/people.html#moderators",
+    "title": "Appendix E — Moderators and Curators",
+    "section": "Moderators",
+    "text": "Moderators\n\n\n\nPart\nModerators\n\n\n\n\nThe Machine and the Question\nnone yet\n\n\nInformation Is Physical\nnone yet\n\n\nThe Limits of the Machine\nnone yet\n\n\nReversing Entropy\nnone yet\n\n\nThe Impact on Time\nnone yet\n\n\nBuilding Alan\nnone yet\n\n\nPapers\nnone yet",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderators and Curators</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/people.html#curators",
+    "href": "appendices/people.html#curators",
+    "title": "Appendix E — Moderators and Curators",
+    "section": "Curators",
+    "text": "Curators\nNo page has a curator yet.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderators and Curators</span>"
     ]
   }
 ]

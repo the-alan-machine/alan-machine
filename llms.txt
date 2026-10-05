@@ -96,3 +96,4 @@ License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite the page
 - [Notation](https://the-alan-machine.github.io/alan-machine/appendices/notation.html.md): Appendix
 - [Constants](https://the-alan-machine.github.io/alan-machine/appendices/constants.html.md): Appendix
 - [A Short Primer on Statistical Mechanics](https://the-alan-machine.github.io/alan-machine/appendices/statistical-mechanics.html.md): Microstates, macrostates, probability and the ideas the chapters assume. (appendix)
+- [Moderators and Curators](https://the-alan-machine.github.io/alan-machine/appendices/people.html.md): Appendix
