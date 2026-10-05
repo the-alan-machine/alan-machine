@@ -1,0 +1,98 @@
+# The Alan Machine
+
+> An open-source book about a hypothetical supercomputer named Alan, used as a thought
+> experiment about reversing entropy and what that would mean for time. Written for the
+> general public, with companion scientific papers and a living series on how close today's
+> technology comes to Alan's physical limits.
+
+Every claim in the book is one of four kinds. Unmarked running text is established physics,
+with citations. Callouts titled Extrapolation, Speculation and Philosophy (classes
+`.extrapolation`, `.speculation`, `.philosophy`) hold claims that follow only under stated
+assumptions, that no evidence supports yet, or that physics cannot settle. Keep the kind when
+you quote the book. Citations appear as `[@key]`; the keys are entries in
+https://the-alan-machine.github.io/alan-machine/references.bib. Pages whose status is `proposed` have not been written yet.
+
+License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Cite the page URL.
+
+## Preface
+
+- [Preface](https://the-alan-machine.github.io/alan-machine/index.html.md): The dedication, and how to read the book: chapters and papers, interludes, Building Alan and the four kinds of claim. (front matter)
+
+## The Machine and the Question
+
+- [Meet Alan](https://the-alan-machine.github.io/alan-machine/chapters/meet-alan/index.html.md): The thought experiment, the rules of the game and the four kinds of statement. Why a computer is the right device to ask about entropy. (chapter, popular register; not written yet)
+- [What Entropy Is](https://the-alan-machine.github.io/alan-machine/chapters/what-entropy-is/index.html.md): Clausius, Boltzmann, Gibbs and Shannon. Where the definitions agree and where they differ. (chapter, popular register; not written yet)
+- [The Arrow of Time](https://the-alan-machine.github.io/alan-machine/chapters/arrow-of-time/index.html.md): Time-symmetric laws, Loschmidt's paradox and the Past Hypothesis. (chapter, popular register; not written yet)
+- [Interlude: Does Time Flow?](https://the-alan-machine.github.io/alan-machine/interludes/does-time-flow/index.html.md): McTaggart's A-series and B-series, presentism and eternalism, the block universe and the feeling of passage. Why it matters to decide what time is before asking Alan to reverse it. (interlude, philosophy; not written yet)
+
+## Information Is Physical
+
+- [Maxwell's Demon and the Szilard Engine](https://the-alan-machine.github.io/alan-machine/chapters/maxwells-demon/index.html.md): The demon, the Szilard engine and why measurement and memory carry a thermodynamic cost. (chapter, popular register; not written yet)
+- [Landauer's Principle](https://the-alan-machine.github.io/alan-machine/chapters/landauer/index.html.md): The minimum cost of erasing one bit and its experimental confirmation. (chapter, popular register; not written yet)
+- [Reversible Computing](https://the-alan-machine.github.io/alan-machine/chapters/reversible-computing/index.html.md): Bennett's reversible computation, the Fredkin and Toffoli gates, and what can be computed without erasing anything. (chapter, popular register; not written yet)
+- [Can a Mind Beat the Second Law?](https://the-alan-machine.github.io/alan-machine/chapters/mind-and-the-second-law/index.html.md): Intelligence as physics. An agent that observes, predicts and acts is a Maxwell's demon with a model of the world. The thermodynamic cost of measurement, memory, learning and prediction, and today's AI as a case we can measure (energy per token). What an intelligent Alan could and could not do against the second law. (chapter, popular register; not written yet)
+- [Interlude: Three Demons](https://the-alan-machine.github.io/alan-machine/interludes/three-demons/index.html.md): Maxwell's demon sorts, Laplace's demon predicts and Loschmidt's demon reverses. What each thought experiment teaches about knowledge, control and the second law, and why physicists keep inventing demons. (interlude, philosophy; not written yet)
+
+## The Limits of the Machine
+
+- [How Fast Can It Compute](https://the-alan-machine.github.io/alan-machine/chapters/speed-limits/index.html.md): Bremermann's limit, the Margolus-Levitin theorem and Lloyd's ultimate laptop. (chapter, popular register; not written yet)
+- [How Much Can It Hold](https://the-alan-machine.github.io/alan-machine/chapters/memory-limits/index.html.md): The Bekenstein bound and the holographic bound. (chapter, popular register; not written yet)
+- [Is Alan a Quantum Computer?](https://the-alan-machine.github.io/alan-machine/chapters/quantum-alan/index.html.md): Qubits and unitary evolution, and why quantum dynamics is reversible. Measurement and decoherence as the irreversible step. Error correction as an entropy pump. Quantum speed limits, and what a quantum Alan gains and does not gain. (chapter, popular register; not written yet)
+- [Laplace's Demon](https://the-alan-machine.github.io/alan-machine/chapters/laplaces-demon/index.html.md): Could Alan know the complete state of a system, or of the universe? Chaos and sensitivity to initial conditions, quantum uncertainty, the cost of measurement and the limits a predictor meets when it is part of what it predicts. Why predicting is not reversing. (chapter, popular register; not written yet)
+- [Black Holes and Information](https://the-alan-machine.github.io/alan-machine/chapters/black-holes/index.html.md): Hawking radiation, unitarity and the information paradox. (chapter, popular register; not written yet)
+- [Interlude: Are We Inside an Alan?](https://the-alan-machine.github.io/alan-machine/interludes/inside-an-alan/index.html.md): The simulation argument meets the physical limits of computation. What a machine that simulates a universe would need, whether a simulated mind could tell, and what the question says about the line between physics and metaphysics. (interlude, philosophy; not written yet)
+
+## Reversing Entropy
+
+- [Local Reversal](https://the-alan-machine.github.io/alan-machine/chapters/local-reversal/index.html.md): Refrigerators, spin echo, Loschmidt echo and time reversal on a quantum computer. (chapter, popular register; not written yet)
+- [Life: The Original Local Reversal](https://the-alan-machine.github.io/alan-machine/chapters/life/index.html.md): Living things keep their own entropy low by exporting more to their surroundings. Schrödinger's question in What Is Life?, the energy cost of copying information in cells, and dissipation-driven adaptation. Life as the existence proof that local reversal happens. (chapter, popular register; not written yet)
+- [Fluctuations and Recurrence](https://the-alan-machine.github.io/alan-machine/chapters/fluctuations-and-recurrence/index.html.md): Fluctuation theorems, Poincare recurrence and Boltzmann brains. (chapter, popular register; not written yet)
+- [Global Reversal](https://the-alan-machine.github.io/alan-machine/chapters/global-reversal/index.html.md): What reversing the entropy of the whole universe would require. (chapter, popular register; not written yet)
+- [Interlude: Would You Remember?](https://the-alan-machine.github.io/alan-machine/interludes/would-you-remember/index.html.md): Memory and the psychological arrow of time. If Alan reversed a region of the universe that contained you, what would you experience? Records, causation and why we remember the past and not the future. (interlude, philosophy; not written yet)
+
+## The Impact on Time
+
+- [What Time Is](https://the-alan-machine.github.io/alan-machine/chapters/what-time-is/index.html.md): Time in physics before we ask whether it can run backward: Newton's absolute time, simultaneity and the block universe in relativity, the problem of time in quantum gravity, and the thermal time hypothesis. What it would mean for time to flow or to reverse. (chapter, popular register; not written yet)
+- [Would Time Run Backward](https://the-alan-machine.github.io/alan-machine/chapters/time-backward/index.html.md): The thermodynamic, psychological and cosmological arrows, and Gold's universe. (chapter, popular register; not written yet)
+- [Closed Timelike Curves](https://the-alan-machine.github.io/alan-machine/chapters/closed-timelike-curves/index.html.md): Deutsch, Novikov and Aaronson-Watrous: computation where time loops back on itself. (chapter, popular register; not written yet)
+- [The End of the Universe](https://the-alan-machine.github.io/alan-machine/chapters/end-of-the-universe/index.html.md): Heat death, Dyson's eternal intelligence, the Krauss-Starkman critique and Tipler's Omega Point. (chapter, popular register; not written yet)
+- [Interlude: Can Alan Think?](https://the-alan-machine.github.io/alan-machine/interludes/can-alan-think/index.html.md): Turing's imitation game, Searle's Chinese room and the debate over machine understanding. Would a machine able to reverse entropy understand what it does, and does the answer change anything physical? (interlude, philosophy; not written yet)
+
+## Epilogue: What Alan Cannot Do
+
+- [Epilogue: What Alan Cannot Do](https://the-alan-machine.github.io/alan-machine/chapters/epilogue/index.html.md): What the book has shown to be impossible, what remains open, and why the question is still worth asking. Russell's despair at the heat death against Dyson's eternal intelligence, Nietzsche's eternal return against Poincaré recurrence, and Asimov's "The Last Question", the story of a computer asked whether entropy can be reversed. (chapter, popular register; not written yet)
+
+## Building Alan
+
+- [About Building Alan](https://the-alan-machine.github.io/alan-machine/building-alan/index.html.md): Section introduction
+- [CMOS: The Baseline](https://the-alan-machine.github.io/alan-machine/building-alan/cmos-baseline/index.html.md): Today's silicon logic as the reference point: energy per switching event, how far it sits above the Landauer bound at room temperature, and the trends that brought it there (Dennard scaling and its end). (Building Alan dossier, living document; not written yet)
+- [The Cost of Moving Data](https://the-alan-machine.github.io/alan-machine/building-alan/data-movement/index.html.md): Why moving a bit now costs more energy than computing with it: memory access, on-chip and off-chip wires, and the memory wall. What it means for a machine the size of Alan. (Building Alan dossier, living document; not written yet)
+- [Getting the Heat Out](https://the-alan-machine.github.io/alan-machine/building-alan/heat-removal/index.html.md): Every operation that dissipates ends as heat that must leave the machine: cooling limits per unit area, the thermodynamic cost of refrigeration and the efficiency of whole data centers. (Building Alan dossier, living document; not written yet)
+- [Adiabatic and Reversible Logic](https://the-alan-machine.github.io/alan-machine/building-alan/reversible-logic/index.html.md): Circuits that recover the energy of each operation instead of dissipating it: adiabatic charging, reversible gates and the prototypes built so far. The trade between speed and dissipation. (Building Alan dossier, living document; not written yet)
+- [Superconducting Logic](https://the-alan-machine.github.io/alan-machine/building-alan/superconducting-logic/index.html.md): Single flux quantum and adiabatic quantum flux parametron logic: energy per operation near the Landauer bound at 4 K, and the cost of cooling once it is counted at the wall plug. (Building Alan dossier, living document; not written yet)
+- [Quantum Hardware](https://the-alan-machine.github.io/alan-machine/building-alan/quantum-hardware/index.html.md): Superconducting qubits, trapped ions, neutral atoms and photons: coherence times, gate errors, error correction overhead and the cryogenic and control energy per logical operation. (Building Alan dossier, living document; not written yet)
+- [Thermodynamic and Probabilistic Computing](https://the-alan-machine.github.io/alan-machine/building-alan/thermodynamic-computing/index.html.md): Machines that use thermal noise instead of fighting it: probabilistic bits, stochastic and thermodynamic computing, and the tasks where they beat deterministic logic. (Building Alan dossier, living document; not written yet)
+- [Neuromorphic Computing](https://the-alan-machine.github.io/alan-machine/building-alan/neuromorphic-computing/index.html.md): Spiking and analog in-memory hardware modeled on the brain, the brain's own energy budget as a reference, and the energy per synaptic event. (Building Alan dossier, living document; not written yet)
+- [Optical Computing](https://the-alan-machine.github.io/alan-machine/building-alan/optical-computing/index.html.md): Computing and interconnects with light: energy per operation, the cost of converting between electrons and photons, and where optics helps most. (Building Alan dossier, living document; not written yet)
+- [The Energy of a Token](https://the-alan-machine.github.io/alan-machine/building-alan/energy-per-token/index.html.md): The energy language models spend to train and to generate each token, how it is measured, how far it is from the physical limits of the operations involved, and what the trend says about AI hardware. (Building Alan dossier, living document; not written yet)
+
+## Papers
+
+- [About the Papers](https://the-alan-machine.github.io/alan-machine/papers/index.html.md): Section introduction
+
+## Data
+
+- [Concepts](https://the-alan-machine.github.io/alan-machine/data/concepts.toml): every technical term, defined in plain language
+- [Notation](https://the-alan-machine.github.io/alan-machine/data/notation.toml): every symbol and its unit
+- [Constants](https://the-alan-machine.github.io/alan-machine/data/constants.toml): physical constants with sources
+- [Metrics](https://the-alan-machine.github.io/alan-machine/data/metrics.toml): the metrics Building Alan dossiers report
+- [References](https://the-alan-machine.github.io/alan-machine/references.bib): the bibliography, in BibTeX
+- [Whole book](https://the-alan-machine.github.io/alan-machine/llms-full.txt): every page above in one Markdown file
+
+## Optional
+
+- [References](https://the-alan-machine.github.io/alan-machine/references.html.md): Front matter
+- [Concepts](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html.md): Appendix
+- [Notation](https://the-alan-machine.github.io/alan-machine/appendices/notation.html.md): Appendix
+- [Constants](https://the-alan-machine.github.io/alan-machine/appendices/constants.html.md): Appendix
+- [A Short Primer on Statistical Mechanics](https://the-alan-machine.github.io/alan-machine/appendices/statistical-mechanics.html.md): Microstates, macrostates, probability and the ideas the chapters assume. (appendix)

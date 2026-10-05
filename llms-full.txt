@@ -1,0 +1,915 @@
+# The Alan Machine
+
+The complete text, one page after another. Source: https://the-alan-machine.github.io/alan-machine/. License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+
+---
+title: "Preface"
+url: "https://the-alan-machine.github.io/alan-machine/index.html"
+kind: "front"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Preface
+
+
+::: {.dedication}
+| For Alan Turing, who imagined the machine,
+| and for Alan Ricardo.
+:::
+
+
+## How to read this book
+
+This book is about a machine that does not exist. We call it Alan, and we use it to ask a question
+physics takes very seriously: can entropy be reversed, and if it could, what would happen to time?
+
+You do not need a physics degree to read it. The chapters are written for anyone who is curious.
+When the math helps, it shows up in boxes marked *Going deeper*, which you can open or skip. The
+story works either way.
+
+Some chapters have a companion paper, written for specialists, with the full argument. You will
+find the papers near the end of the book, and each chapter tells you when one exists.
+
+Each part ends with an *interlude*: a short pause for a question that physics can inform but not
+answer, such as whether time really flows or whether a machine can think. After the main text,
+*Building Alan* looks at real technology, from today's chips to quantum computers, and asks how far
+each one is from the limits the chapters describe. Those pages are updated every year.
+
+Along the way, we keep four kinds of statement apart. Unmarked claims are **established** physics,
+with references you can check. Boxes marked **Extrapolation** follow from established physics, but
+only if their stated assumptions hold. Boxes marked **Speculation** hold ideas that are conceivable
+but that no evidence supports yet. Boxes marked **Philosophy** hold questions that physics cannot
+settle, with the best arguments on each side. A thought experiment is only useful if you always know
+which of the four you are reading.
+
+Every technical term links to its plain-language definition in the Concepts appendix at the end.
+
+
+---
+title: "Meet Alan"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/meet-alan/index.html"
+kind: "chapter"
+part: "The Machine and the Question"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/meet-alan/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Meet Alan
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "What Entropy Is"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/what-entropy-is/index.html"
+kind: "chapter"
+part: "The Machine and the Question"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/what-entropy-is/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# What Entropy Is
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "The Arrow of Time"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/arrow-of-time/index.html"
+kind: "chapter"
+part: "The Machine and the Question"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/arrow-of-time/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# The Arrow of Time
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Interlude: Does Time Flow?"
+url: "https://the-alan-machine.github.io/alan-machine/interludes/does-time-flow/index.html"
+kind: "interlude"
+part: "The Machine and the Question"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/interludes/does-time-flow/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Interlude: Does Time Flow?
+
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::
+
+
+---
+title: "Maxwell's Demon and the Szilard Engine"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/maxwells-demon/index.html"
+kind: "chapter"
+part: "Information Is Physical"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/maxwells-demon/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Maxwell's Demon and the Szilard Engine
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Landauer's Principle"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/landauer/index.html"
+kind: "chapter"
+part: "Information Is Physical"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/landauer/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Landauer's Principle
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Reversible Computing"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/reversible-computing/index.html"
+kind: "chapter"
+part: "Information Is Physical"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/reversible-computing/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Reversible Computing
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Can a Mind Beat the Second Law?"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/mind-and-the-second-law/index.html"
+kind: "chapter"
+part: "Information Is Physical"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/mind-and-the-second-law/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Can a Mind Beat the Second Law?
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Interlude: Three Demons"
+url: "https://the-alan-machine.github.io/alan-machine/interludes/three-demons/index.html"
+kind: "interlude"
+part: "Information Is Physical"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/interludes/three-demons/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Interlude: Three Demons
+
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::
+
+
+---
+title: "How Fast Can It Compute"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/speed-limits/index.html"
+kind: "chapter"
+part: "The Limits of the Machine"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/speed-limits/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# How Fast Can It Compute
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "How Much Can It Hold"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/memory-limits/index.html"
+kind: "chapter"
+part: "The Limits of the Machine"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/memory-limits/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# How Much Can It Hold
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Is Alan a Quantum Computer?"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/quantum-alan/index.html"
+kind: "chapter"
+part: "The Limits of the Machine"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/quantum-alan/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Is Alan a Quantum Computer?
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Laplace's Demon"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/laplaces-demon/index.html"
+kind: "chapter"
+part: "The Limits of the Machine"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/laplaces-demon/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Laplace's Demon
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Black Holes and Information"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/black-holes/index.html"
+kind: "chapter"
+part: "The Limits of the Machine"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/black-holes/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Black Holes and Information
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Interlude: Are We Inside an Alan?"
+url: "https://the-alan-machine.github.io/alan-machine/interludes/inside-an-alan/index.html"
+kind: "interlude"
+part: "The Limits of the Machine"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/interludes/inside-an-alan/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Interlude: Are We Inside an Alan?
+
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::
+
+
+---
+title: "Local Reversal"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/local-reversal/index.html"
+kind: "chapter"
+part: "Reversing Entropy"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/local-reversal/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Local Reversal
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Life: The Original Local Reversal"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/life/index.html"
+kind: "chapter"
+part: "Reversing Entropy"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/life/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Life: The Original Local Reversal
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Fluctuations and Recurrence"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/fluctuations-and-recurrence/index.html"
+kind: "chapter"
+part: "Reversing Entropy"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/fluctuations-and-recurrence/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Fluctuations and Recurrence
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Global Reversal"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/global-reversal/index.html"
+kind: "chapter"
+part: "Reversing Entropy"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/global-reversal/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Global Reversal
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Interlude: Would You Remember?"
+url: "https://the-alan-machine.github.io/alan-machine/interludes/would-you-remember/index.html"
+kind: "interlude"
+part: "Reversing Entropy"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/interludes/would-you-remember/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Interlude: Would You Remember?
+
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::
+
+
+---
+title: "What Time Is"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/what-time-is/index.html"
+kind: "chapter"
+part: "The Impact on Time"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/what-time-is/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# What Time Is
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Would Time Run Backward"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/time-backward/index.html"
+kind: "chapter"
+part: "The Impact on Time"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/time-backward/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Would Time Run Backward
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Closed Timelike Curves"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/closed-timelike-curves/index.html"
+kind: "chapter"
+part: "The Impact on Time"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/closed-timelike-curves/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Closed Timelike Curves
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "The End of the Universe"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/end-of-the-universe/index.html"
+kind: "chapter"
+part: "The Impact on Time"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/end-of-the-universe/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# The End of the Universe
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "Interlude: Can Alan Think?"
+url: "https://the-alan-machine.github.io/alan-machine/interludes/can-alan-think/index.html"
+kind: "interlude"
+part: "The Impact on Time"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/interludes/can-alan-think/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Interlude: Can Alan Think?
+
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::
+
+
+---
+title: "Epilogue: What Alan Cannot Do"
+url: "https://the-alan-machine.github.io/alan-machine/chapters/epilogue/index.html"
+kind: "chapter"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/epilogue/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Epilogue: What Alan Cannot Do
+
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
+
+
+---
+title: "About Building Alan"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/index.html"
+kind: "section"
+part: "Building Alan"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# About Building Alan
+
+The chapters ask what physics allows. This part asks a different question: how close does today's
+technology come, and what would close the gap? The answer changes every year, so these pages are
+living documents. Each one has a review date, and every number in it carries the date it refers to
+and its source.
+
+Each dossier looks at one technology or one bottleneck and measures it against the same yardsticks:
+
+- **The Landauer bound**: the least heat that erasing one bit can release, $k_B T \ln 2$ at the
+  temperature the device runs at [@landauer1961irreversibility; @berut2012experimental].
+- **The Margolus-Levitin bound**: the most operations per second that a given amount of energy
+  allows [@margolus1998maximum; @lloyd2000ultimate].
+- **The Bekenstein bound**: the most information that a given mass and size can hold
+  [@bekenstein1981universal].
+- **Energy at the wall plug**: what the whole system draws from the grid, cooling and power delivery
+  included. A device that runs near the Landauer bound at 4 K can still cost more, counted at the
+  wall plug, than one at room temperature.
+
+These pages are written for engineers and researchers who design processors, memory, AI hardware
+and data centers, and for any reader who wants to know where real machines stand. The numbers
+behind them are published as data (see [the data folder](https://github.com/the-alan-machine/alan-machine/tree/main/data)),
+so they can be reused and checked.
+
+The same method, applied beyond computing, is
+[Escape Velocity](https://scape-velocity.github.io/escape-velocity/): an open atlas of what each
+technology still needs to reach maturity, from fusion to medicine, and of which technologies wait
+on which. Its entries on quantum computers, data movement, heat removal and the energy of AI
+inference link back to these dossiers.
+
+## Dossiers
+
+
+| Dossier | Status | Last reviewed | Review due |
+|---|---|---|---|
+| [CMOS: The Baseline](https://the-alan-machine.github.io/alan-machine/building-alan/cmos-baseline/index.html) | proposed | never | not reviewed yet |
+| [The Cost of Moving Data](https://the-alan-machine.github.io/alan-machine/building-alan/data-movement/index.html) | proposed | never | not reviewed yet |
+| [Getting the Heat Out](https://the-alan-machine.github.io/alan-machine/building-alan/heat-removal/index.html) | proposed | never | not reviewed yet |
+| [Adiabatic and Reversible Logic](https://the-alan-machine.github.io/alan-machine/building-alan/reversible-logic/index.html) | proposed | never | not reviewed yet |
+| [Superconducting Logic](https://the-alan-machine.github.io/alan-machine/building-alan/superconducting-logic/index.html) | proposed | never | not reviewed yet |
+| [Quantum Hardware](https://the-alan-machine.github.io/alan-machine/building-alan/quantum-hardware/index.html) | proposed | never | not reviewed yet |
+| [Thermodynamic and Probabilistic Computing](https://the-alan-machine.github.io/alan-machine/building-alan/thermodynamic-computing/index.html) | proposed | never | not reviewed yet |
+| [Neuromorphic Computing](https://the-alan-machine.github.io/alan-machine/building-alan/neuromorphic-computing/index.html) | proposed | never | not reviewed yet |
+| [Optical Computing](https://the-alan-machine.github.io/alan-machine/building-alan/optical-computing/index.html) | proposed | never | not reviewed yet |
+| [The Energy of a Token](https://the-alan-machine.github.io/alan-machine/building-alan/energy-per-token/index.html) | proposed | never | not reviewed yet |
+
+
+---
+title: "CMOS: The Baseline"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/cmos-baseline/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/cmos-baseline/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# CMOS: The Baseline
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "The Cost of Moving Data"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/data-movement/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/data-movement/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# The Cost of Moving Data
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "Getting the Heat Out"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/heat-removal/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/heat-removal/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Getting the Heat Out
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "Adiabatic and Reversible Logic"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/reversible-logic/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/reversible-logic/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Adiabatic and Reversible Logic
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "Superconducting Logic"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/superconducting-logic/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/superconducting-logic/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Superconducting Logic
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "Quantum Hardware"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/quantum-hardware/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/quantum-hardware/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Quantum Hardware
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "Thermodynamic and Probabilistic Computing"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/thermodynamic-computing/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/thermodynamic-computing/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Thermodynamic and Probabilistic Computing
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "Neuromorphic Computing"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/neuromorphic-computing/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/neuromorphic-computing/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Neuromorphic Computing
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "Optical Computing"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/optical-computing/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/optical-computing/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Optical Computing
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "The Energy of a Token"
+url: "https://the-alan-machine.github.io/alan-machine/building-alan/energy-per-token/index.html"
+kind: "dossier"
+part: "Building Alan"
+status: "proposed"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/energy-per-token/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# The Energy of a Token
+
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::
+
+
+---
+title: "About the Papers"
+url: "https://the-alan-machine.github.io/alan-machine/papers/index.html"
+kind: "section"
+part: "Papers"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/papers/index.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# About the Papers
+
+The chapters tell the story. The papers make the argument.
+
+Some chapters have a companion paper with the full scientific treatment of their subject: the
+derivations, the assumptions and the references a specialist would expect. Each paper stands on its
+own, with its own authors, abstract and references, and can be cited independently of the book. A
+chapter can lean on several papers, and a paper can support several chapters.
+
+No papers have been written yet.
+
+
+---
+title: "References"
+url: "https://the-alan-machine.github.io/alan-machine/references.html"
+kind: "front"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/references.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# References
+
+::: {#refs}
+:::
+
+
+---
+title: "Concepts"
+url: "https://the-alan-machine.github.io/alan-machine/appendices/concepts.html"
+kind: "appendix"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/appendices/concepts.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Concepts
+
+
+Every technical term the book uses, in plain language. Each entry lists the pages that use it.
+
+## Arrow of time
+
+The difference between past and future that we observe in everyday life: eggs break but do not unbreak, and we remember yesterday but not tomorrow. It stands out because the fundamental laws of physics barely distinguish between the two directions of time.
+
+**Related:** [Entropy](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-entropy), [Second law of thermodynamics](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-second-law)
+
+## Bit
+
+The basic unit of information: the answer to one yes-or-no question. A memory that can hold one of two states, such as 0 or 1, stores one bit.
+
+**Related:** [Landauer's principle](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-landauer-principle), [Entropy](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-entropy)
+
+## Entropy
+
+A measure of how many microscopic arrangements of a system are compatible with what we observe at large scale. The more ways the parts can be arranged without changing how the whole looks, the higher the entropy.
+
+**Related:** [Second law of thermodynamics](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-second-law), [Arrow of time](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-arrow-of-time), [Bit](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-bit)
+
+## Landauer's principle
+
+Erasing one bit of information in surroundings at temperature $T$ releases at least $k_B T \ln 2$ of heat. Forgetting has a minimum physical cost. The bound was proposed by Rolf Landauer in 1961 and confirmed experimentally in 2012.
+
+**Related:** [Bit](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-bit), [Reversible computing](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-reversible-computing), [Maxwell's demon](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-maxwells-demon)
+
+**References:** [@landauer1961irreversibility; @berut2012experimental]
+
+## Maxwell's demon
+
+A thought experiment devised by James Clerk Maxwell in 1867: a tiny being opens and closes a door between two boxes of gas, letting fast molecules go one way and slow ones the other. It seems to lower entropy for free. The accepted resolution is that the demon must record what it sees, and erasing that record eventually pays the entropy back.
+
+**Related:** [Second law of thermodynamics](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-second-law), [Landauer's principle](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-landauer-principle)
+
+## Reversible computing
+
+Computing without erasing information, so that every step can be run backward. Because nothing is erased, Landauer's principle sets no minimum energy cost per operation: in principle, a reversible computer running slowly enough can dissipate as little energy as we like.
+
+**Related:** [Landauer's principle](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-landauer-principle), [Bit](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-bit)
+
+**References:** [@bennett1973logical]
+
+## Second law of thermodynamics
+
+In an isolated system, entropy does not decrease over time. It is a statistical law: a decrease is not forbidden, only overwhelmingly unlikely for systems with many parts.
+
+**Related:** [Entropy](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-entropy), [Arrow of time](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-arrow-of-time), [Maxwell's demon](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-maxwells-demon)
+
+## Turing machine
+
+An abstract model of computation introduced by Alan Turing in 1936: a machine that reads and writes symbols on an unlimited tape, following a finite table of rules. Anything a modern computer can compute, a Turing machine can compute too, given enough time and tape.
+
+**Related:** [Bit](https://the-alan-machine.github.io/alan-machine/appendices/concepts.html#sec-concept-bit)
+
+**References:** [@turing1937computable]
+
+
+---
+title: "Notation"
+url: "https://the-alan-machine.github.io/alan-machine/appendices/notation.html"
+kind: "appendix"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/appendices/notation.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Notation
+
+
+Every symbol keeps the same meaning across the whole book.
+
+| Symbol | Meaning | Unit |
+|---|---|---|
+| $k_B$ | Boltzmann constant | $\mathrm{J\,K^{-1}}$ |
+| $T$ | Absolute temperature | $\mathrm{K}$ |
+| $S$ | Entropy | $\mathrm{J\,K^{-1}}$ |
+| $E$ | Energy | $\mathrm{J}$ |
+| $\hbar$ | Reduced Planck constant, $h / 2\pi$ | $\mathrm{J\,s}$ |
+| $c$ | Speed of light in vacuum | $\mathrm{m\,s^{-1}}$ |
+
+
+---
+title: "Constants"
+url: "https://the-alan-machine.github.io/alan-machine/appendices/constants.html"
+kind: "appendix"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/appendices/constants.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# Constants
+
+
+Values from the 2019 revision of the SI, where the constant is exact by definition, and from
+CODATA otherwise.
+
+| Constant | Symbol | Value | Unit | Standard uncertainty | Source |
+|---|---|---|---|---|---|
+| Speed of light in vacuum | $c$ | $299792458$ | $\mathrm{m\,s^{-1}}$ | exact | SI (2019), exact by definition |
+| Planck constant | $h$ | $6.62607015 \times 10^{-34}$ | $\mathrm{J\,s}$ | exact | SI (2019), exact by definition |
+| Reduced Planck constant | $\hbar$ | $1.054571817 \times 10^{-34}$ | $\mathrm{J\,s}$ | exact | h / 2 pi, exact; value truncated to 10 significant digits |
+| Boltzmann constant | $k_B$ | $1.380649 \times 10^{-23}$ | $\mathrm{J\,K^{-1}}$ | exact | SI (2019), exact by definition |
+| Newtonian constant of gravitation | $G$ | $6.67430 \times 10^{-11}$ | $\mathrm{m^3\,kg^{-1}\,s^{-2}}$ | $1.5 \times 10^{-15}$ | CODATA 2018 |
+
+
+---
+title: "A Short Primer on Statistical Mechanics"
+url: "https://the-alan-machine.github.io/alan-machine/appendices/statistical-mechanics.html"
+kind: "appendix"
+source: "https://github.com/the-alan-machine/alan-machine/blob/main/appendices/statistical-mechanics.qmd"
+license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+---
+
+# A Short Primer on Statistical Mechanics
+
+
+::: {.callout-note appearance="minimal"}
+This appendix has not been written yet.
+:::
+

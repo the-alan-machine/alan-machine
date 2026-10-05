@@ -14,7 +14,7 @@
     "href": "index.html#how-to-read-this-book",
     "title": "The Alan Machine",
     "section": "How to read this book",
-    "text": "How to read this book\nThis book is about a machine that does not exist. We call it Alan, and we use it to ask a question physics takes very seriously: can entropy be reversed, and if it could, what would happen to time?\nYou do not need a physics degree to read it. The chapters are written for anyone who is curious. When the math helps, it shows up in boxes marked Going deeper, which you can open or skip. The story works either way.\nSome chapters have a companion paper, written for specialists, with the full argument. You will find the papers in the last part of the book, and each chapter tells you when one exists.\nAlong the way, we keep three kinds of statement apart. Unmarked claims are established physics, with references you can check. Boxes marked Extrapolation follow from established physics, but only if their stated assumptions hold. Boxes marked Speculation hold ideas that are conceivable but that no evidence supports yet. A thought experiment is only useful if you always know which of the three you are reading.",
+    "text": "How to read this book\nThis book is about a machine that does not exist. We call it Alan, and we use it to ask a question physics takes very seriously: can entropy be reversed, and if it could, what would happen to time?\nYou do not need a physics degree to read it. The chapters are written for anyone who is curious. When the math helps, it shows up in boxes marked Going deeper, which you can open or skip. The story works either way.\nSome chapters have a companion paper, written for specialists, with the full argument. You will find the papers near the end of the book, and each chapter tells you when one exists.\nEach part ends with an interlude: a short pause for a question that physics can inform but not answer, such as whether time really flows or whether a machine can think. After the main text, Building Alan looks at real technology, from today’s chips to quantum computers, and asks how far each one is from the limits the chapters describe. Those pages are updated every year.\nAlong the way, we keep four kinds of statement apart. Unmarked claims are established physics, with references you can check. Boxes marked Extrapolation follow from established physics, but only if their stated assumptions hold. Boxes marked Speculation hold ideas that are conceivable but that no evidence supports yet. Boxes marked Philosophy hold questions that physics cannot settle, with the best arguments on each side. A thought experiment is only useful if you always know which of the four you are reading.\nEvery technical term links to its plain-language definition in the Concepts appendix at the end.",
     "crumbs": [
       "Preface"
     ]
@@ -53,6 +53,17 @@
     ]
   },
   {
+    "objectID": "interludes/does-time-flow/index.html",
+    "href": "interludes/does-time-flow/index.html",
+    "title": "Interlude: Does Time Flow?",
+    "section": "",
+    "text": "This interlude has not been written yet.",
+    "crumbs": [
+      "The Machine and the Question",
+      "Interlude: Does Time Flow?"
+    ]
+  },
+  {
     "objectID": "chapters/maxwells-demon/index.html",
     "href": "chapters/maxwells-demon/index.html",
     "title": "4  Maxwell’s Demon and the Szilard Engine",
@@ -86,102 +97,201 @@
     ]
   },
   {
+    "objectID": "chapters/mind-and-the-second-law/index.html",
+    "href": "chapters/mind-and-the-second-law/index.html",
+    "title": "7  Can a Mind Beat the Second Law?",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Information Is Physical",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Can a Mind Beat the Second Law?</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/three-demons/index.html",
+    "href": "interludes/three-demons/index.html",
+    "title": "Interlude: Three Demons",
+    "section": "",
+    "text": "This interlude has not been written yet.",
+    "crumbs": [
+      "Information Is Physical",
+      "Interlude: Three Demons"
+    ]
+  },
+  {
     "objectID": "chapters/speed-limits/index.html",
     "href": "chapters/speed-limits/index.html",
-    "title": "7  How Fast Can It Compute",
+    "title": "8  How Fast Can It Compute",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "The Limits of the Machine",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>How Fast Can It Compute</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>How Fast Can It Compute</span>"
     ]
   },
   {
     "objectID": "chapters/memory-limits/index.html",
     "href": "chapters/memory-limits/index.html",
-    "title": "8  How Much Can It Hold",
+    "title": "9  How Much Can It Hold",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "The Limits of the Machine",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>How Much Can It Hold</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>How Much Can It Hold</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/quantum-alan/index.html",
+    "href": "chapters/quantum-alan/index.html",
+    "title": "10  Is Alan a Quantum Computer?",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Limits of the Machine",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Is Alan a Quantum Computer?</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/laplaces-demon/index.html",
+    "href": "chapters/laplaces-demon/index.html",
+    "title": "11  Laplace’s Demon",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Limits of the Machine",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Laplace's Demon</span>"
     ]
   },
   {
     "objectID": "chapters/black-holes/index.html",
     "href": "chapters/black-holes/index.html",
-    "title": "9  Black Holes and Information",
+    "title": "12  Black Holes and Information",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "The Limits of the Machine",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Black Holes and Information</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Black Holes and Information</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/inside-an-alan/index.html",
+    "href": "interludes/inside-an-alan/index.html",
+    "title": "Interlude: Are We Inside an Alan?",
+    "section": "",
+    "text": "This interlude has not been written yet.",
+    "crumbs": [
+      "The Limits of the Machine",
+      "Interlude: Are We Inside an Alan?"
     ]
   },
   {
     "objectID": "chapters/local-reversal/index.html",
     "href": "chapters/local-reversal/index.html",
-    "title": "10  Local Reversal",
+    "title": "13  Local Reversal",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "Reversing Entropy",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Local Reversal</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Local Reversal</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/life/index.html",
+    "href": "chapters/life/index.html",
+    "title": "14  Life: The Original Local Reversal",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "Reversing Entropy",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Life: The Original Local Reversal</span>"
     ]
   },
   {
     "objectID": "chapters/fluctuations-and-recurrence/index.html",
     "href": "chapters/fluctuations-and-recurrence/index.html",
-    "title": "11  Fluctuations and Recurrence",
+    "title": "15  Fluctuations and Recurrence",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "Reversing Entropy",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Fluctuations and Recurrence</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Fluctuations and Recurrence</span>"
     ]
   },
   {
     "objectID": "chapters/global-reversal/index.html",
     "href": "chapters/global-reversal/index.html",
-    "title": "12  Global Reversal",
+    "title": "16  Global Reversal",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "Reversing Entropy",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Global Reversal</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Global Reversal</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/would-you-remember/index.html",
+    "href": "interludes/would-you-remember/index.html",
+    "title": "Interlude: Would You Remember?",
+    "section": "",
+    "text": "This interlude has not been written yet.",
+    "crumbs": [
+      "Reversing Entropy",
+      "Interlude: Would You Remember?"
+    ]
+  },
+  {
+    "objectID": "chapters/what-time-is/index.html",
+    "href": "chapters/what-time-is/index.html",
+    "title": "17  What Time Is",
+    "section": "",
+    "text": "This chapter has not been written yet.",
+    "crumbs": [
+      "The Impact on Time",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>What Time Is</span>"
     ]
   },
   {
     "objectID": "chapters/time-backward/index.html",
     "href": "chapters/time-backward/index.html",
-    "title": "13  Would Time Run Backward",
+    "title": "18  Would Time Run Backward",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "The Impact on Time",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Would Time Run Backward</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Would Time Run Backward</span>"
     ]
   },
   {
     "objectID": "chapters/closed-timelike-curves/index.html",
     "href": "chapters/closed-timelike-curves/index.html",
-    "title": "14  Closed Timelike Curves",
+    "title": "19  Closed Timelike Curves",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "The Impact on Time",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Closed Timelike Curves</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Closed Timelike Curves</span>"
     ]
   },
   {
     "objectID": "chapters/end-of-the-universe/index.html",
     "href": "chapters/end-of-the-universe/index.html",
-    "title": "15  The End of the Universe",
+    "title": "20  The End of the Universe",
     "section": "",
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "The Impact on Time",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>The End of the Universe</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>The End of the Universe</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/can-alan-think/index.html",
+    "href": "interludes/can-alan-think/index.html",
+    "title": "Interlude: Can Alan Think?",
+    "section": "",
+    "text": "This interlude has not been written yet.",
+    "crumbs": [
+      "The Impact on Time",
+      "Interlude: Can Alan Think?"
     ]
   },
   {
@@ -192,6 +302,138 @@
     "text": "This chapter has not been written yet.",
     "crumbs": [
       "Epilogue: What Alan Cannot Do"
+    ]
+  },
+  {
+    "objectID": "building-alan/index.html",
+    "href": "building-alan/index.html",
+    "title": "About Building Alan",
+    "section": "",
+    "text": "Dossiers\nThe chapters ask what physics allows. This part asks a different question: how close does today’s technology come, and what would close the gap? The answer changes every year, so these pages are living documents. Each one has a review date, and every number in it carries the date it refers to and its source.\nEach dossier looks at one technology or one bottleneck and measures it against the same yardsticks:\nThese pages are written for engineers and researchers who design processors, memory, AI hardware and data centers, and for any reader who wants to know where real machines stand. The numbers behind them are published as data (see the data folder), so they can be reused and checked.\nThe same method, applied beyond computing, is Escape Velocity: an open atlas of what each technology still needs to reach maturity, from fusion to medicine, and of which technologies wait on which. Its entries on quantum computers, data movement, heat removal and the energy of AI inference link back to these dossiers.",
+    "crumbs": [
+      "Building Alan",
+      "About Building Alan"
+    ]
+  },
+  {
+    "objectID": "building-alan/index.html#dossiers",
+    "href": "building-alan/index.html#dossiers",
+    "title": "About Building Alan",
+    "section": "",
+    "text": "Dossier\nStatus\nLast reviewed\nReview due\n\n\n\n\nCMOS: The Baseline\nproposed\nnever\nnot reviewed yet\n\n\nThe Cost of Moving Data\nproposed\nnever\nnot reviewed yet\n\n\nGetting the Heat Out\nproposed\nnever\nnot reviewed yet\n\n\nAdiabatic and Reversible Logic\nproposed\nnever\nnot reviewed yet\n\n\nSuperconducting Logic\nproposed\nnever\nnot reviewed yet\n\n\nQuantum Hardware\nproposed\nnever\nnot reviewed yet\n\n\nThermodynamic and Probabilistic Computing\nproposed\nnever\nnot reviewed yet\n\n\nNeuromorphic Computing\nproposed\nnever\nnot reviewed yet\n\n\nOptical Computing\nproposed\nnever\nnot reviewed yet\n\n\nThe Energy of a Token\nproposed\nnever\nnot reviewed yet\n\n\n\n\n\n\n\n\nBekenstein, Jacob D. 1981. “Universal Upper Bound on the Entropy-to-Energy Ratio for Bounded Systems.” Physical Review D 23 (2): 287–98. https://doi.org/10.1103/physrevd.23.287.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, and Eric Lutz. 2012. “Experimental Verification of Landauer’s Principle Linking Information and Thermodynamics.” Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process.” IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate Physical Limits to Computation.” Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMargolus, Norman, and Lev B. Levitin. 1998. “The Maximum Speed of Dynamical Evolution.” Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.",
+    "crumbs": [
+      "Building Alan",
+      "About Building Alan"
+    ]
+  },
+  {
+    "objectID": "building-alan/cmos-baseline/index.html",
+    "href": "building-alan/cmos-baseline/index.html",
+    "title": "CMOS: The Baseline",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "CMOS: The Baseline"
+    ]
+  },
+  {
+    "objectID": "building-alan/data-movement/index.html",
+    "href": "building-alan/data-movement/index.html",
+    "title": "The Cost of Moving Data",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "The Cost of Moving Data"
+    ]
+  },
+  {
+    "objectID": "building-alan/heat-removal/index.html",
+    "href": "building-alan/heat-removal/index.html",
+    "title": "Getting the Heat Out",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "Getting the Heat Out"
+    ]
+  },
+  {
+    "objectID": "building-alan/reversible-logic/index.html",
+    "href": "building-alan/reversible-logic/index.html",
+    "title": "Adiabatic and Reversible Logic",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "Adiabatic and Reversible Logic"
+    ]
+  },
+  {
+    "objectID": "building-alan/superconducting-logic/index.html",
+    "href": "building-alan/superconducting-logic/index.html",
+    "title": "Superconducting Logic",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "Superconducting Logic"
+    ]
+  },
+  {
+    "objectID": "building-alan/quantum-hardware/index.html",
+    "href": "building-alan/quantum-hardware/index.html",
+    "title": "Quantum Hardware",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "Quantum Hardware"
+    ]
+  },
+  {
+    "objectID": "building-alan/thermodynamic-computing/index.html",
+    "href": "building-alan/thermodynamic-computing/index.html",
+    "title": "Thermodynamic and Probabilistic Computing",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "Thermodynamic and Probabilistic Computing"
+    ]
+  },
+  {
+    "objectID": "building-alan/neuromorphic-computing/index.html",
+    "href": "building-alan/neuromorphic-computing/index.html",
+    "title": "Neuromorphic Computing",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "Neuromorphic Computing"
+    ]
+  },
+  {
+    "objectID": "building-alan/optical-computing/index.html",
+    "href": "building-alan/optical-computing/index.html",
+    "title": "Optical Computing",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "Optical Computing"
+    ]
+  },
+  {
+    "objectID": "building-alan/energy-per-token/index.html",
+    "href": "building-alan/energy-per-token/index.html",
+    "title": "The Energy of a Token",
+    "section": "",
+    "text": "This dossier has not been written yet.",
+    "crumbs": [
+      "Building Alan",
+      "The Energy of a Token"
     ]
   },
   {
@@ -206,36 +448,123 @@
     ]
   },
   {
-    "objectID": "appendices/glossary.html",
-    "href": "appendices/glossary.html",
-    "title": "Appendix A — Glossary",
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
     "section": "",
-    "text": "This appendix has not been written yet.",
+    "text": "Bekenstein, Jacob D. 1981. “Universal Upper Bound on the\nEntropy-to-Energy Ratio for Bounded Systems.” Physical Review\nD 23 (2): 287–98. https://doi.org/10.1103/physrevd.23.287.\n\n\nBennett, C. H. 1973. “Logical Reversibility of\nComputation.” IBM Journal of Research and Development 17\n(6): 525–32. https://doi.org/10.1147/rd.176.0525.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto,\nRaoul Dillenschneider, and Eric Lutz. 2012. “Experimental\nVerification of Landauer’s Principle Linking Information and\nThermodynamics.” Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the\nComputing Process.” IBM Journal of Research and\nDevelopment 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate Physical Limits to\nComputation.” Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMargolus, Norman, and Lev B. Levitin. 1998. “The Maximum Speed of\nDynamical Evolution.” Physica D: Nonlinear Phenomena 120\n(1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.\n\n\nTuring, A. M. 1937. “On Computable Numbers, with an Application to\nthe Entscheidungsproblem.” Proceedings of the London\nMathematical Society s2-42 (1): 230–65. https://doi.org/10.1112/plms/s2-42.1.230.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html",
+    "href": "appendices/concepts.html",
+    "title": "Appendix A — Concepts",
+    "section": "",
+    "text": "Arrow of time\nEvery technical term the book uses, in plain language. Each entry lists the pages that use it.\nThe difference between past and future that we observe in everyday life: eggs break but do not unbreak, and we remember yesterday but not tomorrow. It stands out because the fundamental laws of physics barely distinguish between the two directions of time.\nRelated: Entropy, Second law of thermodynamics",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Glossary</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-bit",
+    "href": "appendices/concepts.html#sec-concept-bit",
+    "title": "Appendix A — Concepts",
+    "section": "Bit",
+    "text": "Bit\nThe basic unit of information: the answer to one yes-or-no question. A memory that can hold one of two states, such as 0 or 1, stores one bit.\nRelated: Landauer’s principle, Entropy",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-entropy",
+    "href": "appendices/concepts.html#sec-concept-entropy",
+    "title": "Appendix A — Concepts",
+    "section": "Entropy",
+    "text": "Entropy\nA measure of how many microscopic arrangements of a system are compatible with what we observe at large scale. The more ways the parts can be arranged without changing how the whole looks, the higher the entropy.\nRelated: Second law of thermodynamics, Arrow of time, Bit",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-landauer-principle",
+    "href": "appendices/concepts.html#sec-concept-landauer-principle",
+    "title": "Appendix A — Concepts",
+    "section": "Landauer’s principle",
+    "text": "Landauer’s principle\nErasing one bit of information in surroundings at temperature \\(T\\) releases at least \\(k_B T \\ln 2\\) of heat. Forgetting has a minimum physical cost. The bound was proposed by Rolf Landauer in 1961 and confirmed experimentally in 2012.\nRelated: Bit, Reversible computing, Maxwell’s demon\nReferences: (Landauer 1961; Bérut et al. 2012)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-maxwells-demon",
+    "href": "appendices/concepts.html#sec-concept-maxwells-demon",
+    "title": "Appendix A — Concepts",
+    "section": "Maxwell’s demon",
+    "text": "Maxwell’s demon\nA thought experiment devised by James Clerk Maxwell in 1867: a tiny being opens and closes a door between two boxes of gas, letting fast molecules go one way and slow ones the other. It seems to lower entropy for free. The accepted resolution is that the demon must record what it sees, and erasing that record eventually pays the entropy back.\nRelated: Second law of thermodynamics, Landauer’s principle",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-reversible-computing",
+    "href": "appendices/concepts.html#sec-concept-reversible-computing",
+    "title": "Appendix A — Concepts",
+    "section": "Reversible computing",
+    "text": "Reversible computing\nComputing without erasing information, so that every step can be run backward. Because nothing is erased, Landauer’s principle sets no minimum energy cost per operation: in principle, a reversible computer running slowly enough can dissipate as little energy as we like.\nRelated: Landauer’s principle, Bit\nReferences: (Bennett 1973)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-second-law",
+    "href": "appendices/concepts.html#sec-concept-second-law",
+    "title": "Appendix A — Concepts",
+    "section": "Second law of thermodynamics",
+    "text": "Second law of thermodynamics\nIn an isolated system, entropy does not decrease over time. It is a statistical law: a decrease is not forbidden, only overwhelmingly unlikely for systems with many parts.\nRelated: Entropy, Arrow of time, Maxwell’s demon",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Concepts</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-turing-machine",
+    "href": "appendices/concepts.html#sec-concept-turing-machine",
+    "title": "Appendix A — Concepts",
+    "section": "Turing machine",
+    "text": "Turing machine\nAn abstract model of computation introduced by Alan Turing in 1936: a machine that reads and writes symbols on an unlimited tape, following a finite table of rules. Anything a modern computer can compute, a Turing machine can compute too, given enough time and tape.\nRelated: Bit\nReferences: (Turing 1937)\n\n\n\n\nBennett, C. H. 1973. “Logical Reversibility of Computation.” IBM Journal of Research and Development 17 (6): 525–32. https://doi.org/10.1147/rd.176.0525.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, and Eric Lutz. 2012. “Experimental Verification of Landauer’s Principle Linking Information and Thermodynamics.” Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process.” IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nTuring, A. M. 1937. “On Computable Numbers, with an Application to the Entscheidungsproblem.” Proceedings of the London Mathematical Society s2-42 (1): 230–65. https://doi.org/10.1112/plms/s2-42.1.230.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Concepts</span>"
     ]
   },
   {
     "objectID": "appendices/notation.html",
     "href": "appendices/notation.html",
-    "title": "Appendix B — Notation and Units",
+    "title": "Appendix B — Notation",
     "section": "",
-    "text": "This appendix has not been written yet.",
+    "text": "Every symbol keeps the same meaning across the whole book.\n\n\n\nSymbol\nMeaning\nUnit\n\n\n\n\n\\(k_B\\)\nBoltzmann constant\n\\(\\mathrm{J\\,K^{-1}}\\)\n\n\n\\(T\\)\nAbsolute temperature\n\\(\\mathrm{K}\\)\n\n\n\\(S\\)\nEntropy\n\\(\\mathrm{J\\,K^{-1}}\\)\n\n\n\\(E\\)\nEnergy\n\\(\\mathrm{J}\\)\n\n\n\\(\\hbar\\)\nReduced Planck constant, \\(h / 2\\pi\\)\n\\(\\mathrm{J\\,s}\\)\n\n\n\\(c\\)\nSpeed of light in vacuum\n\\(\\mathrm{m\\,s^{-1}}\\)",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Notation and Units</span>"
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Notation</span>"
     ]
   },
   {
     "objectID": "appendices/constants.html",
     "href": "appendices/constants.html",
-    "title": "Appendix C — Physical Constants",
+    "title": "Appendix C — Constants",
     "section": "",
-    "text": "This appendix has not been written yet.",
+    "text": "Values from the 2019 revision of the SI, where the constant is exact by definition, and from CODATA otherwise.\n\n\n\n\n\n\n\n\n\n\n\nConstant\nSymbol\nValue\nUnit\nStandard uncertainty\nSource\n\n\n\n\nSpeed of light in vacuum\n\\(c\\)\n\\(299792458\\)\n\\(\\mathrm{m\\,s^{-1}}\\)\nexact\nSI (2019), exact by definition\n\n\nPlanck constant\n\\(h\\)\n\\(6.62607015 \\times 10^{-34}\\)\n\\(\\mathrm{J\\,s}\\)\nexact\nSI (2019), exact by definition\n\n\nReduced Planck constant\n\\(\\hbar\\)\n\\(1.054571817 \\times 10^{-34}\\)\n\\(\\mathrm{J\\,s}\\)\nexact\nh / 2 pi, exact; value truncated to 10 significant digits\n\n\nBoltzmann constant\n\\(k_B\\)\n\\(1.380649 \\times 10^{-23}\\)\n\\(\\mathrm{J\\,K^{-1}}\\)\nexact\nSI (2019), exact by definition\n\n\nNewtonian constant of gravitation\n\\(G\\)\n\\(6.67430 \\times 10^{-11}\\)\n\\(\\mathrm{m^3\\,kg^{-1}\\,s^{-2}}\\)\n\\(1.5 \\times 10^{-15}\\)\nCODATA 2018",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Physical Constants</span>"
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Constants</span>"
     ]
   },
   {
