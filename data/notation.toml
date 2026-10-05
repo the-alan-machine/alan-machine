@@ -12,7 +12,7 @@ unit = '$\mathrm{J\,K^{-1}}$'
 [[symbol]]
 id = "temperature"
 symbol = '$T$'
-meaning = "Absolute temperature"
+meaning = "Thermodynamic temperature"
 unit = '$\mathrm{K}$'
 
 [[symbol]]
