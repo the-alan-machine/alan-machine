@@ -44,15 +44,35 @@ related = ["entropy", "second-law"]
 references = []
 
 [[concept]]
+id = "poincare-recurrence"
+term = "Poincaré recurrence"
+short = "A finite system comes back arbitrarily close to where it started, given a very long time."
+definition = """
+A theorem of Henri Poincaré: any finite system comes arbitrarily close to its initial state after
+some very long but finite time. Taken statistically it is not a paradox, but it seems to violate the
+second law of thermodynamics, since the entropy of a gas would in time return near its starting
+value. The theorem leaves gravity out; with gravity, colliding particles can form black holes, which
+can quench the recurrence or change how long it takes.
+"""
+related = ["second-law", "entropy", "arrow-of-time"]
+references = ["dong2016gravity"]
+
+[[concept]]
 id = "bit"
 term = "Bit"
-short = "The unit of information: learning which of two equally likely answers is true."
+short = "A binary digit, and the usual name of the unit of information, the shannon."
 definition = """
-The unit of information. Learning which of two equally likely answers is the true one gives one
-bit; an answer that could be predicted gives less, and a certain one gives none. A memory that can
-hold one of two states, such as 0 or 1, can store one bit, and ten such memories ten bits. Claude
-Shannon set out the measure in 1948: the logarithm to base 2 of the number of equally likely
-possibilities.
+The word has two meanings that are kept apart. A bit is a binary digit: one place in a memory or a
+message that holds 0 or 1, so ten such places hold ten bits. It is also the everyday name of the
+unit of information, whose own name is the shannon (symbol Sh). Learning which of two equally likely
+answers is the true one gives one shannon; an answer that could be predicted gives less, and a
+certain one gives none. So ten binary digits carry at most ten shannons, and exactly ten only when
+every sequence is equally likely. Claude Shannon set out the measure in 1948: the logarithm to base
+2 of the number of equally likely possibilities. Taken with the natural logarithm instead, the same
+information is measured in nats, and one shannon is $\\ln 2$ nat, about 0.693 nat. The shannon is
+the unit named in the standard IEC 80000-13:2025. Entropy in thermodynamics is $k_B$ times the
+information in nats, which is why Landauer's bound for erasing one bit, $k_B T \\ln 2$, carries the
+factor $\\ln 2$: it converts one shannon into nats.
 """
 related = ["landauer-principle", "entropy"]
 references = ["shannon1948mathematical"]
@@ -99,6 +119,21 @@ related = ["second-law", "landauer-principle"]
 references = []
 
 [[concept]]
+id = "szilard-engine"
+term = "Szilard engine"
+short = "Maxwell's demon reduced to one molecule in a box."
+definition = """
+The simplest case of Maxwell's demon, studied by Leo Szilard in 1929: a box holding a single
+molecule, in thermal contact with a heat bath, and a partition that can be inserted and can slide
+along the box. With the partition inserted, the molecule pushes on it; if it moves the way it is
+pushed, it can lift a weight, and the most work this extracts is $k_B T \\ln 2$, drawn from the
+heat bath alone. Szilard argued that the second law is saved if the demon's acquisition of
+knowledge, which side the molecule is on, comes with a compensating entropy cost.
+"""
+related = ["maxwells-demon", "landauer-principle", "second-law"]
+references = ["maroney2009information"]
+
+[[concept]]
 id = "turing-machine"
 term = "Turing machine"
 short = "Turing's 1936 model of what it means to compute."
@@ -124,3 +159,19 @@ given energy can take.
 """
 related = ["bit", "reversible-computing"]
 references = ["mandelstam1991uncertainty", "margolus1998maximum", "lloyd2000ultimate"]
+
+[[concept]]
+id = "closed-timelike-curve"
+term = "Closed timelike curve"
+short = "A path through spacetime that returns to its own past."
+definition = """
+A path through spacetime that returns to its own past. Such curves are not known to exist, but
+studying them has taught something about general relativity and quantum information. Following
+David Deutsch, a closed timelike curve is treated as a region of spacetime where nature must produce
+a consistent outcome: a fixed point of whatever process runs around the loop. Aaronson and Watrous
+showed in 2008 that, if such curves existed, quantum computers would be no more powerful than
+classical ones: both could solve exactly the problems that need a polynomial amount of memory
+(PSPACE).
+"""
+related = ["arrow-of-time"]
+references = ["deutsch1991quantum", "aaronson2008closed"]
