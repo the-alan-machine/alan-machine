@@ -96,6 +96,9 @@ execute:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
+    respect-user-color-scheme: true
   pdf:
     documentclass: scrreprt

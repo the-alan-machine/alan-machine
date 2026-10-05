@@ -25,6 +25,7 @@ Alan, used as a thought experiment about reversing entropy and what that would m
 | `skills/` | Agent skills for contributors |
 | `docs/decisions/` | Why the project is the way it is |
 | `_quarto.yml` | Page order and book configuration |
+| `theme-dark.scss` | The dark theme of the HTML edition, layered on Cosmo; the reader's system setting picks it, and a toggle switches it |
 
 ## Rules that are easy to break
 
