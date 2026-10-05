@@ -714,6 +714,7 @@ window.Quarto = {
   <li><a href="#sec-concept-entropy" id="toc-sec-concept-entropy" class="nav-link" data-scroll-target="#sec-concept-entropy">Entropy</a></li>
   <li><a href="#sec-concept-landauer-principle" id="toc-sec-concept-landauer-principle" class="nav-link" data-scroll-target="#sec-concept-landauer-principle">Landauer’s principle</a></li>
   <li><a href="#sec-concept-maxwells-demon" id="toc-sec-concept-maxwells-demon" class="nav-link" data-scroll-target="#sec-concept-maxwells-demon">Maxwell’s demon</a></li>
+  <li><a href="#sec-concept-quantum-speed-limit" id="toc-sec-concept-quantum-speed-limit" class="nav-link" data-scroll-target="#sec-concept-quantum-speed-limit">Quantum speed limit</a></li>
   <li><a href="#sec-concept-reversible-computing" id="toc-sec-concept-reversible-computing" class="nav-link" data-scroll-target="#sec-concept-reversible-computing">Reversible computing</a></li>
   <li><a href="#sec-concept-second-law" id="toc-sec-concept-second-law" class="nav-link" data-scroll-target="#sec-concept-second-law">Second law of thermodynamics</a></li>
   <li><a href="#sec-concept-turing-machine" id="toc-sec-concept-turing-machine" class="nav-link" data-scroll-target="#sec-concept-turing-machine">Turing machine</a></li>
@@ -752,12 +753,13 @@ window.Quarto = {
 </section>
 <section id="sec-concept-bit" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-bit">Bit</h2>
-<p>The basic unit of information: the answer to one yes-or-no question. A memory that can hold one of two states, such as 0 or 1, stores one bit.</p>
+<p>The unit of information. Learning which of two equally likely answers is the true one gives one bit; an answer that could be predicted gives less, and a certain one gives none. A memory that can hold one of two states, such as 0 or 1, can store one bit, and ten such memories ten bits. Claude Shannon set out the measure in 1948: the logarithm to base 2 of the number of equally likely possibilities.</p>
 <p><strong>Related:</strong> <a href="#sec-concept-landauer-principle">Landauer’s principle</a>, <a href="#sec-concept-entropy">Entropy</a></p>
+<p><strong>References:</strong> <span class="citation" data-cites="shannon1948mathematical">(<a href="../references.html#ref-shannon1948mathematical" role="doc-biblioref">Shannon 1948</a>)</span></p>
 </section>
 <section id="sec-concept-entropy" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-entropy">Entropy</h2>
-<p>A measure of how many microscopic arrangements of a system are compatible with what we observe at large scale. The more ways the parts can be arranged without changing how the whole looks, the higher the entropy.</p>
+<p>A measure of how many microscopic arrangements of a system (its microstates) are compatible with what we observe at large scale (its macrostate). The more ways the parts can be arranged without changing how the whole looks, the higher the entropy. It grows with the logarithm of that number: the entropy is <span class="math inline">\(k_B\)</span> times its natural logarithm, so doubling the number of arrangements adds <span class="math inline">\(k_B \ln 2\)</span>, however large the system. Thermodynamics measures the same quantity through heat: heat taken in reversibly at temperature <span class="math inline">\(T\)</span>, divided by <span class="math inline">\(T\)</span>, is the change in entropy.</p>
 <p><strong>Related:</strong> <a href="#sec-concept-second-law">Second law of thermodynamics</a>, <a href="#sec-concept-arrow-of-time">Arrow of time</a>, <a href="#sec-concept-bit">Bit</a></p>
 </section>
 <section id="sec-concept-landauer-principle" class="level2 unnumbered">
@@ -771,9 +773,15 @@ window.Quarto = {
 <p>A thought experiment devised by James Clerk Maxwell in 1867: a tiny being opens and closes a door between two boxes of gas, letting fast molecules go one way and slow ones the other. It seems to lower entropy for free. The accepted resolution is that the demon must record what it sees, and erasing that record eventually pays the entropy back.</p>
 <p><strong>Related:</strong> <a href="#sec-concept-second-law">Second law of thermodynamics</a>, <a href="#sec-concept-landauer-principle">Landauer’s principle</a></p>
 </section>
+<section id="sec-concept-quantum-speed-limit" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="sec-concept-quantum-speed-limit">Quantum speed limit</h2>
+<p>The shortest time in which a quantum system can evolve into a state fully distinguishable from the one it started in. Leonid Mandelstam and Igor Tamm bounded it by the spread of the system’s energy; Norman Margolus and Lev Levitin, in 1998, by its average energy above the lowest possible: the time is at least <span class="math inline">\(\pi\hbar / 2E\)</span>, with <span class="math inline">\(E\)</span> measured from the ground state. Each step of a computation has to reach a distinguishable state, so the limit caps how many steps per second a computer with a given energy can take.</p>
+<p><strong>Related:</strong> <a href="#sec-concept-bit">Bit</a>, <a href="#sec-concept-reversible-computing">Reversible computing</a></p>
+<p><strong>References:</strong> <span class="citation" data-cites="mandelstam1991uncertainty margolus1998maximum lloyd2000ultimate">(<a href="../references.html#ref-mandelstam1991uncertainty" role="doc-biblioref">Mandelstam and Tamm 1991</a>; <a href="../references.html#ref-margolus1998maximum" role="doc-biblioref">Margolus and Levitin 1998</a>; <a href="../references.html#ref-lloyd2000ultimate" role="doc-biblioref">Lloyd 2000</a>)</span></p>
+</section>
 <section id="sec-concept-reversible-computing" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="sec-concept-reversible-computing">Reversible computing</h2>
-<p>Computing without erasing information, so that every step can be run backward. Because nothing is erased, Landauer’s principle sets no minimum energy cost per operation: in principle, a reversible computer running slowly enough can dissipate as little energy as we like.</p>
+<p>Computing without erasing information, so that every step can be run backward. Two meanings are kept apart. A computation is logically reversible when each state has only one possible predecessor, so the input can be recovered from the output; Charles Bennett showed in 1973 that a general-purpose computer can be made logically reversible at every step. It is thermodynamically reversible when it produces no entropy, a limit a real device approaches only by running ever more slowly. Logical reversibility removes the minimum cost that Landauer’s principle sets on erasure; it does not by itself remove the rest of the dissipation.</p>
 <p><strong>Related:</strong> <a href="#sec-concept-landauer-principle">Landauer’s principle</a>, <a href="#sec-concept-bit">Bit</a></p>
 <p><strong>References:</strong> <span class="citation" data-cites="bennett1973logical">(<a href="../references.html#ref-bennett1973logical" role="doc-biblioref">Bennett 1973</a>)</span></p>
 </section>
@@ -798,6 +806,18 @@ Bérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dill
 </div>
 <div id="ref-landauer1961irreversibility" class="csl-entry" role="listitem">
 Landauer, R. 1961. <span>“Irreversibility and Heat Generation in the Computing Process.”</span> <em>IBM Journal of Research and Development</em> 5 (3): 183–91. <a href="https://doi.org/10.1147/rd.53.0183">https://doi.org/10.1147/rd.53.0183</a>.
+</div>
+<div id="ref-lloyd2000ultimate" class="csl-entry" role="listitem">
+Lloyd, Seth. 2000. <span>“Ultimate Physical Limits to Computation.”</span> <em>Nature</em> 406 (6799): 1047–54. <a href="https://doi.org/10.1038/35023282">https://doi.org/10.1038/35023282</a>.
+</div>
+<div id="ref-mandelstam1991uncertainty" class="csl-entry" role="listitem">
+Mandelstam, L., and Ig. Tamm. 1991. <span>“The Uncertainty Relation Between Energy and Time in Non-Relativistic Quantum Mechanics.”</span> In <em>Selected Papers</em>. Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-642-74626-0_8">https://doi.org/10.1007/978-3-642-74626-0_8</a>.
+</div>
+<div id="ref-margolus1998maximum" class="csl-entry" role="listitem">
+Margolus, Norman, and Lev B. Levitin. 1998. <span>“The Maximum Speed of Dynamical Evolution.”</span> <em>Physica D: Nonlinear Phenomena</em> 120 (1-2): 188–95. <a href="https://doi.org/10.1016/s0167-2789(98)00054-2">https://doi.org/10.1016/s0167-2789(98)00054-2</a>.
+</div>
+<div id="ref-shannon1948mathematical" class="csl-entry" role="listitem">
+Shannon, C. E. 1948. <span>“A Mathematical Theory of Communication.”</span> <em>Bell System Technical Journal</em> 27 (3): 379–423. <a href="https://doi.org/10.1002/j.1538-7305.1948.tb01338.x">https://doi.org/10.1002/j.1538-7305.1948.tb01338.x</a>.
 </div>
 <div id="ref-turing1937computable" class="csl-entry" role="listitem">
 Turing, A. M. 1937. <span>“On Computable Numbers, with an Application to the Entscheidungsproblem.”</span> <em>Proceedings of the London Mathematical Society</em> s2-42 (1): 230–65. <a href="https://doi.org/10.1112/plms/s2-42.1.230">https://doi.org/10.1112/plms/s2-42.1.230</a>.
