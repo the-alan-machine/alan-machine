@@ -3,6 +3,8 @@
 #
 # Fields: id, name, symbol (LaTeX), value (number), unit (LaTeX), exact (true for the constants
 # fixed by the 2019 SI), uncertainty (standard uncertainty, same unit; omit when exact), source.
+# "Standard uncertainty" is used as defined in the GUM, JCGM 100:2008, Evaluation of measurement data,
+# Guide to the expression of uncertainty in measurement: https://www.bipm.org/en/doi/10.59161/jcgm100-2008e
 
 [[constant]]
 id = "speed-of-light"

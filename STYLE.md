@@ -86,7 +86,12 @@ are often this new, and it says so in words. The span lets tools and AI models t
 [A 2025 preprint reports about 1 fJ per operation at 4 K [@source].]{.reported}
 ```
 
-It becomes established once the work is peer-reviewed or independently measured.
+It becomes established once the work is peer-reviewed or independently measured. Name the
+version of an article with the terms of NISO RP-8-2008, Journal Article Versions
+(https://niso.org/publications/niso-rp-8-2008-jav): a preprint may be the Author's Original, the
+Submitted Manuscript Under Review or the Accepted Manuscript (the version accepted for
+publication), and the Version of Record is the one the publisher declares published. When a
+preprint is published, cite the Version of Record.
 
 Narrative, analogies and questions are not claims and need no label. Optional math goes in a
 collapsed box:
@@ -119,7 +124,9 @@ context. Write every section so that it makes sense alone.
 ## Language and numbers
 
 - American English spelling.
-- SI units throughout.
+- SI units throughout, written as the [SI Brochure](https://www.bipm.org/en/si-brochure-9) (BIPM,
+  9th edition, 2019, version 4.01 of June 2026) says: a space between the number and the unit, the
+  digits of long numbers grouped in threes by a space, and a comma or a point as the decimal sign.
 - Scientific notation for very large or very small quantities: $6.626 \times 10^{-34}$ J s.
 
 ## Math and notation
