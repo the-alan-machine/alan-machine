@@ -1,10 +1,10 @@
 ---
 title: "Would Time Run Backward"
-url: "https://the-alan-machine.github.io/alan-machine/chapters/time-backward/index.html"
+url: "https://the-alan-machine.github.io/the-alan-machine/chapters/time-backward/index.html"
 kind: "chapter"
 part: "The Impact on Time"
 status: "proposed"
-source: "https://github.com/the-alan-machine/alan-machine/blob/main/chapters/time-backward/index.qmd"
+source: "https://github.com/the-alan-machine/the-alan-machine/blob/main/chapters/time-backward/index.qmd"
 license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
 ---
 

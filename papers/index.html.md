@@ -1,9 +1,9 @@
 ---
 title: "About the Papers"
-url: "https://the-alan-machine.github.io/alan-machine/papers/index.html"
+url: "https://the-alan-machine.github.io/the-alan-machine/papers/index.html"
 kind: "section"
 part: "Papers"
-source: "https://github.com/the-alan-machine/alan-machine/blob/main/papers/index.qmd"
+source: "https://github.com/the-alan-machine/the-alan-machine/blob/main/papers/index.qmd"
 license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
 ---
 

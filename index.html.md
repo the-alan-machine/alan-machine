@@ -1,8 +1,8 @@
 ---
 title: "Preface"
-url: "https://the-alan-machine.github.io/alan-machine/index.html"
+url: "https://the-alan-machine.github.io/the-alan-machine/index.html"
 kind: "front"
-source: "https://github.com/the-alan-machine/alan-machine/blob/main/index.qmd"
+source: "https://github.com/the-alan-machine/the-alan-machine/blob/main/index.qmd"
 license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
 ---
 

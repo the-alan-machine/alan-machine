@@ -1,1 +1,1 @@
-Sitemap: https://the-alan-machine.github.io/alan-machine/sitemap.xml
+Sitemap: https://the-alan-machine.github.io/the-alan-machine/sitemap.xml

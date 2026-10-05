@@ -1,9 +1,9 @@
 ---
 title: "About Building Alan"
-url: "https://the-alan-machine.github.io/alan-machine/building-alan/index.html"
+url: "https://the-alan-machine.github.io/the-alan-machine/building-alan/index.html"
 kind: "section"
 part: "Building Alan"
-source: "https://github.com/the-alan-machine/alan-machine/blob/main/building-alan/index.qmd"
+source: "https://github.com/the-alan-machine/the-alan-machine/blob/main/building-alan/index.qmd"
 license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
 ---
 
@@ -28,7 +28,7 @@ Each dossier looks at one technology or one bottleneck and measures it against t
 
 These pages are written for engineers and researchers who design processors, memory, AI hardware
 and data centers, and for any reader who wants to know where real machines stand. The numbers
-behind them are published as data (see [the data folder](https://github.com/the-alan-machine/alan-machine/tree/main/data)),
+behind them are published as data (see [the data folder](https://github.com/the-alan-machine/the-alan-machine/tree/main/data)),
 so they can be reused and checked.
 
 The same method, applied beyond computing, is
@@ -42,13 +42,13 @@ inference link back to these dossiers.
 
 | Dossier | Status | Last reviewed | Review due | Curators |
 |---|---|---|---|---|
-| [CMOS: The Baseline](https://the-alan-machine.github.io/alan-machine/building-alan/cmos-baseline/index.html) | proposed | never | not reviewed yet | none yet |
-| [The Cost of Moving Data](https://the-alan-machine.github.io/alan-machine/building-alan/data-movement/index.html) | proposed | never | not reviewed yet | none yet |
-| [Getting the Heat Out](https://the-alan-machine.github.io/alan-machine/building-alan/heat-removal/index.html) | proposed | never | not reviewed yet | none yet |
-| [Adiabatic and Reversible Logic](https://the-alan-machine.github.io/alan-machine/building-alan/reversible-logic/index.html) | proposed | never | not reviewed yet | none yet |
-| [Superconducting Logic](https://the-alan-machine.github.io/alan-machine/building-alan/superconducting-logic/index.html) | proposed | never | not reviewed yet | none yet |
-| [Quantum Hardware](https://the-alan-machine.github.io/alan-machine/building-alan/quantum-hardware/index.html) | proposed | never | not reviewed yet | none yet |
-| [Thermodynamic and Probabilistic Computing](https://the-alan-machine.github.io/alan-machine/building-alan/thermodynamic-computing/index.html) | proposed | never | not reviewed yet | none yet |
-| [Neuromorphic Computing](https://the-alan-machine.github.io/alan-machine/building-alan/neuromorphic-computing/index.html) | proposed | never | not reviewed yet | none yet |
-| [Optical Computing](https://the-alan-machine.github.io/alan-machine/building-alan/optical-computing/index.html) | proposed | never | not reviewed yet | none yet |
-| [The Energy of a Token](https://the-alan-machine.github.io/alan-machine/building-alan/energy-per-token/index.html) | proposed | never | not reviewed yet | none yet |
+| [CMOS: The Baseline](https://the-alan-machine.github.io/the-alan-machine/building-alan/cmos-baseline/index.html) | proposed | never | not reviewed yet | none yet |
+| [The Cost of Moving Data](https://the-alan-machine.github.io/the-alan-machine/building-alan/data-movement/index.html) | proposed | never | not reviewed yet | none yet |
+| [Getting the Heat Out](https://the-alan-machine.github.io/the-alan-machine/building-alan/heat-removal/index.html) | proposed | never | not reviewed yet | none yet |
+| [Adiabatic and Reversible Logic](https://the-alan-machine.github.io/the-alan-machine/building-alan/reversible-logic/index.html) | proposed | never | not reviewed yet | none yet |
+| [Superconducting Logic](https://the-alan-machine.github.io/the-alan-machine/building-alan/superconducting-logic/index.html) | proposed | never | not reviewed yet | none yet |
+| [Quantum Hardware](https://the-alan-machine.github.io/the-alan-machine/building-alan/quantum-hardware/index.html) | proposed | never | not reviewed yet | none yet |
+| [Thermodynamic and Probabilistic Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/thermodynamic-computing/index.html) | proposed | never | not reviewed yet | none yet |
+| [Neuromorphic Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/neuromorphic-computing/index.html) | proposed | never | not reviewed yet | none yet |
+| [Optical Computing](https://the-alan-machine.github.io/the-alan-machine/building-alan/optical-computing/index.html) | proposed | never | not reviewed yet | none yet |
+| [The Energy of a Token](https://the-alan-machine.github.io/the-alan-machine/building-alan/energy-per-token/index.html) | proposed | never | not reviewed yet | none yet |
