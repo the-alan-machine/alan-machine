@@ -21,11 +21,12 @@ book:
   site-url: https://the-alan-machine.github.io/alan-machine/
   repo-url: https://github.com/the-alan-machine/alan-machine
   repo-actions: [edit, issue]
-  tools:
-    - icon: diagram-3
-      href: https://scape-velocity.github.io/escape-velocity/
-      text: "Escape Velocity, the technology atlas"
-      aria-label: "Escape Velocity, the technology atlas"
+  sidebar:
+    tools:
+      - icon: diagram-3
+        href: https://scape-velocity.github.io/escape-velocity/
+        text: "Escape Velocity, the technology atlas"
+        aria-label: "Escape Velocity, the technology atlas"
   chapters:
     - index.qmd
     - part: "The Machine and the Question"
