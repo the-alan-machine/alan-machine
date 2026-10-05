@@ -7,7 +7,7 @@ authors:
     family-names: "Costa Silva"
     orcid: "https://orcid.org/0009-0001-5508-944X"
 license: CC-BY-4.0
-repository-code: "https://github.com/the-alan-machine/alan-machine"
+repository-code: "https://github.com/the-alan-machine/the-alan-machine"
 preferred-citation:
   type: book
   title: "The Alan Machine"

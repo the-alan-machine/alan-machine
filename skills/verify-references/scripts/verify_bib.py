@@ -18,7 +18,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-USER_AGENT = "alan-machine-verify-bib/1.0 (https://github.com/the-alan-machine/alan-machine)"
+USER_AGENT = "the-alan-machine-verify-bib/1.0 (https://github.com/the-alan-machine/the-alan-machine)"
 
 LATEX_ACCENTS = {"'": "\u0301", "`": "\u0300", "^": "\u0302", '"': "\u0308", "~": "\u0303", "c": "\u0327"}
 

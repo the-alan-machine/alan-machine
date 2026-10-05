@@ -12,7 +12,7 @@ reasons are in [decision 0011](docs/decisions/0011-moderators-and-the-moderation
 | Curator | Single pages: a chapter, an interlude, a dossier or a paper. | `curators` in the page's front matter |
 
 People are listed by GitHub handle, without @. The lists change only through pull requests. The
-names appear in the book, in the [Moderators and Curators](https://the-alan-machine.github.io/alan-machine/appendices/people.html)
+names appear in the book, in the [Moderators and Curators](https://the-alan-machine.github.io/the-alan-machine/appendices/people.html)
 appendix, and the dossier table shows each dossier's curators.
 
 Moderators and curators do not need write access. A maintainer gives them the triage role, so

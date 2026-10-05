@@ -3,7 +3,7 @@
 An open-source book about a hypothetical supercomputer named Alan, and what theoretical physics
 says about reversing entropy and what that would mean for time.
 
-Read it online: https://the-alan-machine.github.io/alan-machine/
+Read it online: https://the-alan-machine.github.io/the-alan-machine/
 
 ## Premise
 
@@ -71,9 +71,9 @@ Every statement in the book is one of four kinds, and the reader can always tell
 
 The book is written to be read by people and by machines.
 
-- https://the-alan-machine.github.io/alan-machine/llms.txt is an index of the book for language
+- https://the-alan-machine.github.io/the-alan-machine/llms.txt is an index of the book for language
   models, with the reading rules.
-- https://the-alan-machine.github.io/alan-machine/llms-full.txt is the whole book in one Markdown
+- https://the-alan-machine.github.io/the-alan-machine/llms-full.txt is the whole book in one Markdown
   file.
 - Every page has a Markdown version at the same address plus `.md`, for example
   `chapters/landauer/index.html.md`.

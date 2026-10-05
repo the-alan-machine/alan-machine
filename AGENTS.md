@@ -84,4 +84,4 @@ quarto render --to html     # when Quarto is installed
 
 To answer questions about the book rather than edit it, use the published exports: `llms.txt`,
 `llms-full.txt` and the per-page Markdown at
-https://the-alan-machine.github.io/alan-machine/. Keep the kind of each claim when you quote it.
+https://the-alan-machine.github.io/the-alan-machine/. Keep the kind of each claim when you quote it.

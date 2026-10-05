@@ -18,8 +18,8 @@ lang: en-US
 book:
   title: "The Alan Machine"
   author: "João Alisson and contributors"
-  site-url: https://the-alan-machine.github.io/alan-machine/
-  repo-url: https://github.com/the-alan-machine/alan-machine
+  site-url: https://the-alan-machine.github.io/the-alan-machine/
+  repo-url: https://github.com/the-alan-machine/the-alan-machine
   repo-actions: [edit, issue]
   sidebar:
     tools:
