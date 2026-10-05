@@ -2,8 +2,10 @@
 
     python3 skills/verify-references/scripts/verify_bib.py [key ...]
 
-Checks title, year and first author's family name. Exits with 1 on any mismatch or lookup error.
-Uses only the Python standard library.
+Checks title, year and first author's family name, and asks Crossref for notices that update the
+work (Crossref carries the Retraction Watch database). A retraction, withdrawal or removal is a
+failure; any other notice (correction, erratum, expression of concern) is printed as a warning.
+Exits with 1 on any mismatch, retraction or lookup error. Uses only the Python standard library.
 """
 
 from __future__ import annotations
@@ -11,6 +13,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import time
 import unicodedata
 import urllib.error
 import urllib.parse
@@ -19,6 +22,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 USER_AGENT = "the-alan-machine-verify-bib/1.0 (https://github.com/the-alan-machine/the-alan-machine)"
+
+RETRACTING = {"retraction", "withdrawal", "removal"}
 
 LATEX_ACCENTS = {"'": "\u0301", "`": "\u0300", "^": "\u0302", '"': "\u0308", "~": "\u0303", "c": "\u0327"}
 
@@ -60,11 +65,45 @@ def normalize(text: str) -> str:
     return " ".join(re.sub(r"[^a-z0-9 ]", " ", text.lower()).split())
 
 
-def crossref(doi: str) -> dict:
-    url = "https://api.crossref.org/works/" + urllib.parse.quote(doi, safe="/")
+def get_message(url: str, retries: int = 3) -> dict:
+    """GET a Crossref API URL. Waits and retries on 429 (Crossref rate-limits bursts) and 503."""
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return json.load(response)["message"]
+    delay = 2.0
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return json.load(response)["message"]
+        except urllib.error.HTTPError as error:
+            if error.code not in (429, 503) or attempt == retries:
+                raise
+            wait = error.headers.get("Retry-After")
+            time.sleep(float(wait) if wait and wait.isdigit() else delay)
+            delay *= 2
+    raise AssertionError("unreachable")
+
+
+def crossref(doi: str) -> dict:
+    return get_message("https://api.crossref.org/works/" + urllib.parse.quote(doi, safe="/"))
+
+
+def crossref_updates(doi: str) -> list[dict]:
+    """Notices registered as updating the DOI: one dict per notice with type, notice, date, source."""
+    url = "https://api.crossref.org/works?rows=100&filter=updates:" + urllib.parse.quote(doi, safe="/")
+    items = get_message(url)["items"]
+    notices = []
+    for item in items:
+        for update in item.get("update-to", []):
+            if str(update.get("DOI", "")).lower() != doi.lower():
+                continue
+            parts = (update.get("updated") or {}).get("date-parts") or [[]]
+            date = "-".join(f"{int(p):02d}" for p in parts[0] if p) or "no date"
+            notices.append({
+                "type": str(update.get("type", "unknown")).lower(),
+                "notice": item.get("DOI", "?"),
+                "date": date,
+                "source": update.get("source", "publisher"),
+            })
+    return notices
 
 
 def crossref_years(message: dict) -> list[str]:
@@ -115,6 +154,19 @@ def main(keys: list[str]) -> int:
             failures += 1
         else:
             print(f"OK        {key}")
+        try:
+            notices = crossref_updates(doi)
+        except (urllib.error.URLError, TimeoutError, KeyError, ValueError) as error:
+            print(f"ERROR     {key}: {doi}: updates: {error}")
+            failures += 1
+            continue
+        for notice in notices:
+            text = f"{notice['type']} notice {notice['notice']} of {notice['date']} ({notice['source']})"
+            if notice["type"] in RETRACTING:
+                print(f"RETRACTED {key}: {text}; do not cite it as valid")
+                failures += 1
+            else:
+                print(f"UPDATED   {key}: {text}; read it and check the cited claim still holds")
     return 1 if failures else 0
 
 

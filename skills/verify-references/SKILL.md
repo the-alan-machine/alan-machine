@@ -29,6 +29,30 @@ python3 skills/verify-references/scripts/verify_bib.py key1 key2  # only these k
 ```
 
 The script compares title, year and first author with Crossref and exits with 1 on any mismatch.
+It also asks Crossref for notices that update each DOI
+(`https://api.crossref.org/works?filter=updates:<DOI>`). Crossref has carried the Retraction Watch
+database since September 2023, so the notices include retractions the publisher did not register.
+Each notice prints its type, its own DOI, its date and its source:
+
+- `RETRACTED`: a retraction, withdrawal or removal. A failure.
+- `UPDATED`: any other notice, such as a correction, an erratum or an expression of concern. A
+  warning.
+
+A network error on that request prints `ERROR`, as for the metadata.
+
+## When a reference is retracted
+
+A retracted work cannot support a claim as established. Read the notice (`https://doi.org/<notice
+DOI>`) and then:
+
+1. If the page cites it for the claim it made, remove the citation and find a source that is not
+   retracted. If there is none, reclassify the claim with `classify-claims`.
+2. If the page cites it as a retracted work (to discuss the retraction itself), keep it, say in the
+   sentence that it was retracted and cite the notice too.
+
+For an `UPDATED` notice, read it and check that the cited sentence still holds. A correction to
+another part of the paper changes nothing; a correction to the number or result cited changes the
+sentence; an expression of concern makes the claim at most Reported.
 `python3 tools/check.py` separately checks that every key cited in the book exists.
 
 ## Check that the source says what the sentence says
