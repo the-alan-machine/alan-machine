@@ -18,3 +18,4 @@ decision is never edited after it is accepted; a later decision supersedes it.
 | [0011](0011-moderators-and-the-moderation-check.md) | Moderators by part and a moderation check | accepted; "dossier" renamed by 0013 |
 | [0012](0012-repository-named-after-the-book.md) | The repository takes the book's name | accepted |
 | [0013](0013-reported-claims-and-living-reviews.md) | Reported claims, and dossiers become living reviews | accepted |
+| [0014](0014-translations.md) | Translations | accepted |

@@ -27,6 +27,12 @@ book:
         href: https://scape-velocity.github.io/escape-velocity/
         text: "Escape Velocity, the technology atlas"
         aria-label: "Escape Velocity, the technology atlas"
+      # BEGIN generated: languages
+      - icon: translate
+        href: https://the-alan-machine.github.io/the-alan-machine/pt/
+        text: "Ler em português"
+        aria-label: "Ler em português"
+      # END generated: languages
   chapters:
     - index.qmd
     - part: "The Machine and the Question"
@@ -100,5 +106,6 @@ format:
       light: cosmo
       dark: [cosmo, theme-dark.scss]
     respect-user-color-scheme: true
+    include-after-body: i18n/language-link.html
   pdf:
     documentclass: scrreprt

@@ -1,0 +1,10 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 45dcd715ca             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Referências {.unnumbered}
+
+::: {#refs}
+:::

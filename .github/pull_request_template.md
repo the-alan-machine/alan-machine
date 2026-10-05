@@ -4,7 +4,7 @@
 
 ## Where
 
-Slugs of the chapters, interludes, living reviews or papers, or the data files:
+Slugs of the chapters, interludes, living reviews or papers, the data files, or the language of a translation:
 
 ## Claims affected
 
@@ -25,5 +25,6 @@ Closes #
 - [ ] Every new claim is classified, and every established claim has a citation.
 - [ ] New terms are in `data/concepts.toml` and new symbols are in `data/notation.toml`.
 - [ ] Every new number in a living review has a unit, a date and a source in `data/technologies/`.
+- [ ] A translation keeps the citations, labels, math and claim callouts of its English, and says which model translated it, if any (docs/translating.md).
 - [ ] Every commit is signed off (`git commit -s`).
 - [ ] A living review whose `last_reviewed` changes names its reviewer in `reviewed_by`, and nobody is added to `curators` or `governance.toml` without a maintainer (GOVERNANCE.md).

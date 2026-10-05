@@ -1,0 +1,55 @@
+# Portuguese (Brazil) translation of data/constants.toml (decision 0014).
+# Each text replaces the English at `path` while `source` is the fingerprint of the English it
+# was translated from. Run python3 tools/translate.py show to see both side by side.
+status = "machine"
+reviewed_by = []
+
+[[text]]
+path = "constant[speed-of-light].name"
+source = "1bc4b0f6ef"
+text = "Velocidade da luz no vácuo"
+
+[[text]]
+path = "constant[speed-of-light].source"
+source = "1fd44ff151"
+text = "SI (2019), exata por definição"
+
+[[text]]
+path = "constant[planck-constant].name"
+source = "c7974e9c16"
+text = "Constante de Planck"
+
+[[text]]
+path = "constant[planck-constant].source"
+source = "1fd44ff151"
+text = "SI (2019), exata por definição"
+
+[[text]]
+path = "constant[reduced-planck-constant].name"
+source = "af23ceba4b"
+text = "Constante de Planck reduzida"
+
+[[text]]
+path = "constant[reduced-planck-constant].source"
+source = "c27cc27599"
+text = "h / 2 pi, exata; valor truncado em 10 algarismos significativos"
+
+[[text]]
+path = "constant[boltzmann-constant].name"
+source = "7b439f7cd6"
+text = "Constante de Boltzmann"
+
+[[text]]
+path = "constant[boltzmann-constant].source"
+source = "1fd44ff151"
+text = "SI (2019), exata por definição"
+
+[[text]]
+path = "constant[gravitational-constant].name"
+source = "8332b2bdfc"
+text = "Constante newtoniana da gravitação"
+
+[[text]]
+path = "constant[gravitational-constant].source"
+source = "44b1165aa4"
+text = "CODATA 2018"

@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 592369f7af             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# A vida: a reversão local original {#sec-life}
+
+<!-- Scope: Living things keep their own entropy low by exporting more to their surroundings. Schrödinger's question in What Is Life?, the energy cost of copying information in cells, and dissipation-driven adaptation. Life as the existence proof that local reversal happens. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

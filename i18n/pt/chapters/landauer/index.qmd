@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 9d07a9bba5             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# O princípio de Landauer {#sec-landauer}
+
+<!-- Scope: The minimum cost of erasing one bit and its experimental confirmation. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

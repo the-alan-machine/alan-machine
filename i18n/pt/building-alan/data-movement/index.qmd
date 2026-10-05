@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 4490b1a3ec             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# O custo de mover dados {.unnumbered #sec-data-movement}
+
+<!-- Scope: Why moving a bit now costs more energy than computing with it: memory access, on-chip and off-chip wires, and the memory wall. What it means for a machine the size of Alan. -->
+
+::: {.callout-note appearance="minimal"}
+Esta revisão viva ainda não foi escrita.
+:::

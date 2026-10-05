@@ -10,6 +10,7 @@ reasons are in [decision 0011](docs/decisions/0011-moderators-and-the-moderation
 | Maintainer | The whole repository: build, tools, data, decisions, workflows, the page order and the lists of people. Maintainers merge pull requests and handle conduct reports. | `maintainers` in [`governance.toml`](governance.toml) |
 | Moderator | A part of the book, as listed in `_quarto.yml`: its pages, the references they cite and its issues. | `[[part]]` entries in [`governance.toml`](governance.toml) |
 | Curator | Single pages: a chapter, an interlude, a living review or a paper. | `curators` in the page's front matter |
+| Language maintainer | The translations of the book into one language: its pages, data texts, words and glossary ([docs/translating.md](docs/translating.md)). | `maintainers` of the language in [`i18n/languages.toml`](i18n/languages.toml) |
 
 People are listed by GitHub handle, without @. The lists change only through pull requests. The
 names appear in the book, in the [Moderators and Curators](https://the-alan-machine.github.io/the-alan-machine/appendices/people.html)
@@ -35,6 +36,8 @@ each change has an approving review from someone who covers it:
 | A change to a page's `curators` | A maintainer, as well as the above |
 | An entry in `references.bib` | A curator or moderator of any page that cites it, before or after the change |
 | `data/technologies/<id>.toml` | A curator or moderator of the living review with `technology: <id>` |
+| A file under `i18n/<lang>/`: a translated page, a data overlay, the words or the glossary of a language | A maintainer of that language ([decision 0014](docs/decisions/0014-translations.md)); the English was approved already |
+| `i18n/languages.toml`, the list of languages and their maintainers | A maintainer |
 | A new page, a page outside the parts, `_quarto.yml`, `data/` (other than technologies), tools, documentation, `governance.toml` | A maintainer |
 
 - The curators and moderators counted are those on `main`, so nobody approves a change by adding
@@ -91,11 +94,25 @@ A moderator looks after a part of the book:
   ([`.github/workflows/triage.yml`](.github/workflows/triage.yml));
 - finds curators for the pages that need one, starting with the living reviews.
 
+## Language maintainers
+
+A language maintainer looks after the book in one language:
+
+- reviews the translation pull requests into it and approves them;
+- keeps its glossary, so that a term reads the same on every page;
+- triages its issues. An issue opened from the translation form gets the label `lang: <id>` and a
+  comment mentioning the language's maintainers;
+- reviews translations by machine and marks them `reviewed` with their handle.
+
+Translators who are not maintainers are credited too: whoever reviews a translation is listed among
+its reviewers. A language maintainer does not need to be a physicist; the English carries the
+physics, and its curators and moderators review it.
+
 ## Becoming one
 
 Open an issue, or a pull request that adds your handle to the list, with:
 
-- the part or the pages;
+- the part, the pages or the language;
 - your background in them, with a link others can check;
 - any conflict of interest (below).
 

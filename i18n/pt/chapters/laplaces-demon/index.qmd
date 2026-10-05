@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: cbd16e1ad6             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# O demônio de Laplace {#sec-laplaces-demon}
+
+<!-- Scope: Could Alan know the complete state of a system, or of the universe? Chaos and sensitivity to initial conditions, quantum uncertainty, the cost of measurement and the limits a predictor meets when it is part of what it predicts. Why predicting is not reversing. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

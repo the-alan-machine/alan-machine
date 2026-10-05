@@ -1,0 +1,86 @@
+# The words of the Portuguese (Brazil) edition around its pages (decision 0014). Each table replaces
+# the English of ENGLISH in tools/i18n.py key by key; a key left out stays in English. Names in
+# braces, such as {english}, are filled in by the tools and stay as they are. A change is approved
+# by the language maintainers.
+
+decimal = ","
+
+[edition]
+author = "João Alisson e colaboradores"
+link = "Ler em português"  # the link to this edition from the others
+
+# The titles of the parts in _quarto.yml, by their English title.
+[parts]
+"The Machine and the Question" = "A máquina e a pergunta"
+"Information Is Physical" = "A informação é física"
+"The Limits of the Machine" = "Os limites da máquina"
+"Reversing Entropy" = "Revertendo a entropia"
+"The Impact on Time" = "O impacto sobre o tempo"
+"Building Alan" = "Construindo Alan"
+"Papers" = "Artigos"
+
+# The sidebar links of _quarto.yml, by their English text.
+[tools]
+"Escape Velocity, the technology atlas" = "Escape Velocity, o atlas das tecnologias"
+
+# The titles of the claim callouts, by class (STYLE.md). tools/check.py compares each translated
+# callout's title with these.
+[claims]
+extrapolation = "Extrapolação"
+speculation = "Especulação"
+philosophy = "Filosofia"
+
+# The status of a living review, in the Building Alan table.
+[status]
+proposed = "proposta"
+drafting = "em redação"
+scientific-review = "em revisão científica"
+done = "concluída"
+
+[notice]
+untranslated = "Esta página ainda não foi traduzida e aparece no original em inglês. [Como ajudar a traduzir]({translating})."
+english_only = "Os artigos são escritos para especialistas e ficam em inglês."
+machine = "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o [original em inglês]({english})."
+stale = "O original em inglês mudou depois desta tradução. Confira o [original em inglês]({english})."
+data_machine = "Parte desta página foi traduzida por máquina e ainda não foi revisada."
+data_partial = "Parte desta página ainda está em inglês. [Como ajudar a traduzir]({translating})."
+
+# The generated appendices and the Building Alan table (tools/generate.py).
+[pages]
+concepts_title = "Conceitos"
+concepts_intro = "Todo termo técnico que o livro usa, em linguagem simples. Cada verbete lista as páginas que o usam."
+related = "Relacionados"
+references = "Referências"
+used_in = "Usado em"
+notation_title = "Notação"
+notation_intro = "Cada símbolo mantém o mesmo significado no livro inteiro."
+notation_header = "| Símbolo | Significado | Unidade |"
+constants_title = "Constantes"
+constants_intro = """
+Valores da revisão de 2019 do SI, quando a constante é exata por definição, e do CODATA nos demais
+casos."""
+constants_header = "| Constante | Símbolo | Valor | Unidade | Incerteza padrão | Fonte |"
+exact = "exata"
+people_title = "Moderadores e curadores"
+people_intro = """
+As pessoas que cuidam do livro. Os mantenedores cuidam do repositório inteiro. Os moderadores cuidam
+de uma parte: revisam as mudanças nas suas páginas e fazem a triagem das suas issues. Os curadores
+cuidam de páginas específicas e revisam as suas revisões vivas. Os tradutores cuidam do livro em
+outro idioma. As pessoas são identificadas pelo seu usuário no GitHub. Como os papéis funcionam, e
+como assumir um, está em [GOVERNANCE.md]({governance}) (em inglês)."""
+maintainers = "Mantenedores"
+moderators = "Moderadores"
+moderators_header = "| Parte | Moderadores |"
+curators = "Curadores"
+curators_header = "| Página | Parte | Curadores |"
+no_curator = "Nenhuma página tem curador ainda."
+translators = "Tradutores"
+translators_intro = """
+Os mantenedores de um idioma aprovam as traduções para ele; os revisores revisaram parte delas.
+Como traduzir está em [docs/translating.md]({translating}) (em inglês)."""
+translators_header = "| Idioma | Mantenedores | Revisores |"
+no_language = "O livro ainda não foi traduzido."
+none_yet = "ninguém ainda"
+living_review_header = "| Revisão viva | Situação | Última revisão | Próxima revisão | Curadores |"
+never = "nunca"
+not_reviewed = "ainda não revisada"

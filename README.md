@@ -102,12 +102,16 @@ later and nothing else.
 quarto preview
 ```
 
-`quarto render` writes the HTML and PDF editions to `_book/`. Before a pull request, run
-`python3 tools/check.py`.
+`quarto render` writes the HTML and PDF editions to `_book/`; after it,
+`python3 tools/edition.py --render` writes each translated edition to `_book/<lang>/`. Before a pull
+request, run `python3 tools/check.py`.
 
 ## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE.md](STYLE.md). Who reviews what, and how to
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE.md](STYLE.md). The book is written in English
+and translated by contributors who read another language; the Portuguese (Brazil) edition is at
+[/pt/](https://the-alan-machine.github.io/the-alan-machine/pt/), and how to translate is in
+[docs/translating.md](docs/translating.md). Who reviews what, and how to
 become a moderator of a part or a curator of a page, is in [GOVERNANCE.md](GOVERNANCE.md). The
 reasons behind each project decision are in [docs/decisions/](docs/decisions/).
 

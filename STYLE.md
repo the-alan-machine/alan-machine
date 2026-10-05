@@ -61,7 +61,8 @@ The same rule applies to every register.
 | Philosophy | A caution callout titled "Philosophy", with at least two positions |
 
 Every classified callout carries its class as well as its title, so that tools and AI models can
-tell the kinds apart:
+tell the kinds apart. A translation keeps the class and takes the title its language gives the kind
+in `i18n/<lang>/strings.toml` ([docs/translating.md](docs/translating.md)):
 
 ```markdown
 ::: {.callout-warning .extrapolation title="Extrapolation"}

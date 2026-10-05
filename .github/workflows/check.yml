@@ -14,6 +14,8 @@ jobs:
       - uses: quarto-dev/quarto-actions/render@v2
         with:
           to: html
+      - name: Render the translated editions (decision 0014)
+        run: python3 tools/edition.py --render
       - name: Build the editions for AI models
         run: python3 tools/export_llms.py
 

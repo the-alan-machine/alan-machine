@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 476f0493a5             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# CMOS: a referência {.unnumbered #sec-cmos-baseline}
+
+<!-- Scope: Today's silicon logic as the reference point: energy per switching event, how far it sits above the Landauer bound at room temperature, and the trends that brought it there (Dennard scaling and its end). -->
+
+::: {.callout-note appearance="minimal"}
+Esta revisão viva ainda não foi escrita.
+:::

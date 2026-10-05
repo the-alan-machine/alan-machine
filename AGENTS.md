@@ -20,7 +20,8 @@ Alan, used as a thought experiment about reversing entropy and what that would m
 | `data/` | Concepts, notation, constants, metrics and technology data, in TOML |
 | `references.bib` | The single bibliography |
 | `governance.toml` | Maintainers and the moderators of each part ([GOVERNANCE.md](GOVERNANCE.md)) |
-| `tools/` | `generate.py`, `check.py`, `export_llms.py` and `moderation.py` |
+| `i18n/` | Translations: the languages and their maintainers, and per language its pages, data texts, words and glossary ([docs/translating.md](docs/translating.md)) |
+| `tools/` | `generate.py`, `check.py`, `export_llms.py`, `moderation.py`, and for translations `i18n.py`, `translate.py` and `edition.py` |
 | `templates/` | Starting points for each kind of page |
 | `skills/` | Agent skills for contributors |
 | `docs/decisions/` | Why the project is the way it is |
@@ -49,7 +50,11 @@ Alan, used as a thought experiment about reversing entropy and what that would m
 6. **Write self-contained sections**: name the subject, link by label (`@sec-landauer`), no "as we
    saw".
 7. **New page, new line in `_quarto.yml`**, with the title labeled `{#sec-<slug>}`.
-8. **English only**: text, comments, commit messages, issues and pull requests.
+8. **English only**: text, comments, commit messages, issues and pull requests. Translations of the
+   book are the exception and live only under `i18n/<lang>/` ([decision
+   0014](docs/decisions/0014-translations.md)); their pull requests are still titled and described
+   in English. A translation keeps every citation, label, equation and claim callout of its English,
+   and an agent leaves it as `machine`: only a person sets `reviewed`.
 9. **Roles are people's acts.** Never add anyone to `curators` or `governance.toml`, and never set
    `reviewed_by` or move `last_reviewed` of a living review; a person does that
    ([GOVERNANCE.md](GOVERNANCE.md)).
@@ -66,8 +71,8 @@ quarto render --to html     # when Quarto is installed
 ## Commits and pull requests
 
 - Title: `type(scope): summary`, imperative, lowercase, no final period, at most 72 characters.
-  Types: `content`, `paper`, `fix`, `ref`, `fig`, `data`, `build`, `docs`, `chore`. The scope is the
-  page slug. See [CONTRIBUTING.md](CONTRIBUTING.md#commit-and-pull-request-titles).
+  Types: `content`, `paper`, `fix`, `ref`, `fig`, `data`, `translation`, `build`, `docs`, `chore`.
+  The scope is the page slug, or the language for `translation`. See [CONTRIBUTING.md](CONTRIBUTING.md#commit-and-pull-request-titles).
 - Every commit is signed off (`git commit -s`) by the human contributor responsible for it. The
   sign-off is a human's certification; an agent does not certify on anyone's behalf.
 - Fill in the pull request template, including the claims affected and how they are classified.
@@ -81,6 +86,7 @@ quarto render --to html     # when Quarto is installed
 | [`classify-claims`](skills/classify-claims/SKILL.md) | Find and classify every claim on a page |
 | [`verify-references`](skills/verify-references/SKILL.md) | Check citations and BibTeX entries against their sources |
 | [`review-pr`](skills/review-pr/SKILL.md) | Review a pull request against the project's rules |
+| [`translate-page`](skills/translate-page/SKILL.md) | Translate or update a page or data texts of the book into another language |
 
 ## Reading the book as a knowledge base
 

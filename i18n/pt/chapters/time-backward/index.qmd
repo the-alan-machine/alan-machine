@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 864f9d8f26             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# O tempo correria para trás {#sec-time-backward}
+
+<!-- Scope: The thermodynamic, psychological and cosmological arrows, and Gold's universe. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

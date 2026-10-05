@@ -17,6 +17,9 @@ jobs:
         with:
           tinytex: true
       - uses: quarto-dev/quarto-actions/render@v2
+      # After the English render, which empties _book/: each edition goes to _book/<lang>/.
+      - name: Render the translated editions (decision 0014)
+        run: python3 tools/edition.py --render
       - name: Build the editions for AI models
         run: python3 tools/export_llms.py
       - uses: quarto-dev/quarto-actions/publish@v2

@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 9aef5c27a3             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Lógica supercondutora {.unnumbered #sec-superconducting-logic}
+
+<!-- Scope: Single flux quantum and adiabatic quantum flux parametron logic: energy per operation near the Landauer bound at 4 K, and the cost of cooling once it is counted at the wall plug. -->
+
+::: {.callout-note appearance="minimal"}
+Esta revisão viva ainda não foi escrita.
+:::

@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 117c9d2fa2             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Computação óptica {.unnumbered #sec-optical-computing}
+
+<!-- Scope: Computing and interconnects with light: energy per operation, the cost of converting between electrons and photons, and where optics helps most. -->
+
+::: {.callout-note appearance="minimal"}
+Esta revisão viva ainda não foi escrita.
+:::

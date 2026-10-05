@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 894fb0e546             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Interlúdio: o tempo flui? {.unnumbered #sec-does-time-flow}
+
+<!-- Scope: McTaggart's A-series and B-series, presentism and eternalism, the block universe and the feeling of passage. Why it matters to decide what time is before asking Alan to reverse it. -->
+
+::: {.callout-note appearance="minimal"}
+Este interlúdio ainda não foi escrito.
+:::

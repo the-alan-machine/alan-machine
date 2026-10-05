@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: b4033453f6             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Hardware quântico {.unnumbered #sec-quantum-hardware}
+
+<!-- Scope: Superconducting qubits, trapped ions, neutral atoms and photons: coherence times, gate errors, error correction overhead and the cryogenic and control energy per logical operation. -->
+
+::: {.callout-note appearance="minimal"}
+Esta revisão viva ainda não foi escrita.
+:::

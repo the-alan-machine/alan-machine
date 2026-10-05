@@ -1,0 +1,208 @@
+# The terms of the book in Portuguese (Brazil). A translator uses these words for these terms, so
+# that one English term reads the same on every page; i18n/pt/strings.toml uses them too. A change
+# is proposed in a translation pull request and approved by the language maintainers.
+#
+# Fields:
+#   en     the English term
+#   text   the Portuguese term
+#   note   when to use it, or why this word and not another
+#
+# Conventions that are not terms:
+#   - Numbers, units and dates stay as the English writes them, except the decimal mark, which is
+#     a comma (1.5 becomes 1,5; in math, 1{,}5). Math, citation keys and labels never change.
+#   - Alan is a name, and so are The Alan Machine and Escape Velocity.
+#   - The titles of sources are never translated, and neither are quotes.
+#   - The titles of claim callouts are the ones of i18n/pt/strings.toml [claims].
+#   - GitHub terms stay in English: pull request, issue, fork, commit.
+
+[[term]]
+en = "book"
+text = "livro"
+
+[[term]]
+en = "chapter"
+text = "capítulo"
+
+[[term]]
+en = "interlude"
+text = "interlúdio"
+
+[[term]]
+en = "part"
+text = "parte"
+
+[[term]]
+en = "appendix"
+text = "apêndice"
+
+[[term]]
+en = "paper"
+text = "artigo"
+note = "The papers stay in English; their titles too."
+
+[[term]]
+en = "living review"
+text = "revisão viva"
+note = "A Building Alan page, reviewed every year."
+
+[[term]]
+en = "Building Alan"
+text = "Construindo Alan"
+note = "The part and the series."
+
+[[term]]
+en = "thought experiment"
+text = "experimento mental"
+
+[[term]]
+en = "Going deeper"
+text = "Para ir mais fundo"
+note = "The title of the collapsed callouts with the math."
+
+[[term]]
+en = "claim"
+text = "afirmação"
+
+[[term]]
+en = "established"
+text = "consolidada"
+note = "Kind of claim. The same word as the evidence class of Escape Velocity."
+
+[[term]]
+en = "reported"
+text = "relatada"
+note = "Kind of claim: rests on a source that does not establish it yet."
+
+[[term]]
+en = "extrapolation"
+text = "extrapolação"
+
+[[term]]
+en = "speculation"
+text = "especulação"
+
+[[term]]
+en = "philosophy"
+text = "filosofia"
+
+[[term]]
+en = "entropy"
+text = "entropia"
+
+[[term]]
+en = "second law of thermodynamics"
+text = "segunda lei da termodinâmica"
+
+[[term]]
+en = "arrow of time"
+text = "flecha do tempo"
+note = "The usual term in Brazilian physics; not 'seta do tempo'."
+
+[[term]]
+en = "microstate"
+text = "microestado"
+
+[[term]]
+en = "macrostate"
+text = "macroestado"
+
+[[term]]
+en = "isolated system"
+text = "sistema isolado"
+
+[[term]]
+en = "heat"
+text = "calor"
+
+[[term]]
+en = "bit"
+text = "bit"
+
+[[term]]
+en = "erasure"
+text = "apagamento"
+note = "Of information: erasing a bit is apagar um bit."
+
+[[term]]
+en = "Landauer's principle"
+text = "princípio de Landauer"
+
+[[term]]
+en = "Landauer bound"
+text = "limite de Landauer"
+
+[[term]]
+en = "Margolus-Levitin bound"
+text = "limite de Margolus-Levitin"
+
+[[term]]
+en = "Bekenstein bound"
+text = "limite de Bekenstein"
+
+[[term]]
+en = "quantum speed limit"
+text = "limite quântico de velocidade"
+
+[[term]]
+en = "reversible computing"
+text = "computação reversível"
+
+[[term]]
+en = "Maxwell's demon"
+text = "demônio de Maxwell"
+
+[[term]]
+en = "Laplace's demon"
+text = "demônio de Laplace"
+
+[[term]]
+en = "Turing machine"
+text = "máquina de Turing"
+
+[[term]]
+en = "closed timelike curve"
+text = "curva tipo tempo fechada"
+
+[[term]]
+en = "energy at the wall plug"
+text = "energia na tomada"
+note = "What the whole system draws from the grid."
+
+[[term]]
+en = "data center"
+text = "data center"
+note = "The term Brazilian engineers use; not 'centro de dados'."
+
+[[term]]
+en = "chip"
+text = "chip"
+
+[[term]]
+en = "maintainer"
+text = "mantenedor"
+
+[[term]]
+en = "moderator"
+text = "moderador"
+
+[[term]]
+en = "curator"
+text = "curador"
+
+[[term]]
+en = "translator"
+text = "tradutor"
+
+[[term]]
+en = "machine translation"
+text = "tradução automática"
+
+[[term]]
+en = "reviewed"
+text = "revisada"
+note = "Of a translation."
+
+[[term]]
+en = "stale"
+text = "desatualizada"
+note = "Of a translation whose English has changed since."

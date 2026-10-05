@@ -1,7 +1,8 @@
 name: Triage issues
 
-# Labels an issue opened from a form with the parts of the book it names and mentions their
-# moderators and the curators of the pages (GOVERNANCE.md). The issue's text is read as data by
+# Labels an issue opened from a form with the parts of the book and the language it names and
+# mentions their moderators, the curators of the pages and the language's maintainers
+# (GOVERNANCE.md). The issue's text is read as data by
 # tools/moderation.py.
 
 on:
@@ -20,7 +21,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Find the parts of the book
+      - name: Find the parts of the book and the language
         env:
           BODY: ${{ github.event.issue.body }}
         run: |
@@ -44,4 +45,4 @@ jobs:
             '[.mention[] | select(ascii_downcase != ($author | ascii_downcase)) | "@" + .] | join(", ")' triage.json)
           [ -n "$people" ] || exit 0
           gh issue comment "$NUMBER" --repo "$GITHUB_REPOSITORY" \
-            --body "Moderators and curators of what this issue names: ${people}. The roles are in [GOVERNANCE.md]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/main/GOVERNANCE.md)."
+            --body "Who looks after what this issue names: ${people}. The roles are in [GOVERNANCE.md]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/main/GOVERNANCE.md)."

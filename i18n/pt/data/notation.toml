@@ -1,0 +1,35 @@
+# Portuguese (Brazil) translation of data/notation.toml (decision 0014).
+# Each text replaces the English at `path` while `source` is the fingerprint of the English it
+# was translated from. Run python3 tools/translate.py show to see both side by side.
+status = "machine"
+reviewed_by = []
+
+[[text]]
+path = "symbol[boltzmann-constant].meaning"
+source = "7b439f7cd6"
+text = "Constante de Boltzmann"
+
+[[text]]
+path = "symbol[temperature].meaning"
+source = "89cdd26de1"
+text = "Temperatura termodinâmica"
+
+[[text]]
+path = "symbol[entropy].meaning"
+source = "bb846881f6"
+text = "Entropia"
+
+[[text]]
+path = "symbol[energy].meaning"
+source = "f2fcd3f7dc"
+text = "Energia"
+
+[[text]]
+path = "symbol[reduced-planck-constant].meaning"
+source = "5b303cee1d"
+text = "Constante de Planck reduzida, $h / 2\\pi$"
+
+[[text]]
+path = "symbol[speed-of-light].meaning"
+source = "1bc4b0f6ef"
+text = "Velocidade da luz no vácuo"

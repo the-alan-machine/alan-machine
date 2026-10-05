@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 357cee8eb7             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# O que é o tempo {#sec-what-time-is}
+
+<!-- Scope: Time in physics before we ask whether it can run backward: Newton's absolute time, simultaneity and the block universe in relativity, the problem of time in quantum gravity, and the thermal time hypothesis. What it would mean for time to flow or to reverse. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

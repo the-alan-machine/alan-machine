@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 60a0e45e84             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Tirando o calor {.unnumbered #sec-heat-removal}
+
+<!-- Scope: Every operation that dissipates ends as heat that must leave the machine: cooling limits per unit area, the thermodynamic cost of refrigeration and the efficiency of whole data centers. -->
+
+::: {.callout-note appearance="minimal"}
+Esta revisão viva ainda não foi escrita.
+:::

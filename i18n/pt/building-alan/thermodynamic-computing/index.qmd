@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 02088850f6             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Computação termodinâmica e probabilística {.unnumbered #sec-thermodynamic-computing}
+
+<!-- Scope: Machines that use thermal noise instead of fighting it: probabilistic bits, stochastic and thermodynamic computing, and the tasks where they beat deterministic logic. -->
+
+::: {.callout-note appearance="minimal"}
+Esta revisão viva ainda não foi escrita.
+:::

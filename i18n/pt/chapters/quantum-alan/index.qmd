@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: aed12963cb             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Alan é um computador quântico? {#sec-quantum-alan}
+
+<!-- Scope: Qubits and unitary evolution, and why quantum dynamics is reversible. Measurement and decoherence as the irreversible step. Error correction as an entropy pump. Quantum speed limits, and what a quantum Alan gains and does not gain. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

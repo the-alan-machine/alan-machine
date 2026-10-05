@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 5e3ab2162f             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Computação neuromórfica {.unnumbered #sec-neuromorphic-computing}
+
+<!-- Scope: Spiking and analog in-memory hardware modeled on the brain, the brain's own energy budget as a reference, and the energy per synaptic event. -->
+
+::: {.callout-note appearance="minimal"}
+Esta revisão viva ainda não foi escrita.
+:::

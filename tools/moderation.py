@@ -8,12 +8,12 @@ about.
 request), files.jsonl and reviews.jsonl (the GitHub API's changed files and reviews, one JSON
 object per line) and head/, the pull request's version of each page and of references.bib it
 changes. It writes result.json (state, description, reviewers to request) and comment.md. The
-maintainers, moderators and curators come from this checkout, the main branch, so a pull request
-that adds its author to a list does not make the author an approver. The pull request's files are
-read as text, never run.
+maintainers, moderators, curators and language maintainers come from this checkout, the main
+branch, so a pull request that adds its author to a list does not make the author an approver. The
+pull request's files are read as text, never run.
 
 `issue` reads the body of an issue opened from a form and prints, as JSON, the labels of the parts
-it names and the people to mention.
+and the language it names and the people to mention.
 
 The rules are in GOVERNANCE.md.
 """
@@ -30,11 +30,14 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import book  # noqa: E402
+import i18n  # noqa: E402
 from generate import LIVING_REVIEW_BEGIN, LIVING_REVIEW_END  # noqa: E402
 
 # The folder of a chapter, interlude, living review or paper: everything in it belongs to its page.
 PAGE_DIR = re.compile(r"^((?:chapters|interludes|building-alan|papers)/[A-Za-z0-9._-]+)/")
 TECH_DATA = re.compile(r"^data/technologies/([A-Za-z0-9._-]+)\.toml$")
+# A translation (decision 0014): a translated page, a data overlay, or the words and terms of a language.
+TRANSLATION_FILE = re.compile(r"^i18n/([a-z0-9-]+)/.+$")
 BIB = "references.bib"
 BIB_ENTRY = re.compile(r"^@(\w+)\s*\{\s*([^,\s]+)\s*,", re.M)
 LIVING_REVIEW_TABLE = re.compile(re.escape(LIVING_REVIEW_BEGIN) + r".*?" + re.escape(LIVING_REVIEW_END), re.S)
@@ -96,7 +99,7 @@ def cites(text: str, key: str) -> bool:
 class Group:
     """Changes that the same people can approve."""
 
-    role: str  # "curators and moderators" or "maintainers"
+    role: str  # "curators and moderators", "<language> maintainers" or "maintainers"
     people: list[str]  # who can approve, without the author
     covers: list[str] = field(default_factory=list)
     approved_by: list[str] = field(default_factory=list)
@@ -116,6 +119,7 @@ class PullRequest:
         self.head_sha = pr["head"]["sha"]
         self.maintainers = handles(book.maintainers())
         self.moderators = book.part_moderators()
+        self.languages = i18n.languages()
         self.pages = {page.path: page for page in book.pages()}
 
         self.changes: list[tuple[str, str]] = []
@@ -172,10 +176,10 @@ class PullRequest:
         curators = page.meta.get("curators")
         return handles((curators if isinstance(curators, list) else []) + self.moderators.get(page.part or "", []))
 
-    def add(self, people: list[str], what: str):
+    def add(self, people: list[str], what: str, role: str = "curators and moderators"):
         others = [person for person in people if person.lower() != self.author.lower()]
         if others:
-            role, approvers = "curators and moderators", others
+            approvers = others
         else:
             role, approvers = "maintainers", [m for m in self.maintainers if m.lower() != self.author.lower()]
         key = (role, frozenset(person.lower() for person in approvers))
@@ -217,6 +221,11 @@ class PullRequest:
                 continue
             if name == BIB:
                 self.bib_change(status)
+                continue
+            if (match := TRANSLATION_FILE.match(name)) and match.group(1) in self.languages:
+                # Translators approve translations; the English they follow was approved already.
+                lang = self.languages[match.group(1)]
+                self.add(handles(lang.maintainers), name, role=f"{lang.english_name} maintainers")
                 continue
             if match := TECH_DATA.match(name):
                 people: list[str] = []
@@ -317,7 +326,8 @@ def form_fields(body: str) -> dict[str, str]:
 
 
 def issue_places(body: str) -> dict:
-    """The pages an issue names, by folder (chapters/landauer) or title, their parts and people."""
+    """The pages an issue names, by folder (chapters/landauer) or title, their parts and people,
+    and the language a translation issue names, with its maintainers."""
     fields = form_fields(body)
     text = "\n".join(fields.get(name, "") for name in LOCATION_FIELDS).lower()
     moderators = book.part_moderators()
@@ -334,6 +344,11 @@ def issue_places(body: str) -> dict:
             if page.part:
                 labels[f"part: {book.part_slug(page.part)}"] = page.part
                 people += moderators.get(page.part, [])
+    named = fields.get("Language", "").strip().strip("`").lower()
+    for lang in i18n.languages().values() if named else []:
+        if named in (lang.id, lang.tag.lower(), lang.name.lower(), lang.english_name.lower()):
+            labels[f"lang: {lang.id}"] = lang.english_name
+            people += lang.maintainers
     return {
         "labels": [{"name": name, "description": title} for name, title in labels.items()],
         "mention": handles(people),

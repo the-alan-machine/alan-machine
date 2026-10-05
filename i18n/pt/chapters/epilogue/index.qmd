@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 567d5bdfe6             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Epílogo: o que Alan não pode fazer {.unnumbered #sec-epilogue}
+
+<!-- Scope: What the book has shown to be impossible, what remains open, and why the question is still worth asking. Russell's despair at the heat death against Dyson's eternal intelligence, Nietzsche's eternal return against Poincaré recurrence, and Asimov's "The Last Question", the story of a computer asked whether entropy can be reversed. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

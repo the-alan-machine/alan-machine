@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: acda3f76e7             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Curvas tipo tempo fechadas {#sec-closed-timelike-curves}
+
+<!-- Scope: Deutsch, Novikov and Aaronson-Watrous: computation where time loops back on itself. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

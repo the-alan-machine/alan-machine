@@ -86,13 +86,14 @@ Format: `type(scope): summary`
 | `ref` | References and `references.bib` |
 | `fig` | Figures and the code that produces them |
 | `data` | Concepts, notation, constants and technology data in `data/` |
+| `translation` | Translations under `i18n/<lang>/`, with the language as scope ([docs/translating.md](docs/translating.md)) |
 | `build` | Quarto configuration, CI, dependencies |
 | `docs` | Project documentation: README, CONTRIBUTING, STYLE, decisions |
 | `chore` | Maintenance that changes no content |
 
 - `scope` is the slug of the chapter, interlude, living review or paper (`landauer`,
-  `does-time-flow`, `cmos-baseline`), or the data file for `data` (`concepts`). Leave it out when
-  the change is not about a single page.
+  `does-time-flow`, `cmos-baseline`), the data file for `data` (`concepts`), or the language for
+  `translation` (`pt`). Leave it out when the change is not about a single page.
 - `summary` is in the imperative mood, lowercase, with no final period and at most 72 characters.
 - The body, when there is one, explains why the change was made.
 
@@ -104,6 +105,7 @@ ref(speed-limits): add Margolus and Levitin 1998
 fig(local-reversal): plot the spin echo signal
 content(cmos-baseline): update energy per operation to 2026
 data(concepts): define the Bekenstein bound
+translation(pt): translate the landauer chapter
 build: render the PDF edition in CI
 docs: explain the two registers in CONTRIBUTING
 ```
@@ -146,7 +148,8 @@ curl -sL -H "Accept: application/x-bibtex" https://doi.org/<DOI>
 ```
 
 The repository includes instructions for coding agents in [AGENTS.md](AGENTS.md) and skills in
-[`skills/`](skills/): `write-chapter`, `classify-claims`, `verify-references` and `review-pr`.
+[`skills/`](skills/): `write-chapter`, `classify-claims`, `verify-references`, `review-pr` and
+`translate-page`.
 Claude Code picks them up automatically; other agents can read them as plain Markdown. To check
 every DOI entry in `references.bib` against Crossref:
 
