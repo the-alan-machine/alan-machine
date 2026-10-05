@@ -13,5 +13,5 @@ papers: []
 <!-- Scope: Machines that use thermal noise instead of fighting it: probabilistic bits, stochastic and thermodynamic computing, and the tasks where they beat deterministic logic. -->
 
 ::: {.callout-note appearance="minimal"}
-This dossier has not been written yet.
+This living review has not been written yet.
 :::

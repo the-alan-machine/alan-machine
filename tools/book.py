@@ -20,7 +20,7 @@ GITHUB_HANDLE = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9]|-(?=[A-Za-z0-9])){0,38}$
 STATUS_BY_KIND = {
     "chapter": {"proposed", "drafting", "scientific-review", "done"},
     "interlude": {"proposed", "drafting", "scientific-review", "done"},
-    "dossier": {"proposed", "drafting", "scientific-review", "done"},
+    "living-review": {"proposed", "drafting", "scientific-review", "done"},
     "paper": {"draft", "in-review", "stable"},
 }
 
@@ -53,7 +53,7 @@ class Page:
         if top == "interludes":
             return "interlude"
         if top == "building-alan":
-            return "dossier" if self.path != "building-alan/index.qmd" else "section"
+            return "living-review" if self.path != "building-alan/index.qmd" else "section"
         if top == "papers":
             return "paper" if self.path != "papers/index.qmd" else "section"
         return "front"

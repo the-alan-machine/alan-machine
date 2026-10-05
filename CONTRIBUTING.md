@@ -1,15 +1,15 @@
 # Contributing to The Alan Machine
 
 Thank you for helping. This book is written in the open, and anyone can improve any chapter,
-interlude, dossier, figure or paper.
+interlude, living review, figure or paper.
 
 Before you start, read the [Code of Conduct](CODE_OF_CONDUCT.md) and the [Style Guide](STYLE.md).
 
 ## Ground rules
 
 - Everything is written in English: text, notes, issues, pull requests and commit messages.
-- Every claim is established, an extrapolation, speculation or philosophy, and the reader can
-  always tell which. See [Classifying claims](STYLE.md#classifying-claims).
+- Every claim is established, reported, an extrapolation, speculation or philosophy, and the
+  reader can always tell which. See [Classifying claims](STYLE.md#classifying-claims).
 - Every established claim cites a peer-reviewed paper or a standard textbook.
 - Every reference comes from its source. Never cite from memory.
 
@@ -20,8 +20,8 @@ Before you start, read the [Code of Conduct](CODE_OF_CONDUCT.md) and the [Style 
 | Fix a typo, a broken link or formatting | Open a pull request directly. |
 | Fix an error in an equation or a number | Open a pull request with the reference that shows the correct value. |
 | Challenge a scientific claim, or how it is classified | Open a **Scientific challenge** issue with references. Send the pull request once the issue is agreed. |
-| Write a new chapter, section, interlude, dossier or paper | Open a **Content proposal** issue first: topic, why it belongs, outline and key references. Start writing once it is accepted. |
-| Update the numbers in a Building Alan dossier | Open a **Dossier update** issue, or a pull request to `data/technologies/` with the value, unit, date and source. |
+| Write a new chapter, section, interlude, living review or paper | Open a **Content proposal** issue first: topic, why it belongs, outline and key references. Start writing once it is accepted. |
+| Update the numbers in a Building Alan living review | Open a **Living review update** issue, or a pull request to `data/technologies/` with the value, unit, date and source. |
 | Define a term, or improve a definition | Open a pull request to `data/concepts.toml`. |
 | Suggest a reference | Open a **Reference suggestion** issue, or a pull request to `references.bib`. |
 | Explore an open idea ("what if Alan could...") | Start a thread in Discussions. Ideas that mature become proposals. |
@@ -41,9 +41,9 @@ Two more kinds of page sit beside the chapters:
 
 - **Interludes** (`interludes/<slug>/index.qmd`) close each part with one philosophical question.
   Start from [`templates/interlude.qmd`](templates/interlude.qmd).
-- **Building Alan dossiers** (`building-alan/<slug>/index.qmd`) describe how close one technology
-  comes to Alan's limits. They are living documents with a review date. Start from
-  [`templates/dossier.qmd`](templates/dossier.qmd).
+- **Building Alan living reviews** (`building-alan/<slug>/index.qmd`) describe how close one
+  technology comes to Alan's limits. Each one carries a review date. Start from
+  [`templates/living-review.qmd`](templates/living-review.qmd).
 
 A chapter links to the papers behind it with a "The science behind this chapter" box and lists
 their slugs in its front matter (`papers:`). A paper lists the chapters it supports (`chapters:`).
@@ -90,9 +90,9 @@ Format: `type(scope): summary`
 | `docs` | Project documentation: README, CONTRIBUTING, STYLE, decisions |
 | `chore` | Maintenance that changes no content |
 
-- `scope` is the slug of the chapter, interlude, dossier or paper (`landauer`, `does-time-flow`,
-  `cmos-baseline`), or the data file for `data` (`concepts`). Leave it out when the change is not
-  about a single page.
+- `scope` is the slug of the chapter, interlude, living review or paper (`landauer`,
+  `does-time-flow`, `cmos-baseline`), or the data file for `data` (`concepts`). Leave it out when
+  the change is not about a single page.
 - `summary` is in the imperative mood, lowercase, with no final period and at most 72 characters.
 - The body, when there is one, explains why the change was made.
 
@@ -123,8 +123,8 @@ agreement.
 - Every pull request needs an approval from a curator of the pages it changes or a moderator of
   their part; the `moderation` check says who, requests their review and passes once one of them
   approves. Without one, a maintainer reviews. Typo and formatting fixes need a light review.
-- Roles, dossier reviews, conflicts of interest and how to become a moderator or curator are in
-  [GOVERNANCE.md](GOVERNANCE.md).
+- Roles, the yearly review of living reviews, conflicts of interest and how to become a moderator or
+  curator are in [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Credit
 

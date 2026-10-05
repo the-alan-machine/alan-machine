@@ -14,7 +14,7 @@ Alan, used as a thought experiment about reversing entropy and what that would m
 |---|---|
 | `chapters/<slug>/index.qmd` | Chapters, popular register |
 | `interludes/<slug>/index.qmd` | Philosophical interludes, one at the end of each part |
-| `building-alan/<slug>/index.qmd` | Building Alan dossiers: living documents on real technology |
+| `building-alan/<slug>/index.qmd` | Building Alan living reviews: real technology, reviewed every year |
 | `papers/<slug>/index.qmd` | Standalone scientific papers |
 | `appendices/` | Appendices; `concepts`, `notation`, `constants` and `people` are generated |
 | `data/` | Concepts, notation, constants, metrics and technology data, in TOML |
@@ -33,15 +33,16 @@ Alan, used as a thought experiment about reversing entropy and what that would m
    `curl -sL -H "Accept: application/x-bibtex" https://doi.org/<DOI>`, then rename the key to
    `authorYEARfirstword` with the year in the entry. If you cannot find a source for a claim, say so;
    do not write the claim as established. Use the `verify-references` skill.
-2. **Classify every claim.** Established (running text with a citation), Extrapolation, Speculation
-   or Philosophy (callouts with a title and a class). See [STYLE.md](STYLE.md#classifying-claims)
+2. **Classify every claim.** Established (running text with a citation), Reported (running text that
+   names its source, such as a preprint, in a `{.reported}` span), Extrapolation, Speculation or
+   Philosophy (callouts with a title and a class). See [STYLE.md](STYLE.md#classifying-claims)
    and the `classify-claims` skill. Hedged running text ("might", "could") is usually an unmarked
    extrapolation or speculation.
 3. **Do not edit generated files**: `appendices/concepts.qmd`, `appendices/notation.qmd`,
    `appendices/constants.qmd`, `appendices/people.qmd` and the marked table in
    `building-alan/index.qmd`. Edit `data/`, `governance.toml` or the front matter and run
    `python3 tools/generate.py`.
-4. **Every number has a source**, and in a dossier also a date (`as_of`) and an entry in
+4. **Every number has a source**, and in a living review also a date (`as_of`) and an entry in
    `data/technologies/<id>.toml`.
 5. **Keep the registers apart.** Chapters keep equations out of the running text; the math goes in a
    collapsed "Going deeper" callout or in a paper.
@@ -50,7 +51,8 @@ Alan, used as a thought experiment about reversing entropy and what that would m
 7. **New page, new line in `_quarto.yml`**, with the title labeled `{#sec-<slug>}`.
 8. **English only**: text, comments, commit messages, issues and pull requests.
 9. **Roles are people's acts.** Never add anyone to `curators` or `governance.toml`, and never set
-   `reviewed_by` or move `last_reviewed` of a dossier; a person does that ([GOVERNANCE.md](GOVERNANCE.md)).
+   `reviewed_by` or move `last_reviewed` of a living review; a person does that
+   ([GOVERNANCE.md](GOVERNANCE.md)).
 
 ## Before you finish
 
@@ -75,7 +77,7 @@ quarto render --to html     # when Quarto is installed
 
 | Skill | Use it to |
 |---|---|
-| [`write-chapter`](skills/write-chapter/SKILL.md) | Draft or revise a chapter, interlude or dossier |
+| [`write-chapter`](skills/write-chapter/SKILL.md) | Draft or revise a chapter, interlude or living review |
 | [`classify-claims`](skills/classify-claims/SKILL.md) | Find and classify every claim on a page |
 | [`verify-references`](skills/verify-references/SKILL.md) | Check citations and BibTeX entries against their sources |
 | [`review-pr`](skills/review-pr/SKILL.md) | Review a pull request against the project's rules |

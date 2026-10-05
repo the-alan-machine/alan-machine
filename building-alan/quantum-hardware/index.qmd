@@ -13,5 +13,5 @@ papers: []
 <!-- Scope: Superconducting qubits, trapped ions, neutral atoms and photons: coherence times, gate errors, error correction overhead and the cryogenic and control energy per logical operation. -->
 
 ::: {.callout-note appearance="minimal"}
-This dossier has not been written yet.
+This living review has not been written yet.
 :::

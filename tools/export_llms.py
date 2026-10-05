@@ -30,7 +30,7 @@ HEADING_ATTRS = re.compile(r"^(#+[ \t]+.+?)[ \t]*\{[^}\n]*\}[ \t]*$", re.M)
 KIND_NOTE = {
     "chapter": "chapter, popular register",
     "interlude": "interlude, philosophy",
-    "dossier": "Building Alan dossier, living document",
+    "living-review": "Building Alan living review, reviewed every year",
     "paper": "paper, scientific register",
     "appendix": "appendix",
     "section": "section introduction",
@@ -89,7 +89,7 @@ def to_markdown(page, labels, base: str) -> str:
 def describe(page) -> str:
     parts = [KIND_NOTE.get(page.kind, page.kind)]
     status = page.meta.get("status")
-    if status in ("proposed", None) and page.kind in ("chapter", "interlude", "dossier"):
+    if status in ("proposed", None) and page.kind in ("chapter", "interlude", "living-review"):
         parts.append("not written yet")
     elif status:
         parts.append(f"status {status}")
@@ -106,8 +106,10 @@ def llms_index(pages, base: str) -> str:
         "> general public, with companion scientific papers and a living series on how close today's",
         "> technology comes to Alan's physical limits.",
         "",
-        "Every claim in the book is one of four kinds. Unmarked running text is established physics,",
-        "with citations. Callouts titled Extrapolation, Speculation and Philosophy (classes",
+        "Every claim in the book is one of five kinds. Unmarked running text is established physics,",
+        "with citations. Spans of class `.reported` hold results from sources that do not establish",
+        "them yet, such as preprints and manufacturers' figures, and name the source in words.",
+        "Callouts titled Extrapolation, Speculation and Philosophy (classes",
         "`.extrapolation`, `.speculation`, `.philosophy`) hold claims that follow only under stated",
         "assumptions, that no evidence supports yet, or that physics cannot settle. Keep the kind when",
         "you quote the book. Citations appear as `[@key]`; the keys are entries in",
@@ -134,7 +136,7 @@ def llms_index(pages, base: str) -> str:
         f"- [Concepts]({base}data/concepts.toml): every technical term, defined in plain language",
         f"- [Notation]({base}data/notation.toml): every symbol and its unit",
         f"- [Constants]({base}data/constants.toml): physical constants with sources",
-        f"- [Metrics]({base}data/metrics.toml): the metrics Building Alan dossiers report",
+        f"- [Metrics]({base}data/metrics.toml): the metrics Building Alan living reviews report",
         f"- [References]({base}references.bib): the bibliography, in BibTeX",
         f"- [Whole book]({base}llms-full.txt): every page above in one Markdown file",
         "",

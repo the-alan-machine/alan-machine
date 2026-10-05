@@ -4,12 +4,12 @@
 
 ## Where
 
-Slugs of the chapters, interludes, dossiers or papers, or the data files:
+Slugs of the chapters, interludes, living reviews or papers, or the data files:
 
 ## Claims affected
 
 <!-- List the claims this pull request adds or changes, and classify each one as established,
-extrapolation, speculation or philosophy. Write "none" for typo and formatting fixes. -->
+reported, extrapolation, speculation or philosophy. Write "none" for typo and formatting fixes. -->
 
 ## References added
 
@@ -24,6 +24,6 @@ Closes #
 - [ ] Every new reference was checked against its source.
 - [ ] Every new claim is classified, and every established claim has a citation.
 - [ ] New terms are in `data/concepts.toml` and new symbols are in `data/notation.toml`.
-- [ ] Every new number in a dossier has a unit, a date and a source in `data/technologies/`.
+- [ ] Every new number in a living review has a unit, a date and a source in `data/technologies/`.
 - [ ] Every commit is signed off (`git commit -s`).
-- [ ] A dossier whose `last_reviewed` changes names its reviewer in `reviewed_by`, and nobody is added to `curators` or `governance.toml` without a maintainer (GOVERNANCE.md).
+- [ ] A living review whose `last_reviewed` changes names its reviewer in `reviewed_by`, and nobody is added to `curators` or `governance.toml` without a maintainer (GOVERNANCE.md).

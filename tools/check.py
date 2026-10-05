@@ -6,7 +6,7 @@ Errors (exit 1): generated pages out of date or invalid data, citation keys miss
 references.bib or breaking the authorYEARfirstword convention, cross-references to labels that do
 not exist, invalid front matter, pages missing from _quarto.yml, a governance.toml that does not
 match the parts of the book, people named by something other than a GitHub handle.
-Warnings (exit 0): Building Alan dossiers past their review date.
+Warnings (exit 0): Building Alan living reviews past their review date.
 """
 
 from __future__ import annotations
@@ -131,8 +131,8 @@ def main() -> int:
 
         check_people(page.path, "curators", page.meta.get("curators"), errors)
         if page.meta.get("reviewed_by") is not None:
-            if page.kind != "dossier":
-                errors.append(f"{page.path}: only dossiers have reviewed_by")
+            if page.kind != "living-review":
+                errors.append(f"{page.path}: only living reviews have reviewed_by")
             elif not book.GITHUB_HANDLE.match(str(page.meta["reviewed_by"])):
                 errors.append(f"{page.path}: reviewed_by {page.meta['reviewed_by']!r} is not a GitHub handle (write it without @)")
 
@@ -144,7 +144,7 @@ def main() -> int:
             if page.label != f"sec-{page.slug}" and page.kind != "paper":
                 errors.append(f"{page.path}: the title needs the label {{#sec-{page.slug}}}")
 
-        if page.kind == "dossier":
+        if page.kind == "living-review":
             technology = page.meta.get("technology")
             if technology and not (book.ROOT / "data" / "technologies" / f"{technology}.toml").exists():
                 errors.append(f"{page.path}: technology {technology!r} has no data/technologies/{technology}.toml")
