@@ -807,11 +807,19 @@ The difference between past and future that we observe in everyday life: eggs br
 
 ## Bit
 
-The unit of information. Learning which of two equally likely answers is the true one gives one bit; an answer that could be predicted gives less, and a certain one gives none. A memory that can hold one of two states, such as 0 or 1, can store one bit, and ten such memories ten bits. Claude Shannon set out the measure in 1948: the logarithm to base 2 of the number of equally likely possibilities.
+The word has two meanings that are kept apart. A bit is a binary digit: one place in a memory or a message that holds 0 or 1, so ten such places hold ten bits. It is also the everyday name of the unit of information, whose own name is the shannon (symbol Sh). Learning which of two equally likely answers is the true one gives one shannon; an answer that could be predicted gives less, and a certain one gives none. So ten binary digits carry at most ten shannons, and exactly ten only when every sequence is equally likely. Claude Shannon set out the measure in 1948: the logarithm to base 2 of the number of equally likely possibilities. Taken with the natural logarithm instead, the same information is measured in nats, and one shannon is $\ln 2$ nat, about 0.693 nat. The shannon is the unit named in the standard IEC 80000-13:2025. Entropy in thermodynamics is $k_B$ times the information in nats, which is why Landauer's bound for erasing one bit, $k_B T \ln 2$, carries the factor $\ln 2$: it converts one shannon into nats.
 
 **Related:** [Landauer's principle](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-landauer-principle), [Entropy](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-entropy)
 
 **References:** [@shannon1948mathematical]
+
+## Closed timelike curve
+
+A path through spacetime that returns to its own past. Such curves are not known to exist, but studying them has taught something about general relativity and quantum information. Following David Deutsch, a closed timelike curve is treated as a region of spacetime where nature must produce a consistent outcome: a fixed point of whatever process runs around the loop. Aaronson and Watrous showed in 2008 that, if such curves existed, quantum computers would be no more powerful than classical ones: both could solve exactly the problems that need a polynomial amount of memory (PSPACE).
+
+**Related:** [Arrow of time](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-arrow-of-time)
+
+**References:** [@deutsch1991quantum; @aaronson2008closed]
 
 ## Entropy
 
@@ -832,6 +840,14 @@ Erasing one bit of information in surroundings at temperature $T$ releases at le
 A thought experiment devised by James Clerk Maxwell in 1867: a tiny being opens and closes a door between two boxes of gas, letting fast molecules go one way and slow ones the other. It seems to lower entropy for free. The accepted resolution is that the demon must record what it sees, and erasing that record eventually pays the entropy back.
 
 **Related:** [Second law of thermodynamics](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-second-law), [Landauer's principle](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-landauer-principle)
+
+## Poincaré recurrence
+
+A theorem of Henri Poincaré: any finite system comes arbitrarily close to its initial state after some very long but finite time. Taken statistically it is not a paradox, but it seems to violate the second law of thermodynamics, since the entropy of a gas would in time return near its starting value. The theorem leaves gravity out; with gravity, colliding particles can form black holes, which can quench the recurrence or change how long it takes.
+
+**Related:** [Second law of thermodynamics](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-second-law), [Entropy](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-entropy), [Arrow of time](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-arrow-of-time)
+
+**References:** [@dong2016gravity]
 
 ## Quantum speed limit
 
@@ -854,6 +870,14 @@ Computing without erasing information, so that every step can be run backward. T
 In an isolated system, entropy does not decrease over time. It is a statistical law: a decrease is not forbidden, only overwhelmingly unlikely for systems with many parts.
 
 **Related:** [Entropy](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-entropy), [Arrow of time](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-arrow-of-time), [Maxwell's demon](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-maxwells-demon)
+
+## Szilard engine
+
+The simplest case of Maxwell's demon, studied by Leo Szilard in 1929: a box holding a single molecule, in thermal contact with a heat bath, and a partition that can be inserted and can slide along the box. With the partition inserted, the molecule pushes on it; if it moves the way it is pushed, it can lift a weight, and the most work this extracts is $k_B T \ln 2$, drawn from the heat bath alone. Szilard argued that the second law is saved if the demon's acquisition of knowledge, which side the molecule is on, comes with a compensating entropy cost.
+
+**Related:** [Maxwell's demon](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-maxwells-demon), [Landauer's principle](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-landauer-principle), [Second law of thermodynamics](https://the-alan-machine.github.io/the-alan-machine/appendices/concepts.html#sec-concept-second-law)
+
+**References:** [@maroney2009information]
 
 ## Turing machine
 
