@@ -12,13 +12,15 @@ The difference between past and future that we observe in everyday life: eggs br
 
 ## Bit {#sec-concept-bit .unnumbered}
 
-The basic unit of information: the answer to one yes-or-no question. A memory that can hold one of two states, such as 0 or 1, stores one bit.
+The unit of information. Learning which of two equally likely answers is the true one gives one bit; an answer that could be predicted gives less, and a certain one gives none. A memory that can hold one of two states, such as 0 or 1, can store one bit, and ten such memories ten bits. Claude Shannon set out the measure in 1948: the logarithm to base 2 of the number of equally likely possibilities.
 
 **Related:** [Landauer's principle](#sec-concept-landauer-principle), [Entropy](#sec-concept-entropy)
 
+**References:** [@shannon1948mathematical]
+
 ## Entropy {#sec-concept-entropy .unnumbered}
 
-A measure of how many microscopic arrangements of a system are compatible with what we observe at large scale. The more ways the parts can be arranged without changing how the whole looks, the higher the entropy.
+A measure of how many microscopic arrangements of a system (its microstates) are compatible with what we observe at large scale (its macrostate). The more ways the parts can be arranged without changing how the whole looks, the higher the entropy. It grows with the logarithm of that number: the entropy is $k_B$ times its natural logarithm, so doubling the number of arrangements adds $k_B \ln 2$, however large the system. Thermodynamics measures the same quantity through heat: heat taken in reversibly at temperature $T$, divided by $T$, is the change in entropy.
 
 **Related:** [Second law of thermodynamics](#sec-concept-second-law), [Arrow of time](#sec-concept-arrow-of-time), [Bit](#sec-concept-bit)
 
@@ -36,9 +38,17 @@ A thought experiment devised by James Clerk Maxwell in 1867: a tiny being opens 
 
 **Related:** [Second law of thermodynamics](#sec-concept-second-law), [Landauer's principle](#sec-concept-landauer-principle)
 
+## Quantum speed limit {#sec-concept-quantum-speed-limit .unnumbered}
+
+The shortest time in which a quantum system can evolve into a state fully distinguishable from the one it started in. Leonid Mandelstam and Igor Tamm bounded it by the spread of the system's energy; Norman Margolus and Lev Levitin, in 1998, by its average energy above the lowest possible: the time is at least $\pi\hbar / 2E$, with $E$ measured from the ground state. Each step of a computation has to reach a distinguishable state, so the limit caps how many steps per second a computer with a given energy can take.
+
+**Related:** [Bit](#sec-concept-bit), [Reversible computing](#sec-concept-reversible-computing)
+
+**References:** [@mandelstam1991uncertainty; @margolus1998maximum; @lloyd2000ultimate]
+
 ## Reversible computing {#sec-concept-reversible-computing .unnumbered}
 
-Computing without erasing information, so that every step can be run backward. Because nothing is erased, Landauer's principle sets no minimum energy cost per operation: in principle, a reversible computer running slowly enough can dissipate as little energy as we like.
+Computing without erasing information, so that every step can be run backward. Two meanings are kept apart. A computation is logically reversible when each state has only one possible predecessor, so the input can be recovered from the output; Charles Bennett showed in 1973 that a general-purpose computer can be made logically reversible at every step. It is thermodynamically reversible when it produces no entropy, a limit a real device approaches only by running ever more slowly. Logical reversibility removes the minimum cost that Landauer's principle sets on erasure; it does not by itself remove the rest of the dissipation.
 
 **Related:** [Landauer's principle](#sec-concept-landauer-principle), [Bit](#sec-concept-bit)
 
