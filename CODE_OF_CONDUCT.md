@@ -13,5 +13,5 @@ and wherever you represent the project.
 
 ## Reporting
 
-Report unacceptable behavior to the maintainers at [contact address to be defined]. Reports are
+Report unacceptable behavior to the maintainers at joaoalissoncsilva@gmail.com. Reports are
 handled confidentially, following the Contributor Covenant enforcement guidelines.
