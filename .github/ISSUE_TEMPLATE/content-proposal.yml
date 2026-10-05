@@ -1,5 +1,5 @@
 name: Content proposal
-description: Propose a new chapter, section or paper before writing it.
+description: Propose a new chapter, section, interlude, dossier or paper before writing it.
 labels: ["proposal"]
 body:
   - type: dropdown
@@ -9,6 +9,8 @@ body:
       options:
         - A new chapter (popular)
         - A new section in an existing chapter (popular)
+        - A new interlude (philosophy)
+        - A new Building Alan dossier (technology)
         - A new paper (scientific)
     validations:
       required: true
@@ -42,7 +44,7 @@ body:
     id: related
     attributes:
       label: Related chapters or papers
-      description: Slugs, for example landauer or arrow-of-time.
+      description: Slugs, for example landauer, does-time-flow or cmos-baseline.
   - type: dropdown
     id: author
     attributes:

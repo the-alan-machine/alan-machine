@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Can a Mind Beat the Second Law? {#sec-mind-and-the-second-law}
+
+<!-- Scope: Intelligence as physics. An agent that observes, predicts and acts is a Maxwell's demon with a model of the world. The thermodynamic cost of measurement, memory, learning and prediction, and today's AI as a case we can measure (energy per token). What an intelligent Alan could and could not do against the second law. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::

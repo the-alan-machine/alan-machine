@@ -1,9 +1,13 @@
 project:
   type: book
   output-dir: _book
+  pre-render: tools/generate.py
   render:
     - index.qmd
     - chapters/*/index.qmd
+    - interludes/*/index.qmd
+    - building-alan/index.qmd
+    - building-alan/*/index.qmd
     - papers/index.qmd
     - papers/*/index.qmd
     - appendices/*.qmd
@@ -17,6 +21,11 @@ book:
   site-url: https://the-alan-machine.github.io/alan-machine/
   repo-url: https://github.com/the-alan-machine/alan-machine
   repo-actions: [edit, issue]
+  tools:
+    - icon: diagram-3
+      href: https://scape-velocity.github.io/escape-velocity/
+      text: "Escape Velocity, the technology atlas"
+      aria-label: "Escape Velocity, the technology atlas"
   chapters:
     - index.qmd
     - part: "The Machine and the Question"
@@ -24,33 +33,56 @@ book:
         - chapters/meet-alan/index.qmd
         - chapters/what-entropy-is/index.qmd
         - chapters/arrow-of-time/index.qmd
+        - interludes/does-time-flow/index.qmd
     - part: "Information Is Physical"
       chapters:
         - chapters/maxwells-demon/index.qmd
         - chapters/landauer/index.qmd
         - chapters/reversible-computing/index.qmd
+        - chapters/mind-and-the-second-law/index.qmd
+        - interludes/three-demons/index.qmd
     - part: "The Limits of the Machine"
       chapters:
         - chapters/speed-limits/index.qmd
         - chapters/memory-limits/index.qmd
+        - chapters/quantum-alan/index.qmd
+        - chapters/laplaces-demon/index.qmd
         - chapters/black-holes/index.qmd
+        - interludes/inside-an-alan/index.qmd
     - part: "Reversing Entropy"
       chapters:
         - chapters/local-reversal/index.qmd
+        - chapters/life/index.qmd
         - chapters/fluctuations-and-recurrence/index.qmd
         - chapters/global-reversal/index.qmd
+        - interludes/would-you-remember/index.qmd
     - part: "The Impact on Time"
       chapters:
+        - chapters/what-time-is/index.qmd
         - chapters/time-backward/index.qmd
         - chapters/closed-timelike-curves/index.qmd
         - chapters/end-of-the-universe/index.qmd
+        - interludes/can-alan-think/index.qmd
     - chapters/epilogue/index.qmd
+    - part: "Building Alan"
+      chapters:
+        - building-alan/index.qmd
+        - building-alan/cmos-baseline/index.qmd
+        - building-alan/data-movement/index.qmd
+        - building-alan/heat-removal/index.qmd
+        - building-alan/reversible-logic/index.qmd
+        - building-alan/superconducting-logic/index.qmd
+        - building-alan/quantum-hardware/index.qmd
+        - building-alan/thermodynamic-computing/index.qmd
+        - building-alan/neuromorphic-computing/index.qmd
+        - building-alan/optical-computing/index.qmd
+        - building-alan/energy-per-token/index.qmd
     - part: "Papers"
       chapters:
         - papers/index.qmd
     - references.qmd
   appendices:
-    - appendices/glossary.qmd
+    - appendices/concepts.qmd
     - appendices/notation.qmd
     - appendices/constants.qmd
     - appendices/statistical-mechanics.qmd

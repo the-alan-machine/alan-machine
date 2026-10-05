@@ -1,0 +1,40 @@
+# Notation: every symbol used in the book. A symbol keeps one meaning everywhere.
+# tools/generate.py turns this file into the Notation appendix. Add a symbol here before using it.
+#
+# Fields: id, symbol (LaTeX), meaning, unit (LaTeX, SI). Use literal strings ('...') for LaTeX.
+
+[[symbol]]
+id = "boltzmann-constant"
+symbol = '$k_B$'
+meaning = "Boltzmann constant"
+unit = '$\mathrm{J\,K^{-1}}$'
+
+[[symbol]]
+id = "temperature"
+symbol = '$T$'
+meaning = "Absolute temperature"
+unit = '$\mathrm{K}$'
+
+[[symbol]]
+id = "entropy"
+symbol = '$S$'
+meaning = "Entropy"
+unit = '$\mathrm{J\,K^{-1}}$'
+
+[[symbol]]
+id = "energy"
+symbol = '$E$'
+meaning = "Energy"
+unit = '$\mathrm{J}$'
+
+[[symbol]]
+id = "reduced-planck-constant"
+symbol = '$\hbar$'
+meaning = 'Reduced Planck constant, $h / 2\pi$'
+unit = '$\mathrm{J\,s}$'
+
+[[symbol]]
+id = "speed-of-light"
+symbol = '$c$'
+meaning = "Speed of light in vacuum"
+unit = '$\mathrm{m\,s^{-1}}$'

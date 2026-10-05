@@ -16,8 +16,12 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
+      - uses: quarto-dev/quarto-actions/render@v2
+      - name: Build the editions for AI models
+        run: python3 tools/export_llms.py
       - uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

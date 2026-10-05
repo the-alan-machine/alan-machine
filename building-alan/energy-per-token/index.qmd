@@ -1,0 +1,15 @@
+---
+status: proposed
+contributors: []
+technology: null
+last_reviewed: null
+papers: []
+---
+
+# The Energy of a Token {.unnumbered #sec-energy-per-token}
+
+<!-- Scope: The energy language models spend to train and to generate each token, how it is measured, how far it is from the physical limits of the operations involved, and what the trend says about AI hardware. -->
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::

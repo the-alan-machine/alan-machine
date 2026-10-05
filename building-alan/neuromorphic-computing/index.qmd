@@ -1,0 +1,15 @@
+---
+status: proposed
+contributors: []
+technology: null
+last_reviewed: null
+papers: []
+---
+
+# Neuromorphic Computing {.unnumbered #sec-neuromorphic-computing}
+
+<!-- Scope: Spiking and analog in-memory hardware modeled on the brain, the brain's own energy budget as a reference, and the energy per synaptic event. -->
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::

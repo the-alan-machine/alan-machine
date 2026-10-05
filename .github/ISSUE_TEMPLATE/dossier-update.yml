@@ -1,0 +1,44 @@
+name: Dossier update
+description: New or corrected numbers for a Building Alan dossier.
+labels: ["building-alan"]
+body:
+  - type: input
+    id: dossier
+    attributes:
+      label: Dossier
+      description: Slug or link, for example cmos-baseline.
+    validations:
+      required: true
+  - type: input
+    id: metric
+    attributes:
+      label: Metric
+      description: For example energy_per_operation. The list is in data/metrics.toml.
+    validations:
+      required: true
+  - type: input
+    id: value
+    attributes:
+      label: Value and unit
+      description: In SI units, for example 1.2e-15 J.
+    validations:
+      required: true
+  - type: input
+    id: as-of
+    attributes:
+      label: Date the value refers to
+      description: YYYY-MM-DD, or the year when that is all the source gives.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: DOI or link. Say whether it is peer-reviewed, an independent measurement or a vendor figure.
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Conditions
+      description: Temperature, process node, workload, and whether cooling is included.

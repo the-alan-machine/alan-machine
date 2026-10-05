@@ -1,0 +1,15 @@
+---
+status: proposed
+contributors: []
+technology: null
+last_reviewed: null
+papers: []
+---
+
+# CMOS: The Baseline {.unnumbered #sec-cmos-baseline}
+
+<!-- Scope: Today's silicon logic as the reference point: energy per switching event, how far it sits above the Landauer bound at room temperature, and the trends that brought it there (Dennard scaling and its end). -->
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::

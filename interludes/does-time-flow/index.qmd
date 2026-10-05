@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Interlude: Does Time Flow? {.unnumbered #sec-does-time-flow}
+
+<!-- Scope: McTaggart's A-series and B-series, presentism and eternalism, the block universe and the feeling of passage. Why it matters to decide what time is before asking Alan to reverse it. -->
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::

@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Interlude: Are We Inside an Alan? {.unnumbered #sec-inside-an-alan}
+
+<!-- Scope: The simulation argument meets the physical limits of computation. What a machine that simulates a universe would need, whether a simulated mind could tell, and what the question says about the line between physics and metaphysics. -->
+
+::: {.callout-note appearance="minimal"}
+This interlude has not been written yet.
+:::

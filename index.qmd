@@ -1,5 +1,7 @@
 # Preface {.unnumbered}
 
+<!-- Scope: The dedication, and how to read the book: chapters and papers, interludes, Building Alan and the four kinds of claim. -->
+
 ::: {.dedication}
 | For Alan Turing, who imagined the machine,
 | and for Alan Ricardo.
@@ -17,10 +19,18 @@ When the math helps, it shows up in boxes marked *Going deeper*, which you can o
 story works either way.
 
 Some chapters have a companion paper, written for specialists, with the full argument. You will
-find the papers in the last part of the book, and each chapter tells you when one exists.
+find the papers near the end of the book, and each chapter tells you when one exists.
 
-Along the way, we keep three kinds of statement apart. Unmarked claims are **established**
-physics, with references you can check. Boxes marked **Extrapolation** follow from established
-physics, but only if their stated assumptions hold. Boxes marked **Speculation** hold ideas that
-are conceivable but that no evidence supports yet. A thought experiment is only useful if you
-always know which of the three you are reading.
+Each part ends with an *interlude*: a short pause for a question that physics can inform but not
+answer, such as whether time really flows or whether a machine can think. After the main text,
+*Building Alan* looks at real technology, from today's chips to quantum computers, and asks how far
+each one is from the limits the chapters describe. Those pages are updated every year.
+
+Along the way, we keep four kinds of statement apart. Unmarked claims are **established** physics,
+with references you can check. Boxes marked **Extrapolation** follow from established physics, but
+only if their stated assumptions hold. Boxes marked **Speculation** hold ideas that are conceivable
+but that no evidence supports yet. Boxes marked **Philosophy** hold questions that physics cannot
+settle, with the best arguments on each side. A thought experiment is only useful if you always know
+which of the four you are reading.
+
+Every technical term links to its plain-language definition in the Concepts appendix at the end.

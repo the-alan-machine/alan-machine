@@ -6,7 +6,7 @@ body:
     id: location
     attributes:
       label: Location
-      description: Chapter or paper, and section. A link to the page is best.
+      description: Page (chapter, interlude, dossier or paper) and section. A link to the page is best.
     validations:
       required: true
   - type: textarea
@@ -24,6 +24,7 @@ body:
         - Established
         - Extrapolation
         - Speculation
+        - Philosophy
         - Not classified
     validations:
       required: true

@@ -1,0 +1,15 @@
+---
+status: proposed
+contributors: []
+technology: null
+last_reviewed: null
+papers: []
+---
+
+# Quantum Hardware {.unnumbered #sec-quantum-hardware}
+
+<!-- Scope: Superconducting qubits, trapped ions, neutral atoms and photons: coherence times, gate errors, error correction overhead and the cryogenic and control energy per logical operation. -->
+
+::: {.callout-note appearance="minimal"}
+This dossier has not been written yet.
+:::

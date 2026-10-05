@@ -1,0 +1,101 @@
+# Concepts: every technical term the book uses, defined in plain language.
+# tools/generate.py turns this file into the Concepts appendix (appendices/concepts.qmd).
+# Link a concept from any page with @sec-concept-<id>; the generator lists where it is used.
+#
+# Fields: id (lowercase, hyphens), term, short (one line), definition (plain language),
+# related (concept ids), references (keys in references.bib).
+
+[[concept]]
+id = "entropy"
+term = "Entropy"
+short = "How many microscopic arrangements fit what we see at large scale."
+definition = """
+A measure of how many microscopic arrangements of a system are compatible with what we observe at
+large scale. The more ways the parts can be arranged without changing how the whole looks, the
+higher the entropy.
+"""
+related = ["second-law", "arrow-of-time", "bit"]
+references = []
+
+[[concept]]
+id = "second-law"
+term = "Second law of thermodynamics"
+short = "In an isolated system, entropy does not decrease."
+definition = """
+In an isolated system, entropy does not decrease over time. It is a statistical law: a decrease is
+not forbidden, only overwhelmingly unlikely for systems with many parts.
+"""
+related = ["entropy", "arrow-of-time", "maxwells-demon"]
+references = []
+
+[[concept]]
+id = "arrow-of-time"
+term = "Arrow of time"
+short = "The difference between past and future that we observe."
+definition = """
+The difference between past and future that we observe in everyday life: eggs break but do not
+unbreak, and we remember yesterday but not tomorrow. It stands out because the fundamental laws of
+physics barely distinguish between the two directions of time.
+"""
+related = ["entropy", "second-law"]
+references = []
+
+[[concept]]
+id = "bit"
+term = "Bit"
+short = "The basic unit of information: the answer to one yes-or-no question."
+definition = """
+The basic unit of information: the answer to one yes-or-no question. A memory that can hold one of
+two states, such as 0 or 1, stores one bit.
+"""
+related = ["landauer-principle", "entropy"]
+references = []
+
+[[concept]]
+id = "landauer-principle"
+term = "Landauer's principle"
+short = "Erasing one bit costs at least k_B T ln 2 of heat."
+definition = """
+Erasing one bit of information in surroundings at temperature $T$ releases at least $k_B T \\ln 2$
+of heat. Forgetting has a minimum physical cost. The bound was proposed by Rolf Landauer in 1961
+and confirmed experimentally in 2012.
+"""
+related = ["bit", "reversible-computing", "maxwells-demon"]
+references = ["landauer1961irreversibility", "berut2012experimental"]
+
+[[concept]]
+id = "reversible-computing"
+term = "Reversible computing"
+short = "Computing without erasing information, so every step can be undone."
+definition = """
+Computing without erasing information, so that every step can be run backward. Because nothing is
+erased, Landauer's principle sets no minimum energy cost per operation: in principle, a reversible
+computer running slowly enough can dissipate as little energy as we like.
+"""
+related = ["landauer-principle", "bit"]
+references = ["bennett1973logical"]
+
+[[concept]]
+id = "maxwells-demon"
+term = "Maxwell's demon"
+short = "A tiny sorter of molecules that seems to beat the second law."
+definition = """
+A thought experiment devised by James Clerk Maxwell in 1867: a tiny being opens and closes a door
+between two boxes of gas, letting fast molecules go one way and slow ones the other. It seems to
+lower entropy for free. The accepted resolution is that the demon must record what it sees, and
+erasing that record eventually pays the entropy back.
+"""
+related = ["second-law", "landauer-principle"]
+references = []
+
+[[concept]]
+id = "turing-machine"
+term = "Turing machine"
+short = "Turing's 1936 model of what it means to compute."
+definition = """
+An abstract model of computation introduced by Alan Turing in 1936: a machine that reads and writes
+symbols on an unlimited tape, following a finite table of rules. Anything a modern computer can
+compute, a Turing machine can compute too, given enough time and tape.
+"""
+related = ["bit"]
+references = ["turing1937computable"]

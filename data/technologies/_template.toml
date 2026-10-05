@@ -1,0 +1,16 @@
+# Template for a Building Alan technology. Copy to data/technologies/<id>.toml.
+# Every metric has a value, a unit, an as_of date and a source (a key in references.bib).
+# See data/README.md for the metric names.
+
+id = "technology-id"
+name = "Technology Name"
+dossier = "technology-id"        # slug of building-alan/<slug>/index.qmd
+
+[[metric]]
+name = "energy_per_operation"
+value = 0.0
+unit = "J"
+operating_temperature_K = 300
+as_of = "YYYY-MM-DD"
+source = "bibkey"
+note = "What was measured, and under which conditions."

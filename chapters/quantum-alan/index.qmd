@@ -1,0 +1,13 @@
+---
+status: proposed
+contributors: []
+papers: []
+---
+
+# Is Alan a Quantum Computer? {#sec-quantum-alan}
+
+<!-- Scope: Qubits and unitary evolution, and why quantum dynamics is reversible. Measurement and decoherence as the irreversible step. Error correction as an entropy pump. Quantum speed limits, and what a quantum Alan gains and does not gain. -->
+
+::: {.callout-note appearance="minimal"}
+This chapter has not been written yet.
+:::
