@@ -3,8 +3,9 @@ message: "If you use this book, please cite it as below."
 title: "The Alan Machine"
 type: software
 authors:
-  # TODO(author): split into given-names and family-names, and add an ORCID.
   - given-names: "João Alisson"
+    family-names: "Costa Silva"
+    orcid: "https://orcid.org/0009-0001-5508-944X"
 license: CC-BY-4.0
 repository-code: "https://github.com/the-alan-machine/alan-machine"
 preferred-citation:
@@ -12,5 +13,7 @@ preferred-citation:
   title: "The Alan Machine"
   authors:
     - given-names: "João Alisson"
+      family-names: "Costa Silva"
+      orcid: "https://orcid.org/0009-0001-5508-944X"
   year: 2026
   license: CC-BY-4.0
