@@ -19,7 +19,7 @@ Each dossier looks at one technology or one bottleneck and measures it against t
 
 These pages are written for engineers and researchers who design processors, memory, AI hardware
 and data centers, and for any reader who wants to know where real machines stand. The numbers
-behind them are published as data (see [the data folder](https://github.com/the-alan-machine/alan-machine/tree/main/data)),
+behind them are published as data (see [the data folder](https://github.com/the-alan-machine/the-alan-machine/tree/main/data)),
 so they can be reused and checked.
 
 The same method, applied beyond computing, is
