@@ -1,0 +1,67 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: e1dfaaada8             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Como contribuir {#sec-contributing .unnumbered}
+
+<!-- Scope: How a reader helps with the book, with or without git. The complete rules are in CONTRIBUTING.md; this page links to them instead of repeating them. -->
+
+Este livro é escrito às claras, e qualquer pessoa pode melhorá-lo. Não é preciso saber git, nem ser
+físico: muitas das contribuições mais úteis são um único erro encontrado por um leitor atento.
+
+## O que você pode contribuir
+
+- **Um erro**: um erro de digitação, um link quebrado, ou uma equação ou um número errado.
+- **Uma contestação**: uma afirmação que você considera errada, sem fundamento ou classificada no
+  tipo errado. O livro marca cada afirmação como consolidada, relatada, extrapolação, especulação ou
+  filosofia, e uma marca errada também é um erro.
+- **Uma referência**: um artigo ou livro que deveria ser citado, ou listado como leitura adicional.
+- **Números novos** para uma revisão viva de Construindo Alan, com unidade, data e fonte.
+- **Texto novo**: um capítulo, uma seção, um interlúdio, uma revisão viva ou um artigo, proposto
+  antes de ser escrito.
+- **Uma tradução**, ou a correção de uma.
+- **Uma ideia** que ainda não é uma proposta ("e se Alan pudesse...").
+
+## Sem git: um formulário no GitHub
+
+Basta uma conta gratuita no GitHub. Cada formulário pede o que um revisor precisa; escreva em
+inglês.
+
+| Formulário | Use para |
+|---|---|
+| [Erratum](https://github.com/the-alan-machine/the-alan-machine/issues/new?template=erratum.yml) | Um erro de digitação, um link quebrado, ou um erro numa equação ou num número |
+| [Scientific challenge](https://github.com/the-alan-machine/the-alan-machine/issues/new?template=scientific-challenge.yml) | Uma afirmação errada, sem fundamento ou classificada no tipo errado |
+| [Content proposal](https://github.com/the-alan-machine/the-alan-machine/issues/new?template=content-proposal.yml) | Um capítulo, uma seção, um interlúdio, uma revisão viva ou um artigo novo |
+| [Living review update](https://github.com/the-alan-machine/the-alan-machine/issues/new?template=living-review-update.yml) | Números novos ou corrigidos para uma revisão viva de Construindo Alan |
+| [Reference suggestion](https://github.com/the-alan-machine/the-alan-machine/issues/new?template=reference-suggestion.yml) | Um artigo ou livro que deveria ser citado ou listado como leitura adicional |
+| [Translation](https://github.com/the-alan-machine/the-alan-machine/issues/new?template=translation.yml) | Uma tradução errada ou faltando, ou uma oferta para traduzir |
+
+Ideias e perguntas vão para as
+[Discussions](https://github.com/the-alan-machine/the-alan-machine/discussions). As pessoas que
+cuidam da parte do livro que você citar são avisadas da sua issue e respondem por lá.
+
+## Com um pull request
+
+Para mudar o texto você mesmo:
+
+1. Abra "Edit this page" no rodapé de uma página da edição em inglês para uma correção pequena no navegador, ou faça um
+   fork do [repositório](https://github.com/the-alan-machine/the-alan-machine) e trabalhe na sua
+   cópia.
+2. Faça a mudança, seguindo o [guia de estilo](https://github.com/the-alan-machine/the-alan-machine/blob/main/STYLE.md)
+   do livro.
+3. Abra um pull request e preencha o modelo dele.
+4. Uma pessoa que cuida dessas páginas o revisa, e um mantenedor faz o merge.
+
+O título do pull request, a assinatura (sign-off) que todo commit precisa, as verificações a rodar e
+a preparação passo a passo estão no
+[CONTRIBUTING.md](https://github.com/the-alan-machine/the-alan-machine/blob/main/CONTRIBUTING.md),
+que tem as regras completas, em inglês. Tradutores começam pelo
+[docs/translating.md](https://github.com/the-alan-machine/the-alan-machine/blob/main/docs/translating.md).
+
+## Quem cuida do livro
+
+Cada parte do livro tem moderadores, e as páginas podem ter curadores que as mantêm corretas. Eles
+estão listados em @sec-people, com os mantenedores de cada tradução. Como assumir um desses papéis
+está no [GOVERNANCE.md](https://github.com/the-alan-machine/the-alan-machine/blob/main/GOVERNANCE.md).
