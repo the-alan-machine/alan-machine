@@ -12,6 +12,7 @@ project:
     - papers/*/index.qmd
     - appendices/*.qmd
     - references.qmd
+    - contributing.qmd
 
 lang: en-US
 
@@ -88,6 +89,7 @@ book:
       chapters:
         - papers/index.qmd
     - references.qmd
+    - contributing.qmd
   appendices:
     - appendices/concepts.qmd
     - appendices/notation.qmd
