@@ -1,0 +1,636 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Alan Machine",
+    "section": "",
+    "text": "Prefácio",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "index.html#como-ler-este-livro",
+    "href": "index.html#como-ler-este-livro",
+    "title": "The Alan Machine",
+    "section": "Como ler este livro",
+    "text": "Como ler este livro\nEste livro trata de uma máquina que não existe. Nós a chamamos de Alan e a usamos para fazer uma pergunta que a física leva muito a sério: a entropia pode ser revertida e, se pudesse, o que aconteceria com o tempo?\nNão é preciso ser formado em física para lê-lo. Os capítulos foram escritos para qualquer pessoa curiosa. Quando a matemática ajuda, ela aparece em quadros marcados Para ir mais fundo, que você pode abrir ou pular. A história funciona das duas maneiras.\nAlguns capítulos têm um artigo associado, escrito para especialistas, com o argumento completo. Você encontra os artigos perto do fim do livro, e cada capítulo avisa quando existe um.\nCada parte termina com um interlúdio: uma pausa curta para uma pergunta que a física pode esclarecer, mas não responder, como se o tempo realmente flui ou se uma máquina pode pensar. Depois do texto principal, Construindo Alan examina a tecnologia real, dos chips de hoje aos computadores quânticos, e pergunta a que distância cada uma está dos limites que os capítulos descrevem. Essas páginas são atualizadas todo ano.\nAo longo do caminho, mantemos separados cinco tipos de afirmação. As afirmações sem marca são física consolidada, com referências que você pode conferir. Uma afirmação que se apoia numa fonte mais recente, como um preprint ou um número do fabricante, diz isso com todas as letras: ela é relatada, ainda não consolidada. Os quadros marcados Extrapolação decorrem da física consolidada, mas só se as premissas declaradas valerem. Os quadros marcados Especulação trazem ideias concebíveis, mas que nenhuma evidência sustenta ainda. Os quadros marcados Filosofia trazem perguntas que a física não consegue decidir, com os melhores argumentos de cada lado. Um experimento mental só é útil se você sempre souber qual dos cinco está lendo.\nTodo termo técnico tem um link para a sua definição em linguagem simples no apêndice Conceitos, no fim do livro.",
+    "crumbs": [
+      "Prefácio"
+    ]
+  },
+  {
+    "objectID": "chapters/meet-alan/index.html",
+    "href": "chapters/meet-alan/index.html",
+    "title": "1  Conheça Alan",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "A máquina e a pergunta",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Conheça Alan</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/what-entropy-is/index.html",
+    "href": "chapters/what-entropy-is/index.html",
+    "title": "2  O que é a entropia",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "A máquina e a pergunta",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>O que é a entropia</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/arrow-of-time/index.html",
+    "href": "chapters/arrow-of-time/index.html",
+    "title": "3  A flecha do tempo",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "A máquina e a pergunta",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>A flecha do tempo</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/does-time-flow/index.html",
+    "href": "interludes/does-time-flow/index.html",
+    "title": "Interlúdio: o tempo flui?",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste interlúdio ainda não foi escrito.",
+    "crumbs": [
+      "A máquina e a pergunta",
+      "Interlúdio: o tempo flui?"
+    ]
+  },
+  {
+    "objectID": "chapters/maxwells-demon/index.html",
+    "href": "chapters/maxwells-demon/index.html",
+    "title": "4  O demônio de Maxwell e a máquina de Szilard",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "A informação é física",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>O demônio de Maxwell e a máquina de Szilard</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/landauer/index.html",
+    "href": "chapters/landauer/index.html",
+    "title": "5  O princípio de Landauer",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "A informação é física",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>O princípio de Landauer</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/reversible-computing/index.html",
+    "href": "chapters/reversible-computing/index.html",
+    "title": "6  Computação reversível",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "A informação é física",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Computação reversível</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/mind-and-the-second-law/index.html",
+    "href": "chapters/mind-and-the-second-law/index.html",
+    "title": "7  Uma mente pode vencer a segunda lei?",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "A informação é física",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Uma mente pode vencer a segunda lei?</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/three-demons/index.html",
+    "href": "interludes/three-demons/index.html",
+    "title": "Interlúdio: três demônios",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste interlúdio ainda não foi escrito.",
+    "crumbs": [
+      "A informação é física",
+      "Interlúdio: três demônios"
+    ]
+  },
+  {
+    "objectID": "chapters/speed-limits/index.html",
+    "href": "chapters/speed-limits/index.html",
+    "title": "8  Com que rapidez ele pode computar",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Os limites da máquina",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Com que rapidez ele pode computar</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/memory-limits/index.html",
+    "href": "chapters/memory-limits/index.html",
+    "title": "9  Quanto ele pode guardar",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Os limites da máquina",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Quanto ele pode guardar</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/quantum-alan/index.html",
+    "href": "chapters/quantum-alan/index.html",
+    "title": "10  Alan é um computador quântico?",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Os limites da máquina",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Alan é um computador quântico?</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/laplaces-demon/index.html",
+    "href": "chapters/laplaces-demon/index.html",
+    "title": "11  O demônio de Laplace",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Os limites da máquina",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>O demônio de Laplace</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/black-holes/index.html",
+    "href": "chapters/black-holes/index.html",
+    "title": "12  Buracos negros e informação",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Os limites da máquina",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Buracos negros e informação</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/inside-an-alan/index.html",
+    "href": "interludes/inside-an-alan/index.html",
+    "title": "Interlúdio: estamos dentro de um Alan?",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste interlúdio ainda não foi escrito.",
+    "crumbs": [
+      "Os limites da máquina",
+      "Interlúdio: estamos dentro de um Alan?"
+    ]
+  },
+  {
+    "objectID": "chapters/local-reversal/index.html",
+    "href": "chapters/local-reversal/index.html",
+    "title": "13  Reversão local",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Revertendo a entropia",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Reversão local</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/life/index.html",
+    "href": "chapters/life/index.html",
+    "title": "14  A vida: a reversão local original",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Revertendo a entropia",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>A vida: a reversão local original</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/fluctuations-and-recurrence/index.html",
+    "href": "chapters/fluctuations-and-recurrence/index.html",
+    "title": "15  Flutuações e recorrência",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Revertendo a entropia",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Flutuações e recorrência</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/global-reversal/index.html",
+    "href": "chapters/global-reversal/index.html",
+    "title": "16  Reversão global",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Revertendo a entropia",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Reversão global</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/would-you-remember/index.html",
+    "href": "interludes/would-you-remember/index.html",
+    "title": "Interlúdio: você se lembraria?",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste interlúdio ainda não foi escrito.",
+    "crumbs": [
+      "Revertendo a entropia",
+      "Interlúdio: você se lembraria?"
+    ]
+  },
+  {
+    "objectID": "chapters/what-time-is/index.html",
+    "href": "chapters/what-time-is/index.html",
+    "title": "17  O que é o tempo",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "O impacto sobre o tempo",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>O que é o tempo</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/time-backward/index.html",
+    "href": "chapters/time-backward/index.html",
+    "title": "18  O tempo correria para trás",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "O impacto sobre o tempo",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>O tempo correria para trás</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/closed-timelike-curves/index.html",
+    "href": "chapters/closed-timelike-curves/index.html",
+    "title": "19  Curvas tipo tempo fechadas",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "O impacto sobre o tempo",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Curvas tipo tempo fechadas</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/end-of-the-universe/index.html",
+    "href": "chapters/end-of-the-universe/index.html",
+    "title": "20  O fim do universo",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "O impacto sobre o tempo",
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>O fim do universo</span>"
+    ]
+  },
+  {
+    "objectID": "interludes/can-alan-think/index.html",
+    "href": "interludes/can-alan-think/index.html",
+    "title": "Interlúdio: Alan pode pensar?",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste interlúdio ainda não foi escrito.",
+    "crumbs": [
+      "O impacto sobre o tempo",
+      "Interlúdio: Alan pode pensar?"
+    ]
+  },
+  {
+    "objectID": "chapters/epilogue/index.html",
+    "href": "chapters/epilogue/index.html",
+    "title": "Epílogo: o que Alan não pode fazer",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste capítulo ainda não foi escrito.",
+    "crumbs": [
+      "Epílogo: o que Alan não pode fazer"
+    ]
+  },
+  {
+    "objectID": "building-alan/index.html",
+    "href": "building-alan/index.html",
+    "title": "Sobre Construindo Alan",
+    "section": "",
+    "text": "Revisões vivas\nOs capítulos perguntam o que a física permite. Esta parte faz outra pergunta: quanto a tecnologia de hoje se aproxima disso, e o que fecharia a distância? A resposta muda todo ano, por isso estas páginas são documentos vivos. Cada uma tem uma data de revisão, e cada número nela traz a data a que se refere e a sua fonte.\nCada revisão viva examina uma tecnologia ou um gargalo e a mede com as mesmas réguas:\nEstas páginas são escritas para engenheiros e pesquisadores que projetam processadores, memória, hardware de IA e data centers, e para qualquer leitor que queira saber onde as máquinas reais estão. Os números por trás delas são publicados como dados (veja a pasta de dados), para que possam ser reutilizados e conferidos.\nO mesmo método, aplicado além da computação, é o Escape Velocity: um atlas aberto do que cada tecnologia ainda precisa para chegar à maturidade, da fusão à medicina, e de quais tecnologias dependem de quais. Os seus verbetes sobre computadores quânticos, movimentação de dados, remoção de calor e a energia da inferência de IA remetem a estas revisões vivas.",
+    "crumbs": [
+      "Construindo Alan",
+      "Sobre Construindo Alan"
+    ]
+  },
+  {
+    "objectID": "building-alan/index.html#revisões-vivas",
+    "href": "building-alan/index.html#revisões-vivas",
+    "title": "Sobre Construindo Alan",
+    "section": "",
+    "text": "Revisão viva\nSituação\nÚltima revisão\nPróxima revisão\nCuradores\n\n\n\n\nCMOS: a referência\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nO custo de mover dados\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nTirando o calor\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nLógica adiabática e reversível\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nLógica supercondutora\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nHardware quântico\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nComputação termodinâmica e probabilística\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nComputação neuromórfica\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nComputação óptica\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\nA energia de um token\nproposta\nnunca\nainda não revisada\nninguém ainda\n\n\n\n\n\n\n\n\nBekenstein, Jacob D. 1981. “Universal upper bound on the entropy-to-energy ratio for bounded systems”. Physical Review D 23 (2): 287–98. https://doi.org/10.1103/physrevd.23.287.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, e Eric Lutz. 2012. “Experimental verification of Landauer’s principle linking information and thermodynamics”. Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process”. IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate physical limits to computation”. Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMargolus, Norman, e Lev B. Levitin. 1998. “The maximum speed of dynamical evolution”. Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.",
+    "crumbs": [
+      "Construindo Alan",
+      "Sobre Construindo Alan"
+    ]
+  },
+  {
+    "objectID": "building-alan/cmos-baseline/index.html",
+    "href": "building-alan/cmos-baseline/index.html",
+    "title": "CMOS: a referência",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "CMOS: a referência"
+    ]
+  },
+  {
+    "objectID": "building-alan/data-movement/index.html",
+    "href": "building-alan/data-movement/index.html",
+    "title": "O custo de mover dados",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "O custo de mover dados"
+    ]
+  },
+  {
+    "objectID": "building-alan/heat-removal/index.html",
+    "href": "building-alan/heat-removal/index.html",
+    "title": "Tirando o calor",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "Tirando o calor"
+    ]
+  },
+  {
+    "objectID": "building-alan/reversible-logic/index.html",
+    "href": "building-alan/reversible-logic/index.html",
+    "title": "Lógica adiabática e reversível",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "Lógica adiabática e reversível"
+    ]
+  },
+  {
+    "objectID": "building-alan/superconducting-logic/index.html",
+    "href": "building-alan/superconducting-logic/index.html",
+    "title": "Lógica supercondutora",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "Lógica supercondutora"
+    ]
+  },
+  {
+    "objectID": "building-alan/quantum-hardware/index.html",
+    "href": "building-alan/quantum-hardware/index.html",
+    "title": "Hardware quântico",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "Hardware quântico"
+    ]
+  },
+  {
+    "objectID": "building-alan/thermodynamic-computing/index.html",
+    "href": "building-alan/thermodynamic-computing/index.html",
+    "title": "Computação termodinâmica e probabilística",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "Computação termodinâmica e probabilística"
+    ]
+  },
+  {
+    "objectID": "building-alan/neuromorphic-computing/index.html",
+    "href": "building-alan/neuromorphic-computing/index.html",
+    "title": "Computação neuromórfica",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "Computação neuromórfica"
+    ]
+  },
+  {
+    "objectID": "building-alan/optical-computing/index.html",
+    "href": "building-alan/optical-computing/index.html",
+    "title": "Computação óptica",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "Computação óptica"
+    ]
+  },
+  {
+    "objectID": "building-alan/energy-per-token/index.html",
+    "href": "building-alan/energy-per-token/index.html",
+    "title": "A energia de um token",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEsta revisão viva ainda não foi escrita.",
+    "crumbs": [
+      "Construindo Alan",
+      "A energia de um token"
+    ]
+  },
+  {
+    "objectID": "papers/index.html",
+    "href": "papers/index.html",
+    "title": "About the Papers",
+    "section": "",
+    "text": "Os artigos são escritos para especialistas e ficam em inglês.\n\n\n\nThe chapters tell the story. The papers make the argument.\nSome chapters have a companion paper with the full scientific treatment of their subject: the derivations, the assumptions and the references a specialist would expect. Each paper stands on its own, with its own authors, abstract and references, and can be cited independently of the book. A chapter can lean on several papers, and a paper can support several chapters.\nNo papers have been written yet.",
+    "crumbs": [
+      "Artigos",
+      "About the Papers"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Referências",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\nBekenstein, Jacob D. 1981. “Universal Upper Bound on the\nEntropy-to-Energy Ratio for Bounded Systems.” Physical Review\nD 23 (2): 287–98. https://doi.org/10.1103/physrevd.23.287.\n\n\nBennett, C. H. 1973. “Logical Reversibility of\nComputation.” IBM Journal of Research and Development 17\n(6): 525–32. https://doi.org/10.1147/rd.176.0525.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto,\nRaoul Dillenschneider, and Eric Lutz. 2012. “Experimental\nVerification of Landauer’s Principle Linking Information and\nThermodynamics.” Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the\nComputing Process.” IBM Journal of Research and\nDevelopment 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate Physical Limits to\nComputation.” Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMandelstam, L., and Ig. Tamm. 1991. “The Uncertainty Relation\nBetween Energy and Time in Non-Relativistic Quantum Mechanics.”\nIn Selected Papers. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-74626-0_8.\n\n\nMargolus, Norman, and Lev B. Levitin. 1998. “The Maximum Speed of\nDynamical Evolution.” Physica D: Nonlinear Phenomena 120\n(1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.\n\n\nShannon, C. E. 1948. “A Mathematical Theory of\nCommunication.” Bell System Technical Journal 27 (3):\n379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.\n\n\nTuring, A. M. 1937. “On Computable Numbers, with an Application to\nthe Entscheidungsproblem.” Proceedings of the London\nMathematical Society s2-42 (1): 230–65. https://doi.org/10.1112/plms/s2-42.1.230.",
+    "crumbs": [
+      "Referências"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html",
+    "href": "appendices/concepts.html",
+    "title": "Apêndice A — Conceitos",
+    "section": "",
+    "text": "Bit\nTodo termo técnico que o livro usa, em linguagem simples. Cada verbete lista as páginas que o usam.\nA unidade de informação. Descobrir qual de duas respostas igualmente prováveis é a verdadeira dá um bit; uma resposta que podia ser prevista dá menos, e uma certa não dá nenhum. Uma memória que pode guardar um de dois estados, como 0 ou 1, armazena um bit, e dez memórias assim, dez bits. Claude Shannon estabeleceu a medida em 1948: o logaritmo na base 2 do número de possibilidades igualmente prováveis.\nRelacionados: Princípio de Landauer, Entropia\nReferências: (Shannon 1948)",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-reversible-computing",
+    "href": "appendices/concepts.html#sec-concept-reversible-computing",
+    "title": "Apêndice A — Conceitos",
+    "section": "Computação reversível",
+    "text": "Computação reversível\nComputar sem apagar informação, de modo que cada passo possa ser executado de trás para frente. Dois sentidos são mantidos separados. Uma computação é logicamente reversível quando cada estado tem um único antecessor possível, de modo que a entrada pode ser recuperada a partir da saída; Charles Bennett mostrou em 1973 que um computador de uso geral pode ser logicamente reversível em todos os passos. Ela é termodinamicamente reversível quando não produz entropia, um limite de que um dispositivo real só se aproxima operando cada vez mais devagar. A reversibilidade lógica elimina o custo mínimo que o princípio de Landauer impõe ao apagamento; sozinha, ela não elimina o resto da dissipação.\nRelacionados: Princípio de Landauer, Bit\nReferências: (Bennett 1973)",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-maxwells-demon",
+    "href": "appendices/concepts.html#sec-concept-maxwells-demon",
+    "title": "Apêndice A — Conceitos",
+    "section": "Demônio de Maxwell",
+    "text": "Demônio de Maxwell\nUm experimento mental criado por James Clerk Maxwell em 1867: um ser minúsculo abre e fecha uma porta entre duas caixas de gás, deixando as moléculas rápidas passarem para um lado e as lentas para o outro. Ele parece diminuir a entropia sem custo. A solução aceita é que o demônio precisa registrar o que vê, e o apagamento desse registro acaba devolvendo a entropia.\nRelacionados: Segunda lei da termodinâmica, Princípio de Landauer",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-entropy",
+    "href": "appendices/concepts.html#sec-concept-entropy",
+    "title": "Apêndice A — Conceitos",
+    "section": "Entropia",
+    "text": "Entropia\nUma medida de quantos arranjos microscópicos de um sistema (os seus microestados) são compatíveis com o que observamos em grande escala (o seu macroestado). Quanto mais maneiras as partes têm de se arranjar sem mudar a aparência do todo, maior a entropia. Ela cresce com o logaritmo desse número: a entropia é \\(k_B\\) vezes o seu logaritmo natural, de modo que dobrar o número de arranjos soma \\(k_B \\ln 2\\), por maior que seja o sistema. A termodinâmica mede a mesma grandeza pelo calor: o calor absorvido de forma reversível à temperatura \\(T\\), dividido por \\(T\\), é a variação da entropia.\nRelacionados: Segunda lei da termodinâmica, Flecha do tempo, Bit",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-arrow-of-time",
+    "href": "appendices/concepts.html#sec-concept-arrow-of-time",
+    "title": "Apêndice A — Conceitos",
+    "section": "Flecha do tempo",
+    "text": "Flecha do tempo\nA diferença entre passado e futuro que observamos no dia a dia: ovos se quebram, mas não se desquebram, e lembramos de ontem, mas não de amanhã. Ela chama a atenção porque as leis fundamentais da física mal distinguem as duas direções do tempo.\nRelacionados: Entropia, Segunda lei da termodinâmica",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-quantum-speed-limit",
+    "href": "appendices/concepts.html#sec-concept-quantum-speed-limit",
+    "title": "Apêndice A — Conceitos",
+    "section": "Limite quântico de velocidade",
+    "text": "Limite quântico de velocidade\nO menor tempo em que um sistema quântico pode evoluir para um estado totalmente distinguível daquele em que começou. Leonid Mandelstam e Igor Tamm o limitaram pela dispersão da energia do sistema; Norman Margolus e Lev Levitin, em 1998, pela sua energia média acima da mais baixa possível: o tempo é de pelo menos \\(\\pi\\hbar / 2E\\), com \\(E\\) medida a partir do estado fundamental. Cada passo de uma computação precisa chegar a um estado distinguível, de modo que o limite restringe quantos passos por segundo um computador com uma dada energia pode dar.\nRelacionados: Bit, Computação reversível\nReferências: (Mandelstam e Tamm 1991; Margolus e Levitin 1998; Lloyd 2000)",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-turing-machine",
+    "href": "appendices/concepts.html#sec-concept-turing-machine",
+    "title": "Apêndice A — Conceitos",
+    "section": "Máquina de Turing",
+    "text": "Máquina de Turing\nUm modelo abstrato de computação apresentado por Alan Turing em 1936: uma máquina que lê e escreve símbolos numa fita ilimitada, seguindo uma tabela finita de regras. Tudo o que um computador moderno pode computar, uma máquina de Turing também pode, com tempo e fita suficientes.\nRelacionados: Bit\nReferências: (Turing 1937)",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-landauer-principle",
+    "href": "appendices/concepts.html#sec-concept-landauer-principle",
+    "title": "Apêndice A — Conceitos",
+    "section": "Princípio de Landauer",
+    "text": "Princípio de Landauer\nApagar um bit de informação num ambiente à temperatura \\(T\\) libera pelo menos \\(k_B T \\ln 2\\) de calor. Esquecer tem um custo físico mínimo. O limite foi proposto por Rolf Landauer em 1961 e confirmado experimentalmente em 2012.\nRelacionados: Bit, Computação reversível, Demônio de Maxwell\nReferências: (Landauer 1961; Bérut et al. 2012)",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/concepts.html#sec-concept-second-law",
+    "href": "appendices/concepts.html#sec-concept-second-law",
+    "title": "Apêndice A — Conceitos",
+    "section": "Segunda lei da termodinâmica",
+    "text": "Segunda lei da termodinâmica\nNum sistema isolado, a entropia não diminui com o tempo. É uma lei estatística: uma diminuição não é proibida, apenas improvável ao extremo em sistemas com muitas partes.\nRelacionados: Entropia, Flecha do tempo, Demônio de Maxwell\n\n\n\n\nBennett, C. H. 1973. “Logical Reversibility of Computation”. IBM Journal of Research and Development 17 (6): 525–32. https://doi.org/10.1147/rd.176.0525.\n\n\nBérut, Antoine, Artak Arakelyan, Artyom Petrosyan, Sergio Ciliberto, Raoul Dillenschneider, e Eric Lutz. 2012. “Experimental verification of Landauer’s principle linking information and thermodynamics”. Nature 483 (7388): 187–89. https://doi.org/10.1038/nature10872.\n\n\nLandauer, R. 1961. “Irreversibility and Heat Generation in the Computing Process”. IBM Journal of Research and Development 5 (3): 183–91. https://doi.org/10.1147/rd.53.0183.\n\n\nLloyd, Seth. 2000. “Ultimate physical limits to computation”. Nature 406 (6799): 1047–54. https://doi.org/10.1038/35023282.\n\n\nMandelstam, L., e Ig. Tamm. 1991. “The Uncertainty Relation Between Energy and Time in Non-relativistic Quantum Mechanics”. Em Selected Papers. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-74626-0_8.\n\n\nMargolus, Norman, e Lev B. Levitin. 1998. “The maximum speed of dynamical evolution”. Physica D: Nonlinear Phenomena 120 (1-2): 188–95. https://doi.org/10.1016/s0167-2789(98)00054-2.\n\n\nShannon, C. E. 1948. “A Mathematical Theory of Communication”. Bell System Technical Journal 27 (3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.\n\n\nTuring, A. M. 1937. “On Computable Numbers, with an Application to the Entscheidungsproblem”. Proceedings of the London Mathematical Society s2-42 (1): 230–65. https://doi.org/10.1112/plms/s2-42.1.230.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Conceitos</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/notation.html",
+    "href": "appendices/notation.html",
+    "title": "Apêndice B — Notação",
+    "section": "",
+    "text": "Parte desta página foi traduzida por máquina e ainda não foi revisada.\n\n\n\n\nCada símbolo mantém o mesmo significado no livro inteiro.\n\n\n\nSímbolo\nSignificado\nUnidade\n\n\n\n\n\\(k_B\\)\nConstante de Boltzmann\n\\(\\mathrm{J\\,K^{-1}}\\)\n\n\n\\(T\\)\nTemperatura termodinâmica\n\\(\\mathrm{K}\\)\n\n\n\\(S\\)\nEntropia\n\\(\\mathrm{J\\,K^{-1}}\\)\n\n\n\\(E\\)\nEnergia\n\\(\\mathrm{J}\\)\n\n\n\\(\\hbar\\)\nConstante de Planck reduzida, \\(h / 2\\pi\\)\n\\(\\mathrm{J\\,s}\\)\n\n\n\\(c\\)\nVelocidade da luz no vácuo\n\\(\\mathrm{m\\,s^{-1}}\\)",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Notação</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/constants.html",
+    "href": "appendices/constants.html",
+    "title": "Apêndice C — Constantes",
+    "section": "",
+    "text": "Parte desta página foi traduzida por máquina e ainda não foi revisada.\n\n\n\n\nValores da revisão de 2019 do SI, quando a constante é exata por definição, e do CODATA nos demais casos.\n\n\n\n\n\n\n\n\n\n\n\nConstante\nSímbolo\nValor\nUnidade\nIncerteza padrão\nFonte\n\n\n\n\nVelocidade da luz no vácuo\n\\(c\\)\n\\(299792458\\)\n\\(\\mathrm{m\\,s^{-1}}\\)\nexata\nSI (2019), exata por definição\n\n\nConstante de Planck\n\\(h\\)\n\\(6{,}62607015 \\times 10^{-34}\\)\n\\(\\mathrm{J\\,s}\\)\nexata\nSI (2019), exata por definição\n\n\nConstante de Planck reduzida\n\\(\\hbar\\)\n\\(1{,}054571817 \\times 10^{-34}\\)\n\\(\\mathrm{J\\,s}\\)\nexata\nh / 2 pi, exata; valor truncado em 10 algarismos significativos\n\n\nConstante de Boltzmann\n\\(k_B\\)\n\\(1{,}380649 \\times 10^{-23}\\)\n\\(\\mathrm{J\\,K^{-1}}\\)\nexata\nSI (2019), exata por definição\n\n\nConstante newtoniana da gravitação\n\\(G\\)\n\\(6{,}67430 \\times 10^{-11}\\)\n\\(\\mathrm{m^3\\,kg^{-1}\\,s^{-2}}\\)\n\\(1{,}5 \\times 10^{-15}\\)\nCODATA 2018",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Constantes</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/statistical-mechanics.html",
+    "href": "appendices/statistical-mechanics.html",
+    "title": "Apêndice D — Uma breve introdução à mecânica estatística",
+    "section": "",
+    "text": "Esta página foi traduzida por máquina e ainda não foi revisada. Na dúvida, vale o original em inglês.\n\n\n\n\n\n\n\n\n\n\nEste apêndice ainda não foi escrito.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Uma breve introdução à mecânica estatística</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/people.html",
+    "href": "appendices/people.html",
+    "title": "Apêndice E — Moderadores e curadores",
+    "section": "",
+    "text": "Mantenedores\nAs pessoas que cuidam do livro. Os mantenedores cuidam do repositório inteiro. Os moderadores cuidam de uma parte: revisam as mudanças nas suas páginas e fazem a triagem das suas issues. Os curadores cuidam de páginas específicas e revisam as suas revisões vivas. Os tradutores cuidam do livro em outro idioma. As pessoas são identificadas pelo seu usuário no GitHub. Como os papéis funcionam, e como assumir um, está em GOVERNANCE.md (em inglês).\nJoaoAlisson",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderadores e curadores</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/people.html#moderadores",
+    "href": "appendices/people.html#moderadores",
+    "title": "Apêndice E — Moderadores e curadores",
+    "section": "Moderadores",
+    "text": "Moderadores\n\n\n\nParte\nModeradores\n\n\n\n\nA máquina e a pergunta\nninguém ainda\n\n\nA informação é física\nninguém ainda\n\n\nOs limites da máquina\nninguém ainda\n\n\nRevertendo a entropia\nninguém ainda\n\n\nO impacto sobre o tempo\nninguém ainda\n\n\nConstruindo Alan\nninguém ainda\n\n\nArtigos\nninguém ainda",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderadores e curadores</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/people.html#curadores",
+    "href": "appendices/people.html#curadores",
+    "title": "Apêndice E — Moderadores e curadores",
+    "section": "Curadores",
+    "text": "Curadores\nNenhuma página tem curador ainda.",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderadores e curadores</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/people.html#tradutores",
+    "href": "appendices/people.html#tradutores",
+    "title": "Apêndice E — Moderadores e curadores",
+    "section": "Tradutores",
+    "text": "Tradutores\nOs mantenedores de um idioma aprovam as traduções para ele; os revisores revisaram parte delas. Como traduzir está em docs/translating.md (em inglês).\n\n\n\nIdioma\nMantenedores\nRevisores\n\n\n\n\nPortuguês (Brasil)\nJoaoAlisson\nninguém ainda",
+    "crumbs": [
+      "Apêndices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderadores e curadores</span>"
+    ]
+  }
+]

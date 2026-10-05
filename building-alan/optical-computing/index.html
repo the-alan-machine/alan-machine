@@ -281,6 +281,7 @@ ul.task-list li input[type="checkbox"] {
       <a href="../../">The Alan Machine</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://scape-velocity.github.io/escape-velocity/" title="Escape Velocity, the technology atlas" class="quarto-navigation-tool px-1" aria-label="Escape Velocity, the technology atlas"><i class="bi bi-diagram-3"></i></a>
+    <a href="https://the-alan-machine.github.io/the-alan-machine/pt/" title="Ler em português" class="quarto-navigation-tool px-1" aria-label="Ler em português"><i class="bi bi-translate"></i></a>
     <a href="https://github.com/the-alan-machine/the-alan-machine" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
@@ -697,6 +698,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+// The links to the other editions in the sidebar, marked by the translate icon, open the page the
+// reader is on in that edition (decision 0014). Every edition has the same paths under its root.
+document.addEventListener("DOMContentLoaded", () => {
+  const offset = document.querySelector('meta[name="quarto:offset"]');
+  if (!offset) return;
+  const root = new URL(offset.content, window.location.href);
+  const page = window.location.pathname.slice(root.pathname.length);
+  if (!page) return;
+  for (const icon of document.querySelectorAll(".bi-translate")) {
+    const link = icon.closest("a");
+    if (link) link.href = new URL(page, link.href).href;
+  }
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

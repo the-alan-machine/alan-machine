@@ -939,8 +939,9 @@ license: "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
 
 The people who look after the book. Maintainers look after the whole repository. Moderators
 look after a part: they review the changes to its pages and triage its issues. Curators look
-after single pages and review their living reviews. People are named by their GitHub handle. How the
-roles work, and how to take one, is in [GOVERNANCE.md](https://github.com/the-alan-machine/the-alan-machine/blob/main/GOVERNANCE.md).
+after single pages and review their living reviews. Translators look after the book in another
+language. People are named by their GitHub handle. How the roles work, and how to take one, is in
+[GOVERNANCE.md](https://github.com/the-alan-machine/the-alan-machine/blob/main/GOVERNANCE.md).
 
 ## Maintainers
 
@@ -961,4 +962,13 @@ roles work, and how to take one, is in [GOVERNANCE.md](https://github.com/the-al
 ## Curators
 
 No page has a curator yet.
+
+## Translators
+
+The maintainers of a language approve the translations into it; the reviewers have reviewed
+some of them. How to translate is in [docs/translating.md](https://github.com/the-alan-machine/the-alan-machine/blob/main/docs/translating.md).
+
+| Language | Maintainers | Reviewers |
+|---|---|---|
+| Portuguese (Brazil) | [JoaoAlisson](https://github.com/JoaoAlisson) | none yet |
 

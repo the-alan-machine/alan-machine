@@ -594,7 +594,7 @@
     "href": "appendices/people.html",
     "title": "Appendix E — Moderators and Curators",
     "section": "",
-    "text": "Maintainers\nThe people who look after the book. Maintainers look after the whole repository. Moderators look after a part: they review the changes to its pages and triage its issues. Curators look after single pages and review their living reviews. People are named by their GitHub handle. How the roles work, and how to take one, is in GOVERNANCE.md.\nJoaoAlisson",
+    "text": "Maintainers\nThe people who look after the book. Maintainers look after the whole repository. Moderators look after a part: they review the changes to its pages and triage its issues. Curators look after single pages and review their living reviews. Translators look after the book in another language. People are named by their GitHub handle. How the roles work, and how to take one, is in GOVERNANCE.md.\nJoaoAlisson",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderators and Curators</span>"
@@ -617,6 +617,17 @@
     "title": "Appendix E — Moderators and Curators",
     "section": "Curators",
     "text": "Curators\nNo page has a curator yet.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderators and Curators</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/people.html#translators",
+    "href": "appendices/people.html#translators",
+    "title": "Appendix E — Moderators and Curators",
+    "section": "Translators",
+    "text": "Translators\nThe maintainers of a language approve the translations into it; the reviewers have reviewed some of them. How to translate is in docs/translating.md.\n\n\n\nLanguage\nMaintainers\nReviewers\n\n\n\n\nPortuguese (Brazil)\nJoaoAlisson\nnone yet",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>E</span>  <span class='chapter-title'>Moderators and Curators</span>"
