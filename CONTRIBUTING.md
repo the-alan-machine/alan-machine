@@ -120,8 +120,11 @@ agreement.
 - One subject per pull request.
 - Fill in the template: what changes, which pages, which claims are affected and how they are
   classified, and which references were added.
-- Changes to scientific claims need a review from a maintainer. Typo and formatting fixes need a
-  light review.
+- Every pull request needs an approval from a curator of the pages it changes or a moderator of
+  their part; the `moderation` check says who, requests their review and passes once one of them
+  approves. Without one, a maintainer reviews. Typo and formatting fixes need a light review.
+- Roles, dossier reviews, conflicts of interest and how to become a moderator or curator are in
+  [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Credit
 

@@ -1,6 +1,7 @@
 ---
 status: proposed        # proposed | drafting | scientific-review | done
 contributors: []        # GitHub handles of everyone who wrote or substantially revised it
+curators: []            # GitHub handles of the people who look after this page (GOVERNANCE.md)
 papers: []              # slugs of the companion papers in papers/
 ---
 

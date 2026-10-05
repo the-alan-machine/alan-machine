@@ -87,6 +87,7 @@ book:
     - appendices/notation.qmd
     - appendices/constants.qmd
     - appendices/statistical-mechanics.qmd
+    - appendices/people.qmd
 
 bibliography: references.bib
 

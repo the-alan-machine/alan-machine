@@ -1,8 +1,10 @@
 ---
 status: proposed        # proposed | drafting | scientific-review | done
 contributors: []        # GitHub handles of everyone who wrote or substantially revised it
+curators: []            # GitHub handles of the people who look after this page (GOVERNANCE.md)
 technology: null        # id of data/technologies/<id>.toml, once the numbers exist
 last_reviewed: null     # YYYY-MM-DD; a review is due 12 months later
+reviewed_by: null       # GitHub handle of who did that review: a curator or a moderator
 papers: []
 ---
 

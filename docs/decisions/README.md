@@ -15,3 +15,4 @@ decision is never edited after it is accepted; a later decision supersedes it.
 | [0008](0008-building-alan-living-series.md) | Building Alan, a living series | accepted |
 | [0009](0009-knowledge-base-for-people-and-models.md) | A knowledge base for people and models | accepted |
 | [0010](0010-agents-skills-and-mcp.md) | Agents, skills and an MCP server | accepted |
+| [0011](0011-moderators-and-the-moderation-check.md) | Moderators by part and a moderation check | accepted |

@@ -105,8 +105,9 @@ quarto preview
 
 ## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE.md](STYLE.md). The reasons behind each project
-decision are in [docs/decisions/](docs/decisions/).
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [STYLE.md](STYLE.md). Who reviews what, and how to
+become a moderator of a part or a curator of a page, is in [GOVERNANCE.md](GOVERNANCE.md). The
+reasons behind each project decision are in [docs/decisions/](docs/decisions/).
 
 ## License
 

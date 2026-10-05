@@ -1,5 +1,5 @@
-"""Generate the pages derived from data/: the Concepts, Notation and Constants appendices, and the
-dossier table in building-alan/index.qmd.
+"""Generate the pages derived from data/ and governance.toml: the Concepts, Notation, Constants and
+Moderators and Curators appendices, and the dossier table in building-alan/index.qmd.
 
     python3 tools/generate.py           write the pages (Quarto runs this before every render)
     python3 tools/generate.py --check   exit 1 if a generated page is out of date or the data is invalid
@@ -189,13 +189,54 @@ def review_due(last_reviewed) -> str:
         return date.replace(year=date.year + 1, day=28).isoformat()
 
 
+def people(handles) -> str:
+    """GitHub handles as profile links. Written without @, which Quarto reads as a citation."""
+    found = [h for h in handles if isinstance(h, str) and book.GITHUB_HANDLE.match(h)] if isinstance(handles, list) else []
+    return ", ".join(f"[{name}](https://github.com/{name})" for name in found) or "none yet"
+
+
+def people_page(pages) -> str:
+    target = "appendices/people.qmd"
+    moderators = book.part_moderators()
+    lines = [
+        "# Moderators and Curators {#sec-people}",
+        "",
+        HEADER.format(source="governance.toml and the front matter of each page"),
+        "",
+        "The people who look after the book. Maintainers look after the whole repository. Moderators",
+        "look after a part: they review the changes to its pages and triage its issues. Curators look",
+        "after single pages and review their dossiers. People are named by their GitHub handle. How the",
+        f"roles work, and how to take one, is in [GOVERNANCE.md]({book.governance_url()}).",
+        "",
+        "## Maintainers {.unnumbered}",
+        "",
+        people(book.maintainers()),
+        "",
+        "## Moderators {.unnumbered}",
+        "",
+        "| Part | Moderators |",
+        "|---|---|",
+    ]
+    for title in dict.fromkeys(page.part for page in pages if page.part):
+        lines.append(f"| {title} | {people(moderators.get(title, []))} |")
+    lines += ["", "## Curators {.unnumbered}", ""]
+    curated = [page for page in pages if isinstance(page.meta.get("curators"), list) and page.meta["curators"]]
+    if curated:
+        lines += ["| Page | Part | Curators |", "|---|---|---|"]
+        for page in curated:
+            lines.append(f"| [{page.title}]({relative(target, page.path)}) | {page.part or ''} | {people(page.meta['curators'])} |")
+    else:
+        lines.append("No page has a curator yet.")
+    return "\n".join(lines) + "\n"
+
+
 def dossier_table(pages) -> str:
     target = "building-alan/index.qmd"
     lines = [
         DOSSIER_BEGIN,
         "",
-        "| Dossier | Status | Last reviewed | Review due |",
-        "|---|---|---|---|",
+        "| Dossier | Status | Last reviewed | Review due | Curators |",
+        "|---|---|---|---|---|",
     ]
     for page in pages:
         if page.kind != "dossier":
@@ -203,7 +244,7 @@ def dossier_table(pages) -> str:
         last = page.meta.get("last_reviewed") or "never"
         lines.append(
             f"| [{page.title}]({relative(target, page.path)}) | {page.meta.get('status', '')} "
-            f"| {last} | {review_due(page.meta.get('last_reviewed'))} |"
+            f"| {last} | {review_due(page.meta.get('last_reviewed'))} | {people(page.meta.get('curators'))} |"
         )
     lines += ["", DOSSIER_END]
     return "\n".join(lines)
@@ -231,6 +272,7 @@ def outputs() -> tuple[dict[str, str], list[str]]:
         "appendices/concepts.qmd": concepts_page(concepts, pages),
         "appendices/notation.qmd": notation_page(notation),
         "appendices/constants.qmd": constants_page(constants),
+        "appendices/people.qmd": people_page(pages),
     }
     index = building_alan_index(pages)
     if index is not None:

@@ -1,0 +1,38 @@
+# Who looks after the book (GOVERNANCE.md). People are named by GitHub handle, without @.
+#
+# Maintainers look after the whole repository and merge pull requests. Moderators look after a
+# part of the book: they review the changes to its pages and triage its issues. Curators look
+# after single pages and are listed in each page's front matter (`curators: [...]`).
+#
+# Every part in _quarto.yml has one entry here, by its exact title. A change to this file needs a
+# maintainer.
+
+maintainers = ["JoaoAlisson"]
+
+[[part]]
+title = "The Machine and the Question"
+moderators = []
+
+[[part]]
+title = "Information Is Physical"
+moderators = []
+
+[[part]]
+title = "The Limits of the Machine"
+moderators = []
+
+[[part]]
+title = "Reversing Entropy"
+moderators = []
+
+[[part]]
+title = "The Impact on Time"
+moderators = []
+
+[[part]]
+title = "Building Alan"
+moderators = []
+
+[[part]]
+title = "Papers"
+moderators = []

@@ -26,3 +26,4 @@ Closes #
 - [ ] New terms are in `data/concepts.toml` and new symbols are in `data/notation.toml`.
 - [ ] Every new number in a dossier has a unit, a date and a source in `data/technologies/`.
 - [ ] Every commit is signed off (`git commit -s`).
+- [ ] A dossier whose `last_reviewed` changes names its reviewer in `reviewed_by`, and nobody is added to `curators` or `governance.toml` without a maintainer (GOVERNANCE.md).
