@@ -17,8 +17,9 @@ gh pr checks <number>
 
 **Form**
 
-- Title follows `type(scope): summary` (CONTRIBUTING.md): known type, scope is a page slug or data
-  file, imperative, lowercase, no final period, at most 72 characters.
+- Title follows `type(scope): summary` (CONTRIBUTING.md): known type, scope is a page slug, a data
+  file or, for `translation`, a language id, imperative, lowercase, no final period, at most 72
+  characters.
 - Every commit has a `Signed-off-by` line.
 - One subject. The template is filled in, including the claims affected and how they are classified.
 
