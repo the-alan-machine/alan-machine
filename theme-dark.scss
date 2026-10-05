@@ -1,0 +1,65 @@
+/*-- scss:defaults --*/
+
+// The dark theme of the book's HTML edition, layered on Cosmo like the light theme, so the type
+// stays the same. The colors are those of the Escape Velocity explorer's dark theme. Quarto's own
+// site (quarto-dev/quarto-web, theme-dark.scss) was the model for which variables to set.
+
+$blue: #5aa2f0;
+$cyan: #8cc0f7;
+$green: #51cf66;
+$yellow: #fcc419;
+$orange: #ff922b;
+$red: #ff6b6b;
+$pink: #f06595;
+
+$gray-100: #e6e8eb;
+$gray-200: #c9ced4;
+$gray-300: #a7b0b9;
+$gray-400: #7c8792;
+$gray-500: #5c6670;
+$gray-600: #46505a;
+$gray-700: #2f363e;
+$gray-800: #1e2329;
+$gray-900: #15181c;
+
+$primary: $blue;
+$secondary: $gray-400;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: #1b1f24;
+
+// Page
+$body-bg: $gray-900;
+$body-color: $gray-100;
+$text-muted: $gray-300;
+$link-color: $cyan;
+$border-color: $gray-700;
+
+// Bootstrap colors bare <pre> black, which is unreadable here.
+$pre-color: inherit;
+
+// Navigation
+$navbar-bg: $light;
+$footer-bg: $gray-900;
+$toc-inactive-border: $gray-700;
+$nav-tabs-link-active-color: $body-color;
+$pagination-disabled-bg: $light;
+
+// Code. Quarto's default inline code background is a light gray.
+$mono-background-color: rgba(0, 0, 0, 0);
+$code-bg: #262c33;
+$code-color: #e599f7;
+$code-block-bg: $gray-800;
+
+// Search box, menus and popovers (footnotes and citations)
+$input-bg: $gray-800;
+$input-text-background-color: $gray-800;
+$input-group-addon-bg: $gray-800;
+$dropdown-bg: $body-bg;
+$dropdown-color: $body-color;
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-bg: $gray-700;
+$dropdown-link-hover-color: $body-color;
+$popover-bg: $gray-800;
