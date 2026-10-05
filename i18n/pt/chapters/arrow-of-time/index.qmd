@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 1ed0e4f3ba             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# A flecha do tempo {#sec-arrow-of-time}
+
+<!-- Scope: Time-symmetric laws, Loschmidt's paradox and the Past Hypothesis. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

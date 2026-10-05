@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: fc77073846             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# O que é a entropia {#sec-what-entropy-is}
+
+<!-- Scope: Clausius, Boltzmann, Gibbs and Shannon. Where the definitions agree and where they differ. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

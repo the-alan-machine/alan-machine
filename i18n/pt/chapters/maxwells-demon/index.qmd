@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: d149bbb322             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# O demônio de Maxwell e a máquina de Szilard {#sec-maxwells-demon}
+
+<!-- Scope: The demon, the Szilard engine and why measurement and memory carry a thermodynamic cost. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

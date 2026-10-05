@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 5686bb0141             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Com que rapidez ele pode computar {#sec-speed-limits}
+
+<!-- Scope: Bremermann's limit, the Margolus-Levitin theorem and Lloyd's ultimate laptop. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

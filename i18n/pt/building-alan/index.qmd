@@ -1,0 +1,54 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: a98089d700             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Sobre Construindo Alan {.unnumbered #sec-building-alan}
+
+Os capítulos perguntam o que a física permite. Esta parte faz outra pergunta: quanto a tecnologia
+de hoje se aproxima disso, e o que fecharia a distância? A resposta muda todo ano, por isso estas
+páginas são documentos vivos. Cada uma tem uma data de revisão, e cada número nela traz a data a
+que se refere e a sua fonte.
+
+Cada revisão viva examina uma tecnologia ou um gargalo e a mede com as mesmas réguas:
+
+- **O limite de Landauer**: o menor calor que o apagamento de um bit pode liberar, $k_B T \ln 2$ na
+  temperatura em que o dispositivo opera [@landauer1961irreversibility; @berut2012experimental].
+- **O limite de Margolus-Levitin**: o máximo de operações por segundo que uma dada quantidade de
+  energia permite [@margolus1998maximum; @lloyd2000ultimate].
+- **O limite de Bekenstein**: o máximo de informação que uma dada massa e um dado tamanho podem
+  guardar [@bekenstein1981universal].
+- **Energia na tomada**: o que o sistema inteiro puxa da rede, com refrigeração e fornecimento de
+  energia incluídos. Um dispositivo que opera perto do limite de Landauer a 4 K ainda pode custar
+  mais, contado na tomada, que outro em temperatura ambiente.
+
+Estas páginas são escritas para engenheiros e pesquisadores que projetam processadores, memória,
+hardware de IA e data centers, e para qualquer leitor que queira saber onde as máquinas reais
+estão. Os números por trás delas são publicados como dados (veja [a pasta de dados](https://github.com/the-alan-machine/the-alan-machine/tree/main/data)),
+para que possam ser reutilizados e conferidos.
+
+O mesmo método, aplicado além da computação, é o
+[Escape Velocity](https://scape-velocity.github.io/escape-velocity/): um atlas aberto do que cada
+tecnologia ainda precisa para chegar à maturidade, da fusão à medicina, e de quais tecnologias
+dependem de quais. Os seus verbetes sobre computadores quânticos, movimentação de dados, remoção de
+calor e a energia da inferência de IA remetem a estas revisões vivas.
+
+## Revisões vivas
+
+<!-- BEGIN generated: living reviews -->
+
+| Living review | Status | Last reviewed | Review due | Curators |
+|---|---|---|---|---|
+| [CMOS: The Baseline](cmos-baseline/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [The Cost of Moving Data](data-movement/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Getting the Heat Out](heat-removal/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Adiabatic and Reversible Logic](reversible-logic/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Superconducting Logic](superconducting-logic/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Quantum Hardware](quantum-hardware/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Thermodynamic and Probabilistic Computing](thermodynamic-computing/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Neuromorphic Computing](neuromorphic-computing/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Optical Computing](optical-computing/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [The Energy of a Token](energy-per-token/index.qmd) | proposed | never | not reviewed yet | none yet |
+
+<!-- END generated: living reviews -->

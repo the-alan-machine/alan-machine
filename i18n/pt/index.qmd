@@ -1,0 +1,47 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: aa6c24cbc4             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Prefácio {.unnumbered}
+
+<!-- Scope: The dedication, and how to read the book: chapters and papers, interludes, Building Alan and the kinds of claim. -->
+
+::: {.dedication}
+| Para Alan Turing, que imaginou a máquina,
+| e para Alan Ricardo.
+:::
+
+<!-- TODO(author): the dedication is the author's to complete. -->
+
+## Como ler este livro {.unnumbered}
+
+Este livro trata de uma máquina que não existe. Nós a chamamos de Alan e a usamos para fazer uma
+pergunta que a física leva muito a sério: a entropia pode ser revertida e, se pudesse, o que
+aconteceria com o tempo?
+
+Não é preciso ser formado em física para lê-lo. Os capítulos foram escritos para qualquer pessoa
+curiosa. Quando a matemática ajuda, ela aparece em quadros marcados *Para ir mais fundo*, que você
+pode abrir ou pular. A história funciona das duas maneiras.
+
+Alguns capítulos têm um artigo associado, escrito para especialistas, com o argumento completo.
+Você encontra os artigos perto do fim do livro, e cada capítulo avisa quando existe um.
+
+Cada parte termina com um *interlúdio*: uma pausa curta para uma pergunta que a física pode
+esclarecer, mas não responder, como se o tempo realmente flui ou se uma máquina pode pensar.
+Depois do texto principal, *Construindo Alan* examina a tecnologia real, dos chips de hoje aos
+computadores quânticos, e pergunta a que distância cada uma está dos limites que os capítulos
+descrevem. Essas páginas são atualizadas todo ano.
+
+Ao longo do caminho, mantemos separados cinco tipos de afirmação. As afirmações sem marca são física
+**consolidada**, com referências que você pode conferir. Uma afirmação que se apoia numa fonte mais
+recente, como um preprint ou um número do fabricante, diz isso com todas as letras: ela é
+**relatada**, ainda não consolidada. Os quadros marcados **Extrapolação** decorrem da física
+consolidada, mas só se as premissas declaradas valerem. Os quadros marcados **Especulação** trazem
+ideias concebíveis, mas que nenhuma evidência sustenta ainda. Os quadros marcados **Filosofia**
+trazem perguntas que a física não consegue decidir, com os melhores argumentos de cada lado. Um
+experimento mental só é útil se você sempre souber qual dos cinco está lendo.
+
+Todo termo técnico tem um link para a sua definição em linguagem simples no apêndice Conceitos, no
+fim do livro.

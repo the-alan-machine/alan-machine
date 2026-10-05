@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: dff72e7d4d             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Flutuações e recorrência {#sec-fluctuations-and-recurrence}
+
+<!-- Scope: Fluctuation theorems, Poincare recurrence and Boltzmann brains. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

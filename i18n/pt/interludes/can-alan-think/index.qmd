@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 4194984f83             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Interlúdio: Alan pode pensar? {.unnumbered #sec-can-alan-think}
+
+<!-- Scope: Turing's imitation game, Searle's Chinese room and the debate over machine understanding. Would a machine able to reverse entropy understand what it does, and does the answer change anything physical? -->
+
+::: {.callout-note appearance="minimal"}
+Este interlúdio ainda não foi escrito.
+:::

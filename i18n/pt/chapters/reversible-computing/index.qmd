@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: ce6c158581             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Computação reversível {#sec-reversible-computing}
+
+<!-- Scope: Bennett's reversible computation, the Fredkin and Toffoli gates, and what can be computed without erasing anything. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

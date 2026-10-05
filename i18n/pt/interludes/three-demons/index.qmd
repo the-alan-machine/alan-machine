@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: 79233ec830             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Interlúdio: três demônios {.unnumbered #sec-three-demons}
+
+<!-- Scope: Maxwell's demon sorts, Laplace's demon predicts and Loschmidt's demon reverses. What each thought experiment teaches about knowledge, control and the second law, and why physicists keep inventing demons. -->
+
+::: {.callout-note appearance="minimal"}
+Este interlúdio ainda não foi escrito.
+:::

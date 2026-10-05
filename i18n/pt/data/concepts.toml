@@ -1,0 +1,194 @@
+# Portuguese (Brazil) translation of data/concepts.toml (decision 0014).
+# Each text replaces the English at `path` while `source` is the fingerprint of the English it
+# was translated from. Run python3 tools/translate.py show to see both side by side.
+status = "machine"
+reviewed_by = []
+
+[[text]]
+path = "concept[entropy].term"
+source = "bb846881f6"
+text = "Entropia"
+
+[[text]]
+path = "concept[entropy].short"
+source = "473a0fdfbb"
+text = """
+Quantos arranjos microscópicos são compatíveis com o que vemos em grande escala, em escala
+logarítmica.
+"""
+
+[[text]]
+path = "concept[entropy].definition"
+source = "19aa940219"
+text = """
+Uma medida de quantos arranjos microscópicos de um sistema (os seus microestados) são compatíveis
+com o que observamos em grande escala (o seu macroestado). Quanto mais maneiras as partes têm de se
+arranjar sem mudar a aparência do todo, maior a entropia. Ela cresce com o logaritmo desse número: a
+entropia é $k_B$ vezes o seu logaritmo natural, de modo que dobrar o número de arranjos soma $k_B
+\\ln 2$, por maior que seja o sistema. A termodinâmica mede a mesma grandeza pelo calor: o calor
+absorvido de forma reversível à temperatura $T$, dividido por $T$, é a variação da entropia.
+"""
+
+[[text]]
+path = "concept[second-law].term"
+source = "2b439f795c"
+text = "Segunda lei da termodinâmica"
+
+[[text]]
+path = "concept[second-law].short"
+source = "2b4229d9e9"
+text = "Num sistema isolado, a entropia não diminui."
+
+[[text]]
+path = "concept[second-law].definition"
+source = "5b3941151a"
+text = """
+Num sistema isolado, a entropia não diminui com o tempo. É uma lei estatística: uma diminuição não é
+proibida, apenas improvável ao extremo em sistemas com muitas partes.
+"""
+
+[[text]]
+path = "concept[arrow-of-time].term"
+source = "3a03225210"
+text = "Flecha do tempo"
+
+[[text]]
+path = "concept[arrow-of-time].short"
+source = "d1886b5944"
+text = "A diferença entre passado e futuro que observamos."
+
+[[text]]
+path = "concept[arrow-of-time].definition"
+source = "c801a1324f"
+text = """
+A diferença entre passado e futuro que observamos no dia a dia: ovos se quebram, mas não se
+desquebram, e lembramos de ontem, mas não de amanhã. Ela chama a atenção porque as leis fundamentais
+da física mal distinguem as duas direções do tempo.
+"""
+
+[[text]]
+path = "concept[bit].term"
+source = "869360a6f4"
+text = "Bit"
+
+[[text]]
+path = "concept[bit].short"
+source = "061f0a399e"
+text = """
+A unidade de informação: descobrir qual de duas respostas igualmente prováveis é a verdadeira.
+"""
+
+[[text]]
+path = "concept[bit].definition"
+source = "e2642df319"
+text = """
+A unidade de informação. Descobrir qual de duas respostas igualmente prováveis é a verdadeira dá um
+bit; uma resposta que podia ser prevista dá menos, e uma certa não dá nenhum. Uma memória que pode
+guardar um de dois estados, como 0 ou 1, armazena um bit, e dez memórias assim, dez bits. Claude
+Shannon estabeleceu a medida em 1948: o logaritmo na base 2 do número de possibilidades igualmente
+prováveis.
+"""
+
+[[text]]
+path = "concept[landauer-principle].term"
+source = "3113bc4dee"
+text = "Princípio de Landauer"
+
+[[text]]
+path = "concept[landauer-principle].short"
+source = "e0edb1e4ea"
+text = "Apagar um bit custa pelo menos k_B T ln 2 de calor."
+
+[[text]]
+path = "concept[landauer-principle].definition"
+source = "9f2dacfb9d"
+text = """
+Apagar um bit de informação num ambiente à temperatura $T$ libera pelo menos $k_B T \\ln 2$ de
+calor. Esquecer tem um custo físico mínimo. O limite foi proposto por Rolf Landauer em 1961 e
+confirmado experimentalmente em 2012.
+"""
+
+[[text]]
+path = "concept[reversible-computing].term"
+source = "9d7acaa758"
+text = "Computação reversível"
+
+[[text]]
+path = "concept[reversible-computing].short"
+source = "107a829969"
+text = "Computar sem apagar informação, de modo que cada passo possa ser desfeito."
+
+[[text]]
+path = "concept[reversible-computing].definition"
+source = "7a711e6e3c"
+text = """
+Computar sem apagar informação, de modo que cada passo possa ser executado de trás para frente. Dois
+sentidos são mantidos separados. Uma computação é logicamente reversível quando cada estado tem um
+único antecessor possível, de modo que a entrada pode ser recuperada a partir da saída; Charles
+Bennett mostrou em 1973 que um computador de uso geral pode ser logicamente reversível em todos os
+passos. Ela é termodinamicamente reversível quando não produz entropia, um limite de que um
+dispositivo real só se aproxima operando cada vez mais devagar. A reversibilidade lógica elimina o
+custo mínimo que o princípio de Landauer impõe ao apagamento; sozinha, ela não elimina o resto da
+dissipação.
+"""
+
+[[text]]
+path = "concept[maxwells-demon].term"
+source = "f3b97ce65c"
+text = "Demônio de Maxwell"
+
+[[text]]
+path = "concept[maxwells-demon].short"
+source = "49a0cb091a"
+text = "Um minúsculo separador de moléculas que parece vencer a segunda lei."
+
+[[text]]
+path = "concept[maxwells-demon].definition"
+source = "0f928df803"
+text = """
+Um experimento mental criado por James Clerk Maxwell em 1867: um ser minúsculo abre e fecha uma
+porta entre duas caixas de gás, deixando as moléculas rápidas passarem para um lado e as lentas para
+o outro. Ele parece diminuir a entropia sem custo. A solução aceita é que o demônio precisa
+registrar o que vê, e o apagamento desse registro acaba devolvendo a entropia.
+"""
+
+[[text]]
+path = "concept[turing-machine].term"
+source = "f6fabfa36b"
+text = "Máquina de Turing"
+
+[[text]]
+path = "concept[turing-machine].short"
+source = "4bac458ab8"
+text = "O modelo de Turing, de 1936, do que significa computar."
+
+[[text]]
+path = "concept[turing-machine].definition"
+source = "3506316ca2"
+text = """
+Um modelo abstrato de computação apresentado por Alan Turing em 1936: uma máquina que lê e escreve
+símbolos numa fita ilimitada, seguindo uma tabela finita de regras. Tudo o que um computador moderno
+pode computar, uma máquina de Turing também pode, com tempo e fita suficientes.
+"""
+
+[[text]]
+path = "concept[quantum-speed-limit].term"
+source = "e493b68928"
+text = "Limite quântico de velocidade"
+
+[[text]]
+path = "concept[quantum-speed-limit].short"
+source = "3c78c6891a"
+text = "O menor tempo em que um sistema quântico pode passar a um estado totalmente distinguível."
+
+[[text]]
+path = "concept[quantum-speed-limit].definition"
+source = "0035727c5c"
+text = """
+O menor tempo em que um sistema quântico pode evoluir para um estado totalmente distinguível daquele
+em que começou. Leonid Mandelstam e Igor Tamm o limitaram pela dispersão da energia do sistema;
+Norman Margolus e Lev Levitin, em 1998, pela sua energia média acima da mais baixa possível: o tempo
+é de pelo menos $\\pi\\hbar / 2E$, com $E$ medida a partir do estado fundamental. Cada passo de uma
+computação precisa chegar a um estado distinguível, de modo que o limite restringe quantos passos
+por segundo um computador com uma dada energia pode dar.
+"""

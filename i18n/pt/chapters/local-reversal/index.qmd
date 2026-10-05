@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: bd40068277             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Reversão local {#sec-local-reversal}
+
+<!-- Scope: Refrigerators, spin echo, Loschmidt echo and time reversal on a quantum computer. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

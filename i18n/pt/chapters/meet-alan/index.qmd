@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: aa7347f7b4             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Conheça Alan {#sec-meet-alan}
+
+<!-- Scope: The thought experiment, the rules of the game and the kinds of statement. Why a computer is the right device to ask about entropy. -->
+
+::: {.callout-note appearance="minimal"}
+Este capítulo ainda não foi escrito.
+:::

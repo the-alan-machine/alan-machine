@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: fcde30a121             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Interlúdio: você se lembraria? {.unnumbered #sec-would-you-remember}
+
+<!-- Scope: Memory and the psychological arrow of time. If Alan reversed a region of the universe that contained you, what would you experience? Records, causation and why we remember the past and not the future. -->
+
+::: {.callout-note appearance="minimal"}
+Este interlúdio ainda não foi escrito.
+:::

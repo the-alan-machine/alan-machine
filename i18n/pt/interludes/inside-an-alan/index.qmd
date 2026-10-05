@@ -1,0 +1,13 @@
+---
+translation: machine          # machine or reviewed (decision 0014)
+source: cbb79fd902             # the English it follows; tools/translate.py stamp
+reviewers: []                 # GitHub handles of whoever reviewed this translation
+---
+
+# Interlúdio: estamos dentro de um Alan? {.unnumbered #sec-inside-an-alan}
+
+<!-- Scope: The simulation argument meets the physical limits of computation. What a machine that simulates a universe would need, whether a simulated mind could tell, and what the question says about the line between physics and metaphysics. -->
+
+::: {.callout-note appearance="minimal"}
+Este interlúdio ainda não foi escrito.
+:::
