@@ -22,6 +22,12 @@ and data centers, and for any reader who wants to know where real machines stand
 behind them are published as data (see [the data folder](https://github.com/the-alan-machine/alan-machine/tree/main/data)),
 so they can be reused and checked.
 
+The same method, applied beyond computing, is
+[Escape Velocity](https://scape-velocity.github.io/escape-velocity/): an open atlas of what each
+technology still needs to reach maturity, from fusion to medicine, and of which technologies wait
+on which. Its entries on quantum computers, data movement, heat removal and the energy of AI
+inference link back to these dossiers.
+
 ## Dossiers
 
 <!-- BEGIN generated: dossiers -->

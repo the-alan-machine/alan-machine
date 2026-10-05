@@ -54,6 +54,10 @@ energy of a language model token) and measures it against the same physical limi
 number dated and sourced. The dossiers are reviewed every year, so they stay useful to people who
 design processors, AI hardware and data centers.
 
+Its sister project, [Escape Velocity](https://scape-velocity.github.io/escape-velocity/), applies
+the same method beyond computing: an atlas of what each technology still needs to reach maturity,
+from fusion to medicine, with the dependencies between them.
+
 ## Approach
 
 Every statement in the book is one of four kinds, and the reader can always tell which:
