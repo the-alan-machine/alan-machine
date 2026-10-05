@@ -87,9 +87,11 @@ quarto render --to html     # when Quarto is installed
 | [`verify-references`](skills/verify-references/SKILL.md) | Check citations and BibTeX entries against their sources |
 | [`review-pr`](skills/review-pr/SKILL.md) | Review a pull request against the project's rules |
 | [`translate-page`](skills/translate-page/SKILL.md) | Translate or update a page or data texts of the book into another language |
+| [`first-contribution`](skills/first-contribution/SKILL.md) | Pick a small first task and take a newcomer to a pull request |
 
 ## Reading the book as a knowledge base
 
 To answer questions about the book rather than edit it, use the published exports: `llms.txt`,
-`llms-full.txt` and the per-page Markdown at
+`llms-full.txt`, the per-page Markdown and `claims.json`, every marked claim with its kind, page and
+citations ([decision 0015](docs/decisions/0015-claims-export.md)), at
 https://the-alan-machine.github.io/the-alan-machine/. Keep the kind of each claim when you quote it.
