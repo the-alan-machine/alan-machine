@@ -67,26 +67,52 @@ da física mal distinguem as duas direções do tempo.
 """
 
 [[text]]
+path = "concept[poincare-recurrence].term"
+source = "edf8c3d4c0"
+text = "Recorrência de Poincaré"
+
+[[text]]
+path = "concept[poincare-recurrence].short"
+source = "c9c3275bc2"
+text = "Um sistema finito volta arbitrariamente perto de onde começou, dado um tempo muito longo."
+
+[[text]]
+path = "concept[poincare-recurrence].definition"
+source = "c7c8f936d1"
+text = """
+Um teorema de Henri Poincaré: qualquer sistema finito chega arbitrariamente perto do seu estado
+inicial depois de um tempo muito longo, mas finito. Tomado estatisticamente, não é um paradoxo, mas
+parece violar a segunda lei da termodinâmica, já que a entropia de um gás voltaria com o tempo para
+perto do seu valor inicial. O teorema deixa a gravidade de fora; com gravidade, partículas que
+colidem podem formar buracos negros, que podem extinguir a recorrência ou mudar quanto tempo ela
+leva.
+"""
+
+[[text]]
 path = "concept[bit].term"
 source = "869360a6f4"
 text = "Bit"
 
 [[text]]
 path = "concept[bit].short"
-source = "061f0a399e"
-text = """
-A unidade de informação: descobrir qual de duas respostas igualmente prováveis é a verdadeira.
-"""
+source = "db7216ba8c"
+text = "Um dígito binário, e o nome usual da unidade de informação, o shannon."
 
 [[text]]
 path = "concept[bit].definition"
-source = "e2642df319"
+source = "48ba7cbda4"
 text = """
-A unidade de informação. Descobrir qual de duas respostas igualmente prováveis é a verdadeira dá um
-bit; uma resposta que podia ser prevista dá menos, e uma certa não dá nenhum. Uma memória que pode
-guardar um de dois estados, como 0 ou 1, armazena um bit, e dez memórias assim, dez bits. Claude
-Shannon estabeleceu a medida em 1948: o logaritmo na base 2 do número de possibilidades igualmente
-prováveis.
+A palavra tem dois sentidos, que se mantêm separados. Um bit é um dígito binário: uma posição numa
+memória ou numa mensagem que guarda 0 ou 1, de modo que dez dessas posições guardam dez bits. É
+também o nome corrente da unidade de informação, cujo nome próprio é shannon (símbolo Sh). Descobrir
+qual de duas respostas igualmente prováveis é a verdadeira dá um shannon; uma resposta que podia ser
+prevista dá menos, e uma certa não dá nenhum. Assim, dez dígitos binários carregam no máximo dez
+shannons, e exatamente dez só quando todas as sequências são igualmente prováveis. Claude Shannon
+estabeleceu a medida em 1948: o logaritmo na base 2 do número de possibilidades igualmente
+prováveis. Tomada com o logaritmo natural, a mesma informação se mede em nats, e um shannon é $\\ln
+2$ nat, cerca de 0,693 nat. O shannon é a unidade nomeada na norma IEC 80000-13:2025. A entropia na
+termodinâmica é $k_B$ vezes a informação em nats, e por isso o limite de Landauer para apagar um
+bit, $k_B T \\ln 2$, traz o fator $\\ln 2$: ele converte um shannon em nats.
 """
 
 [[text]]
@@ -153,6 +179,29 @@ registrar o que vê, e o apagamento desse registro acaba devolvendo a entropia.
 """
 
 [[text]]
+path = "concept[szilard-engine].term"
+source = "59e804b27c"
+text = "Máquina de Szilard"
+
+[[text]]
+path = "concept[szilard-engine].short"
+source = "de103615d9"
+text = "O demônio de Maxwell reduzido a uma molécula numa caixa."
+
+[[text]]
+path = "concept[szilard-engine].definition"
+source = "7f979420e0"
+text = """
+O caso mais simples do demônio de Maxwell, estudado por Leo Szilard em 1929: uma caixa com uma única
+molécula, em contato térmico com um banho térmico, e uma divisória que pode ser inserida e deslizar
+ao longo da caixa. Com a divisória inserida, a molécula a empurra; se a divisória se move no sentido
+em que é empurrada, pode levantar um peso, e o máximo de trabalho que isso extrai é $k_B T \\ln 2$,
+tirado só do banho térmico. Szilard argumentou que a segunda lei se salva se a aquisição de
+conhecimento pelo demônio, de que lado a molécula está, vier com um custo de entropia que a
+compense.
+"""
+
+[[text]]
 path = "concept[turing-machine].term"
 source = "f6fabfa36b"
 text = "Máquina de Turing"
@@ -191,4 +240,27 @@ Norman Margolus e Lev Levitin, em 1998, pela sua energia média acima da mais ba
 é de pelo menos $\\pi\\hbar / 2E$, com $E$ medida a partir do estado fundamental. Cada passo de uma
 computação precisa chegar a um estado distinguível, de modo que o limite restringe quantos passos
 por segundo um computador com uma dada energia pode dar.
+"""
+
+[[text]]
+path = "concept[closed-timelike-curve].term"
+source = "2ad1c2d761"
+text = "Curva tipo tempo fechada"
+
+[[text]]
+path = "concept[closed-timelike-curve].short"
+source = "5ad581cf0e"
+text = "Um caminho no espaço-tempo que volta ao próprio passado."
+
+[[text]]
+path = "concept[closed-timelike-curve].definition"
+source = "213ddea914"
+text = """
+Um caminho no espaço-tempo que volta ao próprio passado. Não se sabe se essas curvas existem, mas
+estudá-las ensinou algo sobre a relatividade geral e a informação quântica. Seguindo David Deutsch,
+uma curva tipo tempo fechada é tratada como uma região do espaço-tempo onde a natureza tem de
+produzir um resultado consistente: um ponto fixo de qualquer processo que percorra o laço. Aaronson
+e Watrous mostraram em 2008 que, se essas curvas existissem, computadores quânticos não seriam mais
+poderosos que os clássicos: ambos resolveriam exatamente os problemas que precisam de uma quantidade
+polinomial de memória (PSPACE).
 """
