@@ -32,17 +32,17 @@ inference link back to these dossiers.
 
 <!-- BEGIN generated: dossiers -->
 
-| Dossier | Status | Last reviewed | Review due |
-|---|---|---|---|
-| [CMOS: The Baseline](cmos-baseline/index.qmd) | proposed | never | not reviewed yet |
-| [The Cost of Moving Data](data-movement/index.qmd) | proposed | never | not reviewed yet |
-| [Getting the Heat Out](heat-removal/index.qmd) | proposed | never | not reviewed yet |
-| [Adiabatic and Reversible Logic](reversible-logic/index.qmd) | proposed | never | not reviewed yet |
-| [Superconducting Logic](superconducting-logic/index.qmd) | proposed | never | not reviewed yet |
-| [Quantum Hardware](quantum-hardware/index.qmd) | proposed | never | not reviewed yet |
-| [Thermodynamic and Probabilistic Computing](thermodynamic-computing/index.qmd) | proposed | never | not reviewed yet |
-| [Neuromorphic Computing](neuromorphic-computing/index.qmd) | proposed | never | not reviewed yet |
-| [Optical Computing](optical-computing/index.qmd) | proposed | never | not reviewed yet |
-| [The Energy of a Token](energy-per-token/index.qmd) | proposed | never | not reviewed yet |
+| Dossier | Status | Last reviewed | Review due | Curators |
+|---|---|---|---|---|
+| [CMOS: The Baseline](cmos-baseline/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [The Cost of Moving Data](data-movement/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Getting the Heat Out](heat-removal/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Adiabatic and Reversible Logic](reversible-logic/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Superconducting Logic](superconducting-logic/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Quantum Hardware](quantum-hardware/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Thermodynamic and Probabilistic Computing](thermodynamic-computing/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Neuromorphic Computing](neuromorphic-computing/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [Optical Computing](optical-computing/index.qmd) | proposed | never | not reviewed yet | none yet |
+| [The Energy of a Token](energy-per-token/index.qmd) | proposed | never | not reviewed yet | none yet |
 
 <!-- END generated: dossiers -->

@@ -16,10 +16,11 @@ Alan, used as a thought experiment about reversing entropy and what that would m
 | `interludes/<slug>/index.qmd` | Philosophical interludes, one at the end of each part |
 | `building-alan/<slug>/index.qmd` | Building Alan dossiers: living documents on real technology |
 | `papers/<slug>/index.qmd` | Standalone scientific papers |
-| `appendices/` | Appendices; `concepts`, `notation` and `constants` are generated |
+| `appendices/` | Appendices; `concepts`, `notation`, `constants` and `people` are generated |
 | `data/` | Concepts, notation, constants, metrics and technology data, in TOML |
 | `references.bib` | The single bibliography |
-| `tools/` | `generate.py`, `check.py` and `export_llms.py` |
+| `governance.toml` | Maintainers and the moderators of each part ([GOVERNANCE.md](GOVERNANCE.md)) |
+| `tools/` | `generate.py`, `check.py`, `export_llms.py` and `moderation.py` |
 | `templates/` | Starting points for each kind of page |
 | `skills/` | Agent skills for contributors |
 | `docs/decisions/` | Why the project is the way it is |
@@ -36,7 +37,8 @@ Alan, used as a thought experiment about reversing entropy and what that would m
    and the `classify-claims` skill. Hedged running text ("might", "could") is usually an unmarked
    extrapolation or speculation.
 3. **Do not edit generated files**: `appendices/concepts.qmd`, `appendices/notation.qmd`,
-   `appendices/constants.qmd` and the marked table in `building-alan/index.qmd`. Edit `data/` and run
+   `appendices/constants.qmd`, `appendices/people.qmd` and the marked table in
+   `building-alan/index.qmd`. Edit `data/`, `governance.toml` or the front matter and run
    `python3 tools/generate.py`.
 4. **Every number has a source**, and in a dossier also a date (`as_of`) and an entry in
    `data/technologies/<id>.toml`.
@@ -46,6 +48,8 @@ Alan, used as a thought experiment about reversing entropy and what that would m
    saw".
 7. **New page, new line in `_quarto.yml`**, with the title labeled `{#sec-<slug>}`.
 8. **English only**: text, comments, commit messages, issues and pull requests.
+9. **Roles are people's acts.** Never add anyone to `curators` or `governance.toml`, and never set
+   `reviewed_by` or move `last_reviewed` of a dossier; a person does that ([GOVERNANCE.md](GOVERNANCE.md)).
 
 ## Before you finish
 

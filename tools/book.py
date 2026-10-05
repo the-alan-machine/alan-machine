@@ -1,4 +1,5 @@
-"""Shared helpers for the build tools: the book's page order, page metadata and the data layer.
+"""Shared helpers for the build tools: the book's page order, page metadata, the data layer and
+who looks after each part (governance.toml).
 
 Only the Python standard library is used, so the book builds with Quarto and Python 3.11+.
 """
@@ -12,6 +13,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 QUARTO_YML = ROOT / "_quarto.yml"
+GOVERNANCE_TOML = ROOT / "governance.toml"
+# A GitHub handle: letters, digits and single hyphens, at most 39 characters, no hyphen at the ends.
+GITHUB_HANDLE = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9]|-(?=[A-Za-z0-9])){0,38}$")
 
 STATUS_BY_KIND = {
     "chapter": {"proposed", "drafting", "scientific-review", "done"},
@@ -25,6 +29,7 @@ GENERATED_PAGES = {
     "appendices/concepts.qmd",
     "appendices/notation.qmd",
     "appendices/constants.qmd",
+    "appendices/people.qmd",
 }
 
 
@@ -157,6 +162,34 @@ def read_page(path: str, part: str | None = None, appendix: bool = False) -> Pag
 
 def pages() -> list[Page]:
     return [read_page(path, part, appendix) for path, part, appendix in book_order()]
+
+
+def governance() -> dict:
+    """governance.toml: `maintainers` and one `part` entry per part, with its `moderators`."""
+    with open(GOVERNANCE_TOML, "rb") as handle:
+        return tomllib.load(handle)
+
+
+def maintainers() -> list[str]:
+    return list(governance().get("maintainers", []))
+
+
+def part_moderators() -> dict[str, list[str]]:
+    """Part title -> the GitHub handles of its moderators."""
+    found = {}
+    for entry in governance().get("part", []):
+        if isinstance(entry, dict) and isinstance(entry.get("title"), str):
+            moderators = entry.get("moderators", [])
+            found[entry["title"]] = list(moderators) if isinstance(moderators, list) else []
+    return found
+
+
+def part_slug(title: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+
+
+def governance_url() -> str:
+    return repo_url() + "/blob/main/GOVERNANCE.md"
 
 
 def load_data(name: str) -> dict:

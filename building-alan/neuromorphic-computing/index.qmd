@@ -1,8 +1,10 @@
 ---
 status: proposed
 contributors: []
+curators: []
 technology: null
 last_reviewed: null
+reviewed_by: null
 papers: []
 ---
 

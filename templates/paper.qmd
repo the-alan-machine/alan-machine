@@ -10,6 +10,7 @@ abstract: |
 keywords: []
 status: draft           # draft | in-review | stable
 chapters: []            # slugs of the chapters this paper supports
+curators: []            # GitHub handles of the people who look after this page (GOVERNANCE.md)
 ---
 
 ## Introduction
