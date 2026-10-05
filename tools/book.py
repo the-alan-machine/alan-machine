@@ -14,6 +14,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 QUARTO_YML = ROOT / "_quarto.yml"
 GOVERNANCE_TOML = ROOT / "governance.toml"
+# Shared by tools/check.py and tools/claims.py. Cross-reference prefixes Quarto knows; a citation or
+# cross-reference, `@key` or `@sec-label`; and the opening fence of a div, `::: {attributes}`.
+CROSSREF_PREFIXES = ("sec", "eq", "fig", "tbl", "lst", "thm", "lem", "cor", "prp", "def", "exm", "exr")
+CITATION = re.compile(r"(?<![\w@./])@([A-Za-z][\w:.#$%&+?<>~/-]*[\w])")
+CALLOUT = re.compile(r"^:::+\s*\{([^}\n]*)\}", re.M)
 # A GitHub handle: letters, digits and single hyphens, at most 39 characters, no hyphen at the ends.
 GITHUB_HANDLE = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9]|-(?=[A-Za-z0-9])){0,38}$")
 

@@ -27,9 +27,7 @@ import book  # noqa: E402
 import generate  # noqa: E402
 import i18n  # noqa: E402
 
-CROSSREF_PREFIXES = ("sec", "eq", "fig", "tbl", "lst", "thm", "lem", "cor", "prp", "def", "exm", "exr")
-CITATION = re.compile(r"(?<![\w@./])@([A-Za-z][\w:.#$%&+?<>~/-]*[\w])")
-LABEL_DEFINITION = re.compile(r"\{[^}]*#((?:%s)-[\w-]+)[^}]*\}" % "|".join(CROSSREF_PREFIXES))
+LABEL_DEFINITION = re.compile(r"\{[^}]*#((?:%s)-[\w-]+)[^}]*\}" % "|".join(book.CROSSREF_PREFIXES))
 CELL_LABEL = re.compile(r"^#\|\s*label:\s*((?:fig|tbl)-[\w-]+)", re.M)
 LANGUAGE_KEYS = {"id", "tag", "name", "english_name", "maintainers", "published"}
 OVERLAY_KEYS = {"status", "reviewed_by", "text"}
@@ -38,7 +36,6 @@ GLOSSARY_KEYS = {"en", "text", "note"}
 PAGE_KEYS = {"translation", "source", "reviewers"}
 DIGITS = re.compile(r"\d+")
 PLACEHOLDER = re.compile(r"\{[a-z_]+\}")
-CALLOUT = re.compile(r"^:::+\s*\{([^}\n]*)\}", re.M)
 MATH = re.compile(r"\$\$.+?\$\$|\$[^$\n]+\$", re.S)
 PAGE_GLOBS = ("chapters/*/index.qmd", "interludes/*/index.qmd", "building-alan/*/index.qmd", "papers/*/index.qmd")
 
@@ -260,9 +257,9 @@ def structure(body: str, claims: dict | None = None) -> dict[str, list[str]]:
     """What a translation keeps from its English: citations and cross-references, labels, math,
     claim callouts, reported spans and generated tables."""
     text = book.strip_code_and_comments(body)
-    callouts = [re.findall(r"\.([\w-]+)", attrs) for attrs in CALLOUT.findall(text)]
+    callouts = [re.findall(r"\.([\w-]+)", attrs) for attrs in book.CALLOUT.findall(text)]
     return {
-        "citations and cross-references": sorted(CITATION.findall(text)),
+        "citations and cross-references": sorted(book.CITATION.findall(text)),
         "labels": sorted(LABEL_DEFINITION.findall(text)),
         "math": sorted(m.replace("{,}", ".") for m in MATH.findall(text)),
         "claim callouts": sorted(c for classes in callouts for c in classes if c in i18n.CLAIM_CLASSES),
@@ -299,7 +296,7 @@ def check_pages(lang: str, pages: list, errors: list[str], warnings: list[str]):
             errors.append(f"{where}: is reviewed, so reviewers names who reviewed it")
         if translation.state == "stale":
             warnings.append(f"{where}: stale, the English has changed since; tools/translate.py changes {lang} {path}")
-        for attrs in CALLOUT.findall(book.strip_code_and_comments(translation.body)):
+        for attrs in book.CALLOUT.findall(book.strip_code_and_comments(translation.body)):
             for claim in i18n.CLAIM_CLASSES:
                 if f".{claim}" in attrs.split():
                     title = re.search(r'title="([^"]*)"', attrs)
@@ -374,9 +371,9 @@ def main() -> int:
     today = dt.date.today()
     for page in pages:
         text = book.strip_code_and_comments(page.body)
-        for name in CITATION.findall(text):
+        for name in book.CITATION.findall(text):
             prefix = name.split("-", 1)[0]
-            if "-" in name and prefix in CROSSREF_PREFIXES:
+            if "-" in name and prefix in book.CROSSREF_PREFIXES:
                 if name not in labels:
                     errors.append(f"{page.path}: cross-reference @{name} points to no label")
             elif name not in keys:
