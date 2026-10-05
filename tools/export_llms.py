@@ -6,6 +6,7 @@ Writes:
   <page>.html.md   one Markdown file per page, with front matter and cross-references resolved to URLs
   llms.txt         an index of the book for language models (https://llmstxt.org)
   llms-full.txt    the whole book in one Markdown file
+  claims.json      every marked claim with its kind, page, section and citations (decision 0015)
   data/, references.bib   the data layer and the bibliography, as published files
 """
 
@@ -21,6 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import book  # noqa: E402
+import claims  # noqa: E402
 
 LICENSE = "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
 CROSSREF = re.compile(r"(?<![\w@./])@((?:sec|eq|fig|tbl)-[\w-]*[\w])")
@@ -139,6 +141,9 @@ def llms_index(pages, base: str) -> str:
         f"- [Metrics]({base}data/metrics.toml): the metrics Building Alan living reviews report",
         f"- [References]({base}references.bib): the bibliography, in BibTeX",
         f"- [Whole book]({base}llms-full.txt): every page above in one Markdown file",
+        f"- [Claims]({base}claims.json): every marked claim (reported, extrapolation, speculation,"
+        " philosophy) as JSON, with its kind, page, section URL, text and citation keys; unmarked"
+        " text is established and not listed",
         "",
         "## Optional",
         "",
@@ -170,9 +175,11 @@ def main(argv: list[str]) -> int:
         full += [markdown, ""]
     (out / "llms.txt").write_text(llms_index(pages, base), encoding="utf-8")
     (out / "llms-full.txt").write_text("\n".join(full), encoding="utf-8")
+    exported = claims.write(out, pages, base, LICENSE)
     shutil.copytree(book.ROOT / "data", out / "data", dirs_exist_ok=True)
     shutil.copy2(book.ROOT / "references.bib", out / "references.bib")
-    print(f"wrote {len(pages)} Markdown pages, llms.txt and llms-full.txt to {out}")
+    print(f"wrote {len(pages)} Markdown pages, llms.txt, llms-full.txt and claims.json"
+          f" ({len(exported['claims'])} claims) to {out}")
     return 0
 
 

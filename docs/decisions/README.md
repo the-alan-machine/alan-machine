@@ -13,9 +13,10 @@ decision is never edited after it is accepted; a later decision supersedes it.
 | [0006](0006-github-workflow.md) | GitHub workflow | accepted; addresses superseded by 0012 |
 | [0007](0007-philosophy-interludes-and-new-chapters.md) | Philosophy, interludes and new chapters | accepted |
 | [0008](0008-building-alan-living-series.md) | Building Alan, a living series | accepted; "dossier" renamed by 0013 |
-| [0009](0009-knowledge-base-for-people-and-models.md) | A knowledge base for people and models | accepted |
+| [0009](0009-knowledge-base-for-people-and-models.md) | A knowledge base for people and models | accepted; claims JSON export of §6 by 0015 |
 | [0010](0010-agents-skills-and-mcp.md) | Agents, skills and an MCP server | accepted; "dossier" renamed by 0013 |
 | [0011](0011-moderators-and-the-moderation-check.md) | Moderators by part and a moderation check | accepted; "dossier" renamed by 0013 |
 | [0012](0012-repository-named-after-the-book.md) | The repository takes the book's name | accepted |
 | [0013](0013-reported-claims-and-living-reviews.md) | Reported claims, and dossiers become living reviews | accepted |
 | [0014](0014-translations.md) | Translations | accepted |
+| [0015](0015-claims-export.md) | Claims export | accepted |
